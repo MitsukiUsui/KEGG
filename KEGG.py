@@ -70,21 +70,29 @@ class Mapper:
         logging.debug("ter@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
+    def _expression_and(self):
+            cur_start = self.cur
+            logging.debug("exa@{}:".format(cur_start))
+
+            na, nb = self._term()
+            while self._get() == ' ':
+                self.cur += 1
+                na_, nb_ =  self._term()
+                na += na_
+                nb += nb_
+            logging.debug("exa@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
+            return na, nb
+
     def _expression(self):
         cur_start = self.cur
         logging.debug("exp@{}:".format(cur_start))
 
-        na, nb = self._term()
-        while self._get() in (' ', ','):
-            op = self._get()
+        na, nb = self._expression_and()
+        while self._get() == ',':
             self.cur += 1
-            na_, nb_ =  self._term()
-            if op == ' ':
-                na += na_
-                nb += nb_
-            elif op == ',':
-                if (nb_-na_) < (nb-na) or ((nb_-na_) == (nb-na) and na_ > na): # prioritise smaller loss or higher achievement
-                    na, nb = na_, nb_
+            na_, nb_ =  self._expression_and()
+            if (nb_-na_) < (nb-na) or ((nb_-na_) == (nb-na) and na_ > na): # prioritise smaller loss or higher achievement
+                na, nb = na_, nb_
         logging.debug("exp@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
