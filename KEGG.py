@@ -25,31 +25,31 @@ class Mapper:
         ontology = self._get()
         self.cur += 1
         if ontology == '?': #orphan gene
-            (na, nb) = 1, 1
+            na, nb = 1, 1
         elif ontology in ('K', 'M'): #k-number or m-number
             while self._get().isdigit():
                 ontology += self._get()
                 self.cur += 1
-            (na, nb) = int(ontology in self.kos), 1
+            na, nb = int(ontology in self.kos), 1
         else:
             logging.error("undefined number start with {}".format(ontology))
             assert False
 
         logging.debug("num@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
-        return (na, nb)
+        return na, nb
 
     def _factor(self):
         cur_start = self.cur
         logging.debug("fac@{}:".format(cur_start))
         if self._get() == '(':
             self.cur += 1
-            (na, nb) = self._expression()
+            na, nb = self._expression()
             assert self._get() == ')'
             self.cur += 1
         else:
-            (na, nb) = self._number()
+            na, nb = self._number()
         logging.debug("fac@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
-        return (na, nb)
+        return na, nb
 
     def _term(self):
         cur_start = self.cur
@@ -68,27 +68,25 @@ class Mapper:
                 pass
 
         logging.debug("ter@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
-        return (na, nb)
+        return na, nb
 
     def _expression(self):
         cur_start = self.cur
         logging.debug("exp@{}:".format(cur_start))
 
-        (na, nb) = self._term()
+        na, nb = self._term()
         while self._get() in (' ', ','):
             op = self._get()
             self.cur += 1
-            (na_, nb_) =  self._term()
+            na_, nb_ =  self._term()
             if op == ' ':
                 na += na_
                 nb += nb_
             elif op == ',':
                 if (nb_-na_) < (nb-na) or ((nb_-na_) == (nb-na) and na_ > na): # prioritise smaller loss or higher achievement
-                    (na, nb) = (na_, nb_)
-            else: #e.g) ')' or '$'
-                break
+                    na, nb = na_, nb_
         logging.debug("exp@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
-        return (na, nb)
+        return na, nb
 
 
 class DefinitionParser:
@@ -161,39 +159,6 @@ class DefinitionParser:
                 break
         logging.debug("exp@{0}:{1}={2}".format(cur_start, self.text[cur_start:self.cur], ret))
         return ret
-
-
-def scrape_blocks(html):
-    found = False
-    for line in html.split('\n'):
-        if "DEFINITION" in line:
-            found = True
-            break
-    if not(found):
-        print("DEFINITION line not found. Aborting...")
-        return []
-
-    text = line
-    text = text.replace("DEFINITION", '').replace("--", '')
-    text = ' '.join(text.strip().split()) #merge whitespaces
-    for ch in (',', '+', '-'): #characters not allowed to have whitespace before
-        text = text.replace(' '+ch, ch)
-
-    blocks = []
-    cnt = 0
-    stt = 0
-    for end, c in enumerate(text + ' '): # add whitespace as a sentinal
-        if c == '(':
-            cnt += 1
-        elif c == ')':
-            cnt -= 1
-            assert cnt >= 0
-        elif c == ' ':
-            if cnt == 0:
-                blocks.append(text[stt:end])
-                stt = end + 1
-    assert cnt == 0
-    return blocks
 
 
 def scrape_definition(html):
