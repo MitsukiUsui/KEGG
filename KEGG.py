@@ -25,7 +25,7 @@ class Mapper:
         ontology = self._get()
         self.cur += 1
         if ontology == '?': #orphan gene
-            na, nb = 1, 1
+            na, nb = 0, 1
         elif ontology in ('K', 'M'): #k-number or m-number
             while self._get().isdigit():
                 ontology += self._get()
