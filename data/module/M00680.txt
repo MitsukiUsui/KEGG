@@ -1,0 +1,26 @@
+ENTRY       M00680            FuncSet   Module
+NAME        TGF-beta signaling
+DEFINITION  (K13375,K13376,K13377) (K04388+K04674) (K04500+K04501)
+ORTHOLOGY   K13375,K13376,K13377  transforming growth factor beta
+            K04388+K04674  TGF-beta receptor
+            K04500+K04501  SMAD2,3 with SMAD4
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04350  TGF-beta signaling pathway
+            map04390  Hippo signaling pathway
+DBLINKS     BSID: 1108219
+REFERENCE   PMID:12485160
+  AUTHORS   Miyazawa K, Shinozaki M, Hara T, Furuya T, Miyazono K
+  TITLE     Two major Smad pathways in TGF-beta superfamily signalling.
+  JOURNAL   Genes Cells 7:1191-204 (2002)
+            DOI:10.1046/j.1365-2443.2002.00599.x
+REFERENCE   PMID:18000526
+  AUTHORS   Schmierer B, Hill CS
+  TITLE     TGFbeta-SMAD signal transduction: molecular specificity and functional flexibility.
+  JOURNAL   Nat Rev Mol Cell Biol 8:970-82 (2007)
+            DOI:10.1038/nrm2297
+REFERENCE   PMID:9759503
+  AUTHORS   Massague J.
+  TITLE     TGF-beta signal transduction.
+  JOURNAL   Annu Rev Biochem 67:753-91 (1998)
+            DOI:10.1146/annurev.biochem.67.1.753
+///

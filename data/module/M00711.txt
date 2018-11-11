@@ -1,0 +1,13 @@
+ENTRY       M00711            Complex   Module
+NAME        Multidrug resistance, efflux pump MdtIJ
+DEFINITION  K11742+K11743
+ORTHOLOGY   K11742  mdtI; spermidine export protein MdtI
+            K11743  mdtJ; spermidine export protein MdtJ
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144977
+REFERENCE   PMID:18039771
+  AUTHORS   Higashi K, Ishigure H, Demizu R, Uemura T, Nishino K, Yamaguchi A, Kashiwagi K, Igarashi K
+  TITLE     Identification of a spermidine excretion protein complex (MdtJI) in Escherichia coli.
+  JOURNAL   J Bacteriol 190:872-8 (2008)
+            DOI:10.1128/JB.01505-07
+///

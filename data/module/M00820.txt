@@ -1,0 +1,24 @@
+ENTRY       M00820            FuncSet   Module
+NAME        SagS-HptB-HsbR (swarming activity and biofilm formation) two-component regulatory system
+DEFINITION  K20973,K20974,K20975 K20976 K20977
+ORTHOLOGY   K20973  sagS; sensor histidine kinase
+            K20974  sensor histidine kinase
+            K20975  sensor histidine kinase
+            K20976  hptB; histidine phosphotransfer protein
+            K20977  hsbR; HptB-dependent secretion and biofilm response regulator
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+            map02025  Biofilm formation - Pseudomonas aeruginosa
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1463315
+REFERENCE   PMID:21949078
+  AUTHORS   Petrova OE, Sauer K
+  TITLE     SagS contributes to the motile-sessile switch and acts in concert with BfiSR to enable Pseudomonas aeruginosa biofilm formation.
+  JOURNAL   J Bacteriol 193:6614-28 (2011)
+            DOI:10.1128/JB.00305-11
+REFERENCE   PMID:18256026
+  AUTHORS   Hsu JL, Chen HC, Peng HL, Chang HY
+  TITLE     Characterization of the histidine-containing phosphotransfer protein B-mediated multistep phosphorelay system in Pseudomonas aeruginosa PAO1.
+  JOURNAL   J Biol Chem 283:9933-44 (2008)
+            DOI:10.1074/jbc.M708836200
+///

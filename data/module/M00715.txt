@@ -1,0 +1,13 @@
+ENTRY       M00715            FuncSet   Module
+NAME        Lincosamide resistance, efflux pump LmrB
+DEFINITION  K18939 K18926
+ORTHOLOGY   K18939  lmrA; TetR/AcrR family transcriptional regulator, lmrAB and yxaGH operons repressor
+            K18926  lmrB; MFS transporter, DHA2 family, lincomycin resistance protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1167678
+REFERENCE   PMID:17483215
+  AUTHORS   Hirooka K, Kunikane S, Matsuoka H, Yoshida K, Kumamoto K, Tojo S, Fujita Y
+  TITLE     Dual regulation of the Bacillus subtilis regulon comprising the lmrAB and yxaGH operons and yxaF gene by two transcriptional repressors, LmrA and YxaF, in response to flavonoids.
+  JOURNAL   J Bacteriol 189:5170-82 (2007)
+            DOI:10.1128/JB.00079-07
+///

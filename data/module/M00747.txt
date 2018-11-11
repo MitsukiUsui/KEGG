@@ -1,0 +1,22 @@
+ENTRY       M00747            Complex   Module
+NAME        Bacitracin transport system
+DEFINITION  K19310+K19309
+ORTHOLOGY   K19310  bcrB; bacitracin transport system permease protein
+            K19309  bcrA; bacitracin transport system ATP-binding protein
+CLASS       Structural complex; Environmental information processing; ABC-2 type and other transport systems
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 2:2
+            Substrate: Bacitracin [CPD:C01667]
+DBLINKS     BSID: 1253484
+REFERENCE   PMID:7476193
+  AUTHORS   Podlesek Z, Comino A, Herzog-Velikonja B, Zgur-Bertok D, Komel R, Grabnar M
+  TITLE     Bacillus licheniformis bacitracin-resistance ABC transporter: relationship to mammalian multidrug resistance.
+  JOURNAL   Mol Microbiol 16:969-76 (1995)
+            DOI:10.1111/j.1365-2958.1995.tb02322.x
+REFERENCE   PMID:10867242
+  AUTHORS   Podlesek Z, Comino A, Herzog-Velikonja B, Grabnar M
+  TITLE     The role of the bacitracin ABC transporter in bacitracin resistance and collateral detergent sensitivity.
+  JOURNAL   FEMS Microbiol Lett 188:103-6 (2000)
+            DOI:10.1111/j.1574-6968.2000.tb09176.x
+///

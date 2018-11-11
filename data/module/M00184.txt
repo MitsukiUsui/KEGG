@@ -1,0 +1,29 @@
+ENTRY       M00184            Complex   Module
+NAME        RNA polymerase, archaea
+DEFINITION  K03042+K03041+(K03044+K03045,K13798)+K03053+K03055+K03058+K03047+K03049+K03050+K03056+K03059+K03051-K03052-K03054
+ORTHOLOGY   K03042  rpoA2; DNA-directed RNA polymerase subunit A" [EC:2.7.7.6]
+            K03041  rpoA1; DNA-directed RNA polymerase subunit A' [EC:2.7.7.6]
+            K03044  rpoB1; DNA-directed RNA polymerase subunit B' [EC:2.7.7.6]
+            K03045  rpoB2; DNA-directed RNA polymerase subunit B" [EC:2.7.7.6]
+            K13798  rpoB; DNA-directed RNA polymerase subunit B [EC:2.7.7.6]
+            K03053  rpoH; DNA-directed RNA polymerase subunit H [EC:2.7.7.6]
+            K03055  rpoK; DNA-directed RNA polymerase subunit K [EC:2.7.7.6]
+            K03058  rpoN; DNA-directed RNA polymerase subunit N [EC:2.7.7.6]
+            K03047  rpoD; DNA-directed RNA polymerase subunit D [EC:2.7.7.6]
+            K03049  rpoE1; DNA-directed RNA polymerase subunit E' [EC:2.7.7.6]
+            K03050  rpoE2; DNA-directed RNA polymerase subunit E" [EC:2.7.7.6]
+            K03056  rpoL; DNA-directed RNA polymerase subunit L [EC:2.7.7.6]
+            K03059  rpoP; DNA-directed RNA polymerase subunit P [EC:2.7.7.6]
+            K03051  rpoF; DNA-directed RNA polymerase subunit F [EC:2.7.7.6]
+            K03052  rpoG; DNA-directed RNA polymerase subunit G [EC:2.7.7.6]
+            K03054  rpoI; DNA-directed RNA polymerase subunit I [EC:2.7.7.6]
+CLASS       Structural complex; Genetic information processing; RNA polymerase
+PATHWAY     map03020  RNA polymerase
+BRITE       ko03021  Transcription machinery
+DBLINKS     BSID: 468352
+REFERENCE   PMID:19880312
+  AUTHORS   Hirata A, Murakami KS
+  TITLE     Archaeal RNA polymerase.
+  JOURNAL   Curr Opin Struct Biol 19:724-31 (2009)
+            DOI:10.1016/j.sbi.2009.10.006
+///

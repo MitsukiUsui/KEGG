@@ -1,0 +1,25 @@
+ENTRY       M00816            FuncSet   Module
+NAME        NisK-NisR (lantibiotic biosynthesis) two-component regulatory system
+DEFINITION  K20487 K20488
+ORTHOLOGY   K20487  nisK; two-component system, OmpR family, lantibiotic biosynthesis sensor histidine kinase NisK/SpaK [EC:2.7.13.3]
+            K20488  nisR; two-component system, OmpR family, lantibiotic biosynthesis response regulator NisR/SpaR
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1417596
+REFERENCE   PMID:15374644
+  AUTHORS   Kleerebezem M
+  TITLE     Quorum sensing control of lantibiotic production; nisin and subtilin autoregulate their own biosynthesis.
+  JOURNAL   Peptides 25:1405-14 (2004)
+            DOI:10.1016/j.peptides.2003.10.021
+REFERENCE   PMID:11587786
+  AUTHORS   Kleerebezem M, Quadri LE
+  TITLE     Peptide pheromone-dependent regulation of antimicrobial peptide production in Gram-positive bacteria: a case of multicellular behavior.
+  JOURNAL   Peptides 22:1579-96 (2001)
+            DOI:10.1016/S0196-9781(01)00493-4
+REFERENCE   PMID:12369185
+  AUTHORS   Quadri LE
+  TITLE     Regulation of antimicrobial peptide production by autoinducer-mediated quorum sensing in lactic acid bacteria.
+  JOURNAL   Antonie Van Leeuwenhoek 82:133-45 (2002)
+            DOI:10.1023/A:1020624808520
+///

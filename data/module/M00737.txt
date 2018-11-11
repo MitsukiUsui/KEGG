@@ -1,0 +1,23 @@
+ENTRY       M00737            FuncSet   Module
+NAME        Bacitracin resistance, VraDE transporter
+DEFINITION  K19083+K19084 K19081 K19082 K11631+K11632
+ORTHOLOGY   K19083  braD; bacitracin transport system ATP-binding protein
+            K19084  braE; bacitracin transport system permease protein
+            K19081  braS; two-component system, OmpR family, sensor histidine kinase BraS/BceS [EC:2.7.13.3]
+            K19082  braR; two-component system, OmpR family, response regulator protein BraR/BceR
+            K11631  bceA; bacitracin transport system ATP-binding protein
+            K11632  bceB; bacitracin transport system permease protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+PATHWAY     map02020  Two-component system
+DBLINKS     BSID: 1208949
+REFERENCE   PMID:21696458
+  AUTHORS   Hiron A, Falord M, Valle J, Debarbouille M, Msadek T
+  TITLE     Bacitracin and nisin resistance in Staphylococcus aureus: a novel pathway involving the BraS/BraR two-component system (SA2417/SA2418) and both the BraD/BraE and VraD/VraE ABC transporters.
+  JOURNAL   Mol Microbiol 81:602-22 (2011)
+            DOI:10.1111/j.1365-2958.2011.07735.x
+REFERENCE   PMID:21921684
+  AUTHORS   Kawada-Matsuo M, Yoshida Y, Nakamura N, Komatsuzawa H
+  TITLE     Role of two-component systems in the resistance of Staphylococcus aureus to antibacterial agents.
+  JOURNAL   Virulence 2:427-30 (2011)
+            DOI:10.4161/viru.2.5.17711
+///

@@ -1,0 +1,16 @@
+ENTRY       M00818            FuncSet   Module
+NAME        FusK-FusR (virulence regulation) two-component regulatory system
+DEFINITION  K20263 K20264
+ORTHOLOGY   K20263  fusK; NarL family, sensor histidine kinase 
+            K20264  fusR; NarL family, response regulator
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+COMMENT     Signal: Fucose [CPD:C01019]
+DBLINKS     BSID: 1417598
+REFERENCE   PMID:23160491
+  AUTHORS   Pacheco AR, Curtis MM, Ritchie JM, Munera D, Waldor MK, Moreira CG, Sperandio V
+  TITLE     Fucose sensing regulates bacterial intestinal colonization.
+  JOURNAL   Nature 492:113-7 (2012)
+            DOI:10.1038/nature11623
+///

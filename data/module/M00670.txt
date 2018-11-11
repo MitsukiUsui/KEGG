@@ -1,0 +1,27 @@
+ENTRY       M00670            Complex   Module
+NAME        Mce transport system
+DEFINITION  K02067+K02066+K02065+K18481
+ORTHOLOGY   K02067  mlaD, linM; phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein
+            K02066  mlaE, linK; phospholipid/cholesterol/gamma-HCH transport system permease protein
+            K02065  mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein
+            K18481  mas; Mce-associated membrane protein
+CLASS       Structural complex; Environmental information processing; Saccharide, polyol, and lipid transport system
+BRITE       ko02000  Transporters
+COMMENT     Substrate: Cholesterol [CPD:C00187], Cholestenol [CPD:C03845], beta-Sitosterol [CPD:C01753]
+DBLINKS     BSID: 1025310
+REFERENCE   PMID:18955493 (substrate)
+  AUTHORS   Mohn WW, van der Geize R, Stewart GR, Okamoto S, Liu J, Dijkhuizen L, Eltis LD
+  TITLE     The actinobacterial mce4 locus encodes a steroid transporter.
+  JOURNAL   J Biol Chem 283:35368-74 (2008)
+            DOI:10.1074/jbc.M805496200
+REFERENCE   PMID:16868085
+  AUTHORS   Joshi SM, Pandey AK, Capite N, Fortune SM, Rubin EJ, Sassetti CM
+  TITLE     Characterization of mycobacterial virulence genes through genetic interaction mapping.
+  JOURNAL   Proc Natl Acad Sci U S A 103:11760-5 (2006)
+            DOI:10.1073/pnas.0603179103
+REFERENCE   PMID:17324287
+  AUTHORS   Casali N, Riley LW
+  TITLE     A phylogenomic analysis of the Actinomycetales mce operons.
+  JOURNAL   BMC Genomics 8:60 (2007)
+            DOI:10.1186/1471-2164-8-60
+///

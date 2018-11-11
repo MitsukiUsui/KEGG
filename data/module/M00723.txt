@@ -1,0 +1,27 @@
+ENTRY       M00723            FuncSet   Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, ethanolaminephosphotransferase EptB
+DEFINITION  K07660 K07637 K18514 K12975
+ORTHOLOGY   K07660  phoP; two-component system, OmpR family, response regulator PhoP [COG:COG0745] [GO:0000156]
+            K07637  phoQ; two-component system, OmpR family, sensor histidine kinase PhoQ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K18514  mgrR; small regulatory RNA MgrR
+            K12975  eptB; phosphoethanolamine transferase [EC:2.7.8.42] [COG:COG2194]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: modification of the Kdo with phosphoethanolamine
+DBLINKS     BSID: 1208942
+REFERENCE   PMID:19889087
+  AUTHORS   Moon K, Gottesman S
+  TITLE     A PhoQ/P-regulated small RNA regulates sensitivity of Escherichia coli to antimicrobial peptides.
+  JOURNAL   Mol Microbiol 74:1314-30 (2009)
+            DOI:10.1111/j.1365-2958.2009.06944.x
+REFERENCE   PMID:25505462
+  AUTHORS   Olaitan AO, Morand S, Rolain JM
+  TITLE     Mechanisms of polymyxin resistance: acquired and intrinsic resistance in bacteria.
+  JOURNAL   Front Microbiol 5:643 (2014)
+            DOI:10.3389/fmicb.2014.00643
+REFERENCE   PMID:23748343
+  AUTHORS   Needham BD, Trent MS
+  TITLE     Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis.
+  JOURNAL   Nat Rev Microbiol 11:467-81 (2013)
+            DOI:10.1038/nrmicro3047
+///

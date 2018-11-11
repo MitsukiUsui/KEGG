@@ -1,0 +1,17 @@
+ENTRY       M00279            Complex   Module
+NAME        PTS system, galactitol-specific II component
+DEFINITION  K02773+K02774+K02775
+ORTHOLOGY   K02773  PTS-Gat-EIIA; PTS system, galactitol-specific IIA component
+            K02774  PTS-Gat-EIIB; PTS system, galactitol-specific IIB component
+            K02775  PTS-Gat-EIIC; PTS system, galactitol-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00052  Galactose metabolism
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 890541
+REFERENCE   PMID:8955298
+  AUTHORS   Nobelmann B, Lengeler JW
+  TITLE     Molecular analysis of the gat genes from Escherichia coli and of their roles in galactitol transport and metabolism.
+  JOURNAL   J Bacteriol 178:6790-5 (1996)
+            DOI:10.1128/JB.178.23.6790-6795.1996
+///

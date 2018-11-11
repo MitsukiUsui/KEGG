@@ -1,0 +1,33 @@
+ENTRY       M00694            FuncSet   Module
+NAME        cGMP signaling
+DEFINITION  (K12323,K12324,(K12318+K12319)) (K07376,K18283,(K04948+K04952))
+ORTHOLOGY   K12323  atrial natriuretic peptide receptor A [EC:4.6.1.2]
+            K12324  atrial natriuretic peptide receptor B [EC:4.6.1.2]
+            K12318+K12319  guanylate cyclase soluble
+            K07376  protein kinase, cGMP-dependent [EC:2.7.11.12]
+            K18283  cGMP-dependent 3',5'-cyclic phosphodiesterase [EC:3.1.4.17]
+            K04948+K04952  cyclic nucleotide gated channel
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04022  cGMP-PKG signaling pathway
+DBLINKS     BSID: 1108233
+REFERENCE   PMID:20541938
+  AUTHORS   Johnson JL, Leroux MR
+  TITLE     cAMP and cGMP signaling: sensory systems with prokaryotic roots adopted by eukaryotic cilia.
+  JOURNAL   Trends Cell Biol 20:435-44 (2010)
+            DOI:10.1016/j.tcb.2010.05.005
+REFERENCE   PMID:12615006
+  AUTHORS   Roelofs J, Smith JL, Van Haastert PJ
+  TITLE     cGMP signalling: different ways to create a pathway.
+  JOURNAL   Trends Genet 19:132-4 (2003)
+            DOI:10.1016/S0168-9525(02)00044-6
+REFERENCE   PMID:17307970
+  AUTHORS   Omori K, Kotera J
+  TITLE     Overview of PDEs and their regulation.
+  JOURNAL   Circ Res 100:309-27 (2007)
+            DOI:10.1161/01.RES.0000256354.95791.f1
+REFERENCE   PMID:17376027
+  AUTHORS   Conti M, Beavo J
+  TITLE     Biochemistry and physiology of cyclic nucleotide phosphodiesterases: essential components in cyclic nucleotide signaling.
+  JOURNAL   Annu Rev Biochem 76:481-511 (2007)
+            DOI:10.1146/annurev.biochem.76.060305.150444
+///

@@ -1,0 +1,13 @@
+ENTRY       M00713            FuncSet   Module
+NAME        Fluoroquinolone resistance, efflux pump LfrA
+DEFINITION  K18937 K08167
+ORTHOLOGY   K18937  lfrR; TetR/AcrR family transcriptional regulator, repressor for lfrA
+            K08167  smvA; MFS transporter, DHA2 family, multidrug resistance protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1167676
+REFERENCE   PMID:15215089
+  AUTHORS   Li XZ, Zhang L, Nikaido H
+  TITLE     Efflux pump-mediated intrinsic drug resistance in Mycobacterium smegmatis.
+  JOURNAL   Antimicrob Agents Chemother 48:2415-23 (2004)
+            DOI:10.1128/AAC.48.7.2415-2423.2004
+///

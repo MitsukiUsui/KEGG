@@ -1,0 +1,15 @@
+ENTRY       M00812            FuncSet   Module
+NAME        AgrC2-AgrA2 (virulence regulation) two-component regulatory system
+DEFINITION  K20339 K20340
+ORTHOLOGY   K20339  agrC2; LytTR family, sensor histidine kinase AgrC2
+            K20340  agrA2; LytTR family, response regulator AgrA2
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+BRITE       ko02022  Two-component system
+COMMENT     Signal: Autoinducing peptide [KO:K07800]
+DBLINKS     BSID: 1417594
+REFERENCE   PMID:25714717
+  AUTHORS   Darkoh C, DuPont HL, Norris SJ, Kaplan HB
+  TITLE     Toxin synthesis by Clostridium difficile is regulated through quorum signaling.
+  JOURNAL   MBio 6:e02569 (2015)
+            DOI:10.1128/mBio.02569-14
+///

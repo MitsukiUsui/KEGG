@@ -1,0 +1,21 @@
+ENTRY       M00832            Pathway   Module
+NAME        Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+DEFINITION  K21183
+            K21227 K21228 K16431 K21185
+ORTHOLOGY   K21183  sgcC2; peptidyl carrier protein
+            K21227  kedY4; MIO-dependent 2-aza-L-tyrosine aminomutase [EC:5.4.3.-] [RN:R11391]
+            K21228  kedY1; (R)-2-aza-beta-tyrosine adenylation enzyme [EC:6.2.1.-] [RN:R11392]
+            K16431  kedY3; FAD-dependent halogenase [EC:1.14.19.-] [RN:R11393]
+            K21185  sgcE6; flavin reductase
+CLASS       Pathway module; Secondary metabolism; Biosynthesis of secondary metabolites
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01130  Biosynthesis of antibiotics
+REACTION    R11391  C21325 -> C21326
+            R11392  C21326 -> C21327
+            R11393  C21327 -> C21328
+COMPOUND    C21325  Azatyrosine
+            C21326  (R)-2-Aza-beta-tyrosine
+            C21327  (R)-2-Aza-beta-tyrosyl-[pcp]
+            C21328  (R)-2-Aza-3-chloro-beta-tyrosyl-[pcp]
+DBLINKS     BSID: 1501460
+///

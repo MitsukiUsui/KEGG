@@ -1,0 +1,22 @@
+ENTRY       M00645            FuncSet   Module
+NAME        Multidrug resistance, efflux pump SmeABC
+DEFINITION  K07642 K07664 K18321+K18322+K18323
+ORTHOLOGY   K07642  baeS; two-component system, OmpR family, sensor histidine kinase BaeS [EC:2.7.13.3]
+            K07664  baeR; two-component system, OmpR family, response regulator BaeR
+            K18321  smeA; membrane fusion protein
+            K18322  smeB; multidrug efflux pump
+            K18323  smeC; outer membrane protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+PATHWAY     map02020  Two-component system
+DBLINKS     BSID: 994729
+REFERENCE   PMID:11796339
+  AUTHORS   Li XZ, Zhang L, Poole K
+  TITLE     SmeC, an outer membrane multidrug efflux protein of Stenotrophomonas maltophilia.
+  JOURNAL   Antimicrob Agents Chemother 46:333-43 (2002)
+            DOI:10.1128/AAC.46.2.333-343.2002
+REFERENCE   PMID:22259777
+  AUTHORS   Cho HH, Sung JY, Kwon KC, Koo SH
+  TITLE     Expression of Sme efflux pumps and multilocus sequence typing in clinical isolates of Stenotrophomonas maltophilia.
+  JOURNAL   Ann Lab Med 32:38-43 (2012)
+            DOI:10.3343/alm.2012.32.1.38
+///

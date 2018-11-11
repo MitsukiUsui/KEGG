@@ -1,0 +1,47 @@
+ENTRY       M00516            FuncSet   Module
+NAME        SLN1-YPD1-SSK1/SKN7 (osmosensing) two-component regulatory system
+DEFINITION  K11231,K19690,K19691,K19692 K11232 K11233,K15859
+ORTHOLOGY   K11231  SLN1; sensor histidine kinase
+            K19690  CHK1; sensor histidine kinase
+            K19691  NIK1; sensor histidine kinase
+            K19692  TCSA; sensor histidine kinase
+            K11232  YPD1; phosphorelay intermediate protein
+            K11233  SSK1; response regulator
+            K15859  SKN7; response regulator
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+            map04011  MAPK signaling pathway - yeast
+BRITE       ko02022  Two-component system
+COMMENT     Signal: Hyperosmotic stress
+DBLINKS     BSID: 565969
+REFERENCE   PMID:9843501
+  AUTHORS   Li S, Ault A, Malone CL, Raitt D, Dean S, Johnston LH, Deschenes RJ, Fassler JS
+  TITLE     The yeast histidine protein kinase, Sln1p, mediates phosphotransfer to two response regulators, Ssk1p and Skn7p.
+  JOURNAL   EMBO J 17:6952-62 (1998)
+            DOI:10.1093/emboj/17.23.6952
+REFERENCE   PMID:11073911
+  AUTHORS   Janiak-Spens F, Sparling DP, West AH
+  TITLE     Novel role for an HPt domain in stabilizing the phosphorylated state of a response regulator domain.
+  JOURNAL   J Bacteriol 182:6673-8 (2000)
+            DOI:10.1128/JB.182.23.6673-6678.2000
+REFERENCE   PMID:10500846 (name)
+  AUTHORS   Grebe TW, Stock JB
+  TITLE     The histidine protein kinase superfamily.
+  JOURNAL   Adv Microb Physiol 41:139-227 (1999)
+            DOI:10.1016/S0065-2911(08)60167-8
+REFERENCE   PMID:17170747
+  AUTHORS   Bahn YS, Xue C, Idnurm A, Rutherford JC, Heitman J, Cardenas ME
+  TITLE     Sensing the environment: lessons from fungi.
+  JOURNAL   Nat Rev Microbiol 5:57-69 (2007)
+            DOI:10.1038/nrmicro1578
+REFERENCE   PMID:23430083
+  AUTHORS   Grice CM, Bertuzzi M, Bignell EM
+  TITLE     Receptor-mediated signaling in Aspergillus fumigatus.
+  JOURNAL   Front Microbiol 4:26 (2013)
+            DOI:10.3389/fmicb.2013.00026
+REFERENCE   PMID:22069590
+  AUTHORS   Duran R, Cary JW, Calvo AM
+  TITLE     Role of the osmotic stress regulatory pathway in morphogenesis and secondary metabolism in filamentous fungi.
+  JOURNAL   Toxins (Basel) 2:367-81 (2010)
+            DOI:10.3390/toxins2040367
+///

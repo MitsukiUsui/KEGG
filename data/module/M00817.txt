@@ -1,0 +1,29 @@
+ENTRY       M00817            Complex   Module
+NAME        Lantibiotic transport system
+DEFINITION  K20491+(K20492,K20494)+K20490
+ORTHOLOGY   K20491  nisE; lantibiotic transport system permease protein
+            K20492  nisG; lantibiotic transport system permease protein
+            K20494  epiG; lantibiotic transport system permease protein
+            K20490  nisF; lantibiotic transport system ATP-binding protein
+CLASS       Structural complex; Environmental information processing; ABC-2 type and other transport systems
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 1:1:1
+            involved in immunity to various lantibiotics.
+DBLINKS     BSID: 1417597
+REFERENCE   PMID:15374644
+  AUTHORS   Kleerebezem M
+  TITLE     Quorum sensing control of lantibiotic production; nisin and subtilin autoregulate their own biosynthesis.
+  JOURNAL   Peptides 25:1405-14 (2004)
+            DOI:10.1016/j.peptides.2003.10.021
+REFERENCE   PMID:11587786
+  AUTHORS   Kleerebezem M, Quadri LE
+  TITLE     Peptide pheromone-dependent regulation of antimicrobial peptide production in Gram-positive bacteria: a case of multicellular behavior.
+  JOURNAL   Peptides 22:1579-96 (2001)
+            DOI:10.1016/S0196-9781(01)00493-4
+REFERENCE   PMID:12369185
+  AUTHORS   Quadri LE
+  TITLE     Regulation of antimicrobial peptide production by autoinducer-mediated quorum sensing in lactic acid bacteria.
+  JOURNAL   Antonie Van Leeuwenhoek 82:133-45 (2002)
+            DOI:10.1023/A:1020624808520
+///

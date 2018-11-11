@@ -1,0 +1,20 @@
+ENTRY       M00716            FuncSet   Module
+NAME        ArlS-ArlR (virulence regulation) two-component regulatory system
+DEFINITION  K18940 K18941
+ORTHOLOGY   K18940  arlS; two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+            K18941  arlR; two-component system, OmpR family, response regulator ArlR
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1144979
+REFERENCE   PMID:10869073
+  AUTHORS   Fournier B, Hooper DC
+  TITLE     A new two-component regulatory system involved in adhesion, autolysis, and extracellular proteolytic activity of Staphylococcus aureus.
+  JOURNAL   J Bacteriol 182:3955-64 (2000)
+            DOI:10.1128/JB.182.14.3955-3964.2000
+REFERENCE   PMID:10633099
+  AUTHORS   Fournier B, Aras R, Hooper DC
+  TITLE     Expression of the multidrug resistance transporter NorA from Staphylococcus aureus is modified by a two-component regulatory system.
+  JOURNAL   J Bacteriol 182:664-71 (2000)
+            DOI:10.1128/JB.182.3.664-671.2000
+///

@@ -1,0 +1,13 @@
+ENTRY       M00839            FuncSet   Module
+NAME        PdtaS-PdtaR two-component regulatory system
+DEFINITION  K00936 K22010
+ORTHOLOGY   K00936  pdtaS; sensor histidine kinase PdtaS
+            K22010  pdtaR; response regulator PdtaR
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+BRITE       ko02022  Two-component system
+REFERENCE   PMID:16026786
+  AUTHORS   Morth JP, Gosmann S, Nowak E, Tucker PA
+  TITLE     A novel two-component system found in Mycobacterium tuberculosis.
+  JOURNAL   FEBS Lett 579:4145-8 (2005)
+            DOI:10.1016/j.febslet.2005.06.043
+///

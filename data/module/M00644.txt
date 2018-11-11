@@ -1,0 +1,22 @@
+ENTRY       M00644            FuncSet   Module
+NAME        Vanadium resistance, efflux pump MexGHI-OpmD
+DEFINITION  K18304 K18099 K18305+K18306+K18307-K18308
+ORTHOLOGY   K18304  lasR; LuxR family transcriptional regulator, quorum-sensing transcription factor LasR
+            K18099  rhlR; LuxR family transcriptional regulator, transcriptional activator of rhlAB and lasB
+            K18305  mexG; transmembrane protein
+            K18306  mexH; membrane fusion protein
+            K18307  mexI; multidrug efflux pump
+            K18308  opmD; outer membrane protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 994728
+REFERENCE   PMID:22390972
+  AUTHORS   Jimenez PN, Koch G, Thompson JA, Xavier KB, Cool RH, Quax WJ
+  TITLE     The multiple signaling systems regulating virulence in Pseudomonas aeruginosa.
+  JOURNAL   Microbiol Mol Biol Rev 76:46-65 (2012)
+            DOI:10.1128/MMBR.05007-11
+REFERENCE   PMID:12177331
+  AUTHORS   Aendekerk S, Ghysels B, Cornelis P, Baysse C
+  TITLE     Characterization of a new efflux pump, MexGHI-OpmD, from Pseudomonas aeruginosa that confers resistance to vanadium.
+  JOURNAL   Microbiology 148:2371-81 (2002)
+            DOI:10.1099/00221287-148-8-2371
+///

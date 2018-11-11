@@ -1,0 +1,25 @@
+ENTRY       M00770            FuncSet   Module
+NAME        PfeS-PfeR (enterobactin-dependent iron acquisition) two-component regulatory system
+DEFINITION  K19609 K19610
+ORTHOLOGY   K19609  pfeS; two-component system, OmpR family, sensor histidine kinase PfeS [EC:2.7.13.3]
+            K19610  pfeR; two-component system, OmpR family, response regulator PfeR
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+COMMENT     Signal: 3-Hydroxy-palmitic acid methyl ester [CPD:C11849]
+DBLINKS     BSID: 1310883
+REFERENCE   PMID:8361354
+  AUTHORS   Dean CR, Poole K
+  TITLE     Expression of the ferric enterobactin receptor (PfeA) of Pseudomonas aeruginosa: involvement of a two-component regulatory system.
+  JOURNAL   Mol Microbiol 8:1095-103 (1993)
+            DOI:10.1111/j.1365-2958.1993.tb01654.x
+REFERENCE   PMID:12700066
+  AUTHORS   Poole K, McKay GA
+  TITLE     Iron acquisition and its control in Pseudomonas aeruginosa: many roads lead to Rome.
+  JOURNAL   Front Biosci 8:d661-86 (2003)
+REFERENCE   PMID:15899402
+  AUTHORS   Ghysels B, Ochsner U, Mollman U, Heinisch L, Vasil M, Cornelis P, Matthijs S
+  TITLE     The Pseudomonas aeruginosa pirA gene encodes a second receptor for ferrienterobactin and synthetic catecholate analogues.
+  JOURNAL   FEMS Microbiol Lett 246:167-74 (2005)
+            DOI:10.1016/j.femsle.2005.04.010
+///

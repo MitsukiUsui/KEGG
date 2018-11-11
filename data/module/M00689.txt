@@ -1,0 +1,31 @@
+ENTRY       M00689            FuncSet   Module
+NAME        MAPK (p38) signaling
+DEFINITION  (K04416,K04420,K04421,K04428,K04429,K04423,K04415,K04426,K04425,K04427,K04417,K04418,K04419,K17534) (K04432,K04433) K04441
+ORTHOLOGY   K04416,K04420,K04421,K04428,K04429,K04423,K04415,K04426,K04425,K04427,K04417,K04418,K04419,K17534  MAP kinase kinase kinase
+            K04432,K04433  MAP kinase kinase (MKK3/6)
+            K04441  MAP kinase (p38)
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04010  MAPK signaling pathway
+            map04013  MAPK signaling pathway - fly
+DBLINKS     BSID: 1108228
+REFERENCE   PMID:25483189
+  AUTHORS   Tian T, Harding A
+  TITLE     How MAP kinase modules function as robust, yet adaptable, circuits.
+  JOURNAL   Cell Cycle 13:2379-90 (2014)
+            DOI:10.4161/cc.29349
+REFERENCE   PMID:15187187
+  AUTHORS   Roux PP, Blenis J
+  TITLE     ERK and p38 MAPK-activated protein kinases: a family of protein kinases with diverse biological functions.
+  JOURNAL   Microbiol Mol Biol Rev 68:320-44 (2004)
+            DOI:10.1128/MMBR.68.2.320-344.2004
+REFERENCE   PMID:15269234
+  AUTHORS   Sakaguchi A, Matsumoto K, Hisamoto N
+  TITLE     Roles of MAP kinase cascades in Caenorhabditis elegans.
+  JOURNAL   J Biochem 136:7-11 (2004)
+            DOI:10.1093/jb/mvh097
+REFERENCE   PMID:10878576
+  AUTHORS   Martin-Blanco E
+  TITLE     p38 MAPK signalling cascades: ancient roles and new functions.
+  JOURNAL   Bioessays 22:637-45 (2000)
+            DOI:10.1002/1521-1878(200007)22:7<637::AID-BIES6>3.0.CO;2-E
+///

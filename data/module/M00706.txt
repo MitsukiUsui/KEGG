@@ -1,0 +1,13 @@
+ENTRY       M00706            Complex   Module
+NAME        Multidrug resistance, EfrAB transporter
+DEFINITION  K18887+K18888
+ORTHOLOGY   K18887  efrA; ATP-binding cassette, subfamily B, multidrug efflux pump
+            K18888  efrB; ATP-binding cassette, subfamily B, multidrug efflux pump
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144972
+REFERENCE   PMID:14638474
+  AUTHORS   Lee EW, Huda MN, Kuroda T, Mizushima T, Tsuchiya T
+  TITLE     EfrAB, an ABC multidrug efflux pump in Enterococcus faecalis.
+  JOURNAL   Antimicrob Agents Chemother 47:3733-8 (2003)
+            DOI:10.1128/AAC.47.12.3733-3738.2003
+///

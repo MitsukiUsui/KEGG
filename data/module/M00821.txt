@@ -1,0 +1,15 @@
+ENTRY       M00821            Complex   Module
+NAME        Multidrug resistance, efflux pump TriABC-TolC
+DEFINITION  K21136+K21137+K21134+K12340
+ORTHOLOGY   K21136  triA; membrane fusion protein, multidrug efflux system
+            K21137  triB; membrane fusion protein, multidrug efflux system
+            K21134  triC; multidrug efflux pump
+            K12340  tolC; outer membrane protein
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1484679
+REFERENCE   PMID:17720796
+  AUTHORS   Mima T, Joshi S, Gomez-Escalada M, Schweizer HP
+  TITLE     Identification and characterization of TriABC-OpmH, a triclosan efflux pump of Pseudomonas aeruginosa requiring two membrane fusion proteins.
+  JOURNAL   J Bacteriol 189:7600-9 (2007)
+            DOI:10.1128/JB.00850-07
+///

@@ -1,0 +1,46 @@
+ENTRY       M00721            FuncSet   Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, arnBCADTEF operon
+DEFINITION  ((K07771 K07643),(K18072 K18073),(K07637 K07660)) K07806+K10012+K10011+K13014+K07264+K12962+K12963
+ORTHOLOGY   K07771  basR; two-component system, OmpR family, response regulator BasR [COG:COG0745] [GO:0000156]
+            K07643  basS; two-component system, OmpR family, sensor histidine kinase BasS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K18072  parS; two-component system, OmpR family, sensor kinase ParS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K18073  parR; two-component system, OmpR family, response regulator ParR [COG:COG0745] [GO:0000156]
+            K07637  phoQ; two-component system, OmpR family, sensor histidine kinase PhoQ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07660  phoP; two-component system, OmpR family, response regulator PhoP [COG:COG0745] [GO:0000156]
+            K07806  arnB; UDP-4-amino-4-deoxy-L-arabinose-oxoglutarate aminotransferase [EC:2.6.1.87]
+            K10012  arnC; undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase [EC:2.4.2.53]
+            K10011  arnA; UDP-4-amino-4-deoxy-L-arabinose formyltransferase / UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating) [EC:2.1.2.13 1.1.1.305]
+            K13014  arnD; undecaprenyl phosphate-alpha-L-ara4FN deformylase [EC:3.5.-.-] [COG:COG0726]
+            K07264  arnT, pmrK; 4-amino-4-deoxy-L-arabinose transferase [EC:2.4.2.43] [COG:COG1807]
+            K12962  arnE; undecaprenyl phosphate-alpha-L-ara4N flippase subunit ArnE [COG:COG0697] [TC:2.A.7.22]
+            K12963  arnF; undecaprenyl phosphate-alpha-L-ara4N flippase subunit ArnF [COG:COG0697] [TC:2.A.7]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: modification of the lipid A or Kdo with aminoarabinose
+DBLINKS     BSID: 1208940
+REFERENCE   PMID:17928292
+  AUTHORS   Yan A, Guan Z, Raetz CR
+  TITLE     An undecaprenyl phosphate-aminoarabinose flippase required for polymyxin resistance in Escherichia coli.
+  JOURNAL   J Biol Chem 282:36077-89 (2007)
+            DOI:10.1074/jbc.M706172200
+REFERENCE   PMID:25505462
+  AUTHORS   Olaitan AO, Morand S, Rolain JM
+  TITLE     Mechanisms of polymyxin resistance: acquired and intrinsic resistance in bacteria.
+  JOURNAL   Front Microbiol 5:643 (2014)
+            DOI:10.3389/fmicb.2014.00643
+REFERENCE   PMID:23748343
+  AUTHORS   Needham BD, Trent MS
+  TITLE     Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis.
+  JOURNAL   Nat Rev Microbiol 11:467-81 (2013)
+            DOI:10.1038/nrmicro3047
+REFERENCE   PMID:24034668
+  AUTHORS   Wang D, Seeve C, Pierson LS 3rd, Pierson EA
+  TITLE     Transcriptome profiling reveals links between ParS/ParR, MexEF-OprN, and quorum sensing in the regulation of adaptation and virulence in Pseudomonas aeruginosa.
+  JOURNAL   BMC Genomics 14:618 (2013)
+            DOI:10.1186/1471-2164-14-618
+REFERENCE   PMID:19243444
+  AUTHORS   Gooderham WJ, Hancock RE
+  TITLE     Regulation of virulence and antibiotic resistance by two-component regulatory systems in Pseudomonas aeruginosa.
+  JOURNAL   FEMS Microbiol Rev 33:279-94 (2009)
+            DOI:10.1111/j.1574-6976.2008.00135.x
+///

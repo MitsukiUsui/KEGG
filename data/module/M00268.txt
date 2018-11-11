@@ -1,0 +1,11 @@
+ENTRY       M00268            Complex   Module
+NAME        PTS system, alpha-glucoside-specific II component
+DEFINITION  K02777+K02749+K02750
+ORTHOLOGY   K02777  PTS-Glc-EIIA; PTS system, sugar-specific IIA component
+            K02749  PTS-Glv-EIIB; PTS system, alpha-glucoside-specific IIB component
+            K02750  PTS-Glv-EIIC; PTS system, alpha-glucoside-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 890531
+///

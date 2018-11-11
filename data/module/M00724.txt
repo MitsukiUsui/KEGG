@@ -1,0 +1,31 @@
+ENTRY       M00724            FuncSet   Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, palmitoyl transferase PagP
+DEFINITION  K07660 K07637 K12973
+ORTHOLOGY   K07660  phoP; two-component system, OmpR family, response regulator PhoP [COG:COG0745] [GO:0000156]
+            K07637  phoQ; two-component system, OmpR family, sensor histidine kinase PhoQ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K12973  pagP; palmitoyl transferase [EC:2.3.1.-]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: acylation of lipid A
+DBLINKS     BSID: 1208943
+REFERENCE   PMID:17362200
+  AUTHORS   Raetz CR, Reynolds CM, Trent MS, Bishop RE
+  TITLE     Lipid A modification systems in gram-negative bacteria.
+  JOURNAL   Annu Rev Biochem 76:295-329 (2007)
+            DOI:10.1146/annurev.biochem.76.010307.145803
+REFERENCE   PMID:11013210
+  AUTHORS   Bishop RE, Gibbons HS, Guina T, Trent MS, Miller SI, Raetz CR
+  TITLE     Transfer of palmitate from phospholipids to lipid A in outer membranes of gram-negative bacteria.
+  JOURNAL   EMBO J 19:5071-80 (2000)
+            DOI:10.1093/emboj/19.19.5071
+REFERENCE   PMID:23748343
+  AUTHORS   Needham BD, Trent MS
+  TITLE     Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis.
+  JOURNAL   Nat Rev Microbiol 11:467-81 (2013)
+            DOI:10.1038/nrmicro3047
+REFERENCE   PMID:15205413
+  AUTHORS   Lee H, Hsu FF, Turk J, Groisman EA
+  TITLE     The PmrA-regulated pmrC gene mediates phosphoethanolamine modification of lipid A and polymyxin resistance in Salmonella enterica.
+  JOURNAL   J Bacteriol 186:4124-33 (2004)
+            DOI:10.1128/JB.186.13.4124-4133.2004
+///

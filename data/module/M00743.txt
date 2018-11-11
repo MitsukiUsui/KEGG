@@ -1,0 +1,20 @@
+ENTRY       M00743            FuncSet   Module
+NAME        Aminoglycoside resistance, protease HtpX
+DEFINITION  K07638 K07659 K03799
+ORTHOLOGY   K07638  envZ; two-component system, OmpR family, osmolarity sensor histidine kinase EnvZ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07659  ompR; two-component system, OmpR family, phosphate regulon response regulator OmpR [COG:COG0745] [GO:0000156]
+            K03799  htpX; heat shock protein HtpX [EC:3.4.24.-] [COG:COG0501]
+CLASS       Functional set; Environmental information processing; Drug resistance
+COMMENT     Resistance mechanism: elimination of membrane-disruptive mistranslation products
+DBLINKS     BSID: 1253482
+REFERENCE   PMID:21764915
+  AUTHORS   Hinz A, Lee S, Jacoby K, Manoil C
+  TITLE     Membrane proteases and aminoglycoside antibiotic resistance.
+  JOURNAL   J Bacteriol 193:4790-7 (2011)
+            DOI:10.1128/JB.05133-11
+REFERENCE   PMID:23459488
+  AUTHORS   Lau CH, Fraud S, Jones M, Peterson SN, Poole K
+  TITLE     Mutational activation of the AmgRS two-component system in aminoglycoside-resistant Pseudomonas aeruginosa.
+  JOURNAL   Antimicrob Agents Chemother 57:2243-51 (2013)
+            DOI:10.1128/AAC.00170-13
+///

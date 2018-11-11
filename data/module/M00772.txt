@@ -1,0 +1,35 @@
+ENTRY       M00772            FuncSet   Module
+NAME        HupT-HupR (hydrogenase synthesis regulation) two-component regulatory system
+DEFINITION  K19661 K19641
+ORTHOLOGY   K19661  hupT; two-component system, NtrC family, sensor histidine kinase HupT/HoxJ [EC:2.7.13.3]
+            K19641  hupR; two-component system, NtrC family, response regulator HupR/HoxA
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1315068
+REFERENCE   PMID:11336840
+  AUTHORS   Casalot L, Rousset M
+  TITLE     Maturation of the [NiFe] hydrogenases.
+  JOURNAL   Trends Microbiol 9:228-37 (2001)
+            DOI:10.1016/S0966-842X(01)02009-1
+REFERENCE   PMID:10594824
+  AUTHORS   Dischert W, Vignais PM, Colbeau A
+  TITLE     The synthesis of Rhodobacter capsulatus HupSL hydrogenase is regulated by the two-component HupT/HupR system.
+  JOURNAL   Mol Microbiol 34:995-1006 (1999)
+            DOI:10.1046/j.1365-2958.1999.01660.x
+REFERENCE   PMID:14645270
+  AUTHORS   Elsen S, Duche O, Colbeau A
+  TITLE     Interaction between the H2 sensor HupUV and the histidine kinase HupT controls HupSL hydrogenase synthesis in Rhodobacter capsulatus.
+  JOURNAL   J Bacteriol 185:7111-9 (2003)
+            DOI:10.1128/JB.185.24.7111-7119.2003
+REFERENCE   PMID:9171416
+  AUTHORS   Durmowicz MC, Maier RJ
+  TITLE     Roles of HoxX and HoxA in biosynthesis of hydrogenase in Bradyrhizobium japonicum.
+  JOURNAL   J Bacteriol 179:3676-82 (1997)
+            DOI:10.1128/JB.179.11.3676-3682.1997
+REFERENCE   PMID:8510650
+  AUTHORS   Van Soom C, Verreth C, Sampaio MJ, Vanderleyden J
+  TITLE     Identification of a potential transcriptional regulator of hydrogenase activity in free-living Bradyrhizobium japonicum strains.
+  JOURNAL   Mol Gen Genet 239:235-40 (1993)
+            DOI:10.1007/BF00281623
+///

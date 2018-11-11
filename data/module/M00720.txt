@@ -1,0 +1,14 @@
+ENTRY       M00720            Complex   Module
+NAME        Multidrug resistance, efflux pump VexEF-TolC
+DEFINITION  K18990+K18989+K12340
+ORTHOLOGY   K18990  vexE; membrane fusion protein, multidrug efflux system
+            K18989  vexF; multidrug efflux pump
+            K12340  tolC; outer membrane protein
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1167681
+REFERENCE   PMID:18037783
+  AUTHORS   Rahman MM, Matsuo T, Ogawa W, Koterasawa M, Kuroda T, Tsuchiya T
+  TITLE     Molecular cloning and characterization of all RND-type efflux transporters in Vibrio cholerae non-O1.
+  JOURNAL   Microbiol Immunol 51:1061-70 (2007)
+            DOI:10.1111/j.1348-0421.2007.tb04001.x
+///

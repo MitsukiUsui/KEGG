@@ -1,0 +1,27 @@
+ENTRY       M00732            Complex   Module
+NAME        Cationic antimicrobial peptide transport system
+DEFINITION  K19080+K19079
+ORTHOLOGY   K19080  vraG; cationic antimicrobial peptide transport system permease protein
+            K19079  vraF; cationic antimicrobial peptide transport system ATP-binding protein
+CLASS       Structural complex; Environmental information processing; ABC-2 type and other transport systems
+PATHWAY     map02010  ABC transporters
+            map02020  Two-component system
+BRITE       ko02000  Transporters
+COMMENT     Involved in cationic antimicrobial peptide sensing.
+DBLINKS     BSID: 1167673
+REFERENCE   PMID:22123691
+  AUTHORS   Falord M, Karimova G, Hiron A, Msadek T
+  TITLE     GraXSR proteins interact with the VraFG ABC transporter to form a five-component system required for cationic antimicrobial peptide sensing and resistance in Staphylococcus aureus.
+  JOURNAL   Antimicrob Agents Chemother 56:1047-58 (2012)
+            DOI:10.1128/AAC.05054-11
+REFERENCE   PMID:21986630
+  AUTHORS   Yang SJ, Bayer AS, Mishra NN, Meehl M, Ledala N, Yeaman MR, Xiong YQ, Cheung AL
+  TITLE     The Staphylococcus aureus two-component regulatory system, GraRS, senses and confers resistance to selected cationic antimicrobial peptides.
+  JOURNAL   Infect Immun 80:74-81 (2012)
+            DOI:10.1128/IAI.05669-11
+REFERENCE   PMID:19609257
+  AUTHORS   Otto M
+  TITLE     Staphylococcus epidermidis--the 'accidental' pathogen.
+  JOURNAL   Nat Rev Microbiol 7:555-67 (2009)
+            DOI:10.1038/nrmicro2182
+///

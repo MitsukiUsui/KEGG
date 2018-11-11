@@ -1,0 +1,17 @@
+ENTRY       M00628            FuncSet   Module
+NAME        beta-Lactam resistance, AmpC system
+DEFINITION  K08218 K01207 K17850 (K01467,K17836)
+ORTHOLOGY   K08218  ampG; MFS transporter, PAT family, beta-lactamase induction signal transducer AmpG
+            K01207  nagZ; beta-N-acetylhexosaminidase [EC:3.2.1.52]
+            K17850  ampR; LysR family transcriptional regulator, regulator of gene expression of beta-lactamase
+            K01467  ampC; beta-lactamase class C [EC:3.5.2.6]
+            K17836  penP; beta-lactamase class A [EC:3.5.2.6]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01501  beta-Lactam resistance
+DBLINKS     BSID: 966885
+REFERENCE   PMID:23163477
+  AUTHORS   Johnson JW, Fisher JF, Mobashery S
+  TITLE     Bacterial cell-wall recycling.
+  JOURNAL   Ann N Y Acad Sci 1277:54-75 (2013)
+            DOI:10.1111/j.1749-6632.2012.06813.x
+///

@@ -1,0 +1,18 @@
+ENTRY       M00792            Complex   Module
+NAME        Manganese/zinc transport system
+DEFINITION  K19975+K19976+K19973
+ORTHOLOGY   K19975  mntC; manganese/zinc transport system substrate-binding protein
+            K19976  mntB; manganese/zinc transport system permease protein
+            K19973  mntA; manganese/zinc transport system ATP-binding protein [EC:3.6.3.35]
+CLASS       Structural complex; Environmental information processing; Metallic cation, iron-siderophore and vitamin B12 transport system
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 1:2:2
+            Substrate: Manganese [CPD:C00034], Zinc [CPD:C00038]
+DBLINKS     BSID: 1359711
+REFERENCE   PMID:23817615
+  AUTHORS   Kehl-Fie TE, Zhang Y, Moore JL, Farrand AJ, Hood MI, Rathi S, Chazin WJ, Caprioli RM, Skaar EP
+  TITLE     MntABC and MntH contribute to systemic Staphylococcus aureus infection by competing with calprotectin for nutrient manganese.
+  JOURNAL   Infect Immun 81:3395-405 (2013)
+            DOI:10.1128/IAI.00420-13
+///

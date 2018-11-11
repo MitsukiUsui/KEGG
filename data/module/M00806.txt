@@ -1,0 +1,17 @@
+ENTRY       M00806            Complex   Module
+NAME        PTS system, maltose-specific II component
+DEFINITION  K02777+K20107+K20108
+ORTHOLOGY   K02777  PTS-Glc-EIIA; PTS system, glucose-specific IIA component
+            K20107  PTS-Mal-EIIB; PTS system, maltose-specific IIB component
+            K20108  PTS-Mal-EIIC; PTS system, maltose-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00500  Starch and sucrose metabolism
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 1385978
+REFERENCE   PMID:17277067
+  AUTHORS   Webb AJ, Homer KA, Hosie AH
+  TITLE     A phosphoenolpyruvate-dependent phosphotransferase system is the principal maltose transporter in Streptococcus mutans.
+  JOURNAL   J Bacteriol 189:3322-7 (2007)
+            DOI:10.1128/JB.01633-06
+///

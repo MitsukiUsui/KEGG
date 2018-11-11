@@ -1,0 +1,30 @@
+ENTRY       M00690            FuncSet   Module
+NAME        MAPK (ERK5) signaling
+DEFINITION  (K04420,K04421) K04463 K04464
+ORTHOLOGY   K04420,K04421  MAP kinase kinase kinase
+            K04463  MAP kinase kinase (MEK5)
+            K04464  MAP kinase (ERK5)
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04010  MAPK signaling pathway
+DBLINKS     BSID: 1108229
+REFERENCE   PMID:25483189
+  AUTHORS   Tian T, Harding A
+  TITLE     How MAP kinase modules function as robust, yet adaptable, circuits.
+  JOURNAL   Cell Cycle 13:2379-90 (2014)
+            DOI:10.4161/cc.29349
+REFERENCE   PMID:10209154
+  AUTHORS   Garrington TP, Johnson GL
+  TITLE     Organization and regulation of mitogen-activated protein kinase signaling pathways.
+  JOURNAL   Curr Opin Cell Biol 11:211-8 (1999)
+            DOI:10.1016/S0955-0674(99)80028-3
+REFERENCE   PMID:12471242
+  AUTHORS   Johnson GL, Lapadat R
+  TITLE     Mitogen-activated protein kinase pathways mediated by ERK, JNK, and p38 protein kinases.
+  JOURNAL   Science 298:1911-2 (2002)
+            DOI:10.1126/science.1072682
+REFERENCE   PMID:20959622
+  AUTHORS   Rose BA, Force T, Wang Y
+  TITLE     Mitogen-activated protein kinase signaling in the heart: angels versus demons in a heart-breaking tale.
+  JOURNAL   Physiol Rev 90:1507-46 (2010)
+            DOI:10.1152/physrev.00054.2009
+///

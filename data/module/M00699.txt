@@ -1,0 +1,21 @@
+ENTRY       M00699            FuncSet   Module
+NAME        Multidrug resistance, efflux pump AmeABC
+DEFINITION  K18905 K03585+K18138+K18904
+ORTHOLOGY   K18905  ameR, rmiR; TetR/AcrR family transcriptional regulator, repressor of the ameABC operon [COG:COG1309]
+            K03585  acrA, mexA, adeI, smeD; membrane fusion protein [COG:COG0845] [TC:2.A.6.2 8.A.1.6]
+            K18138  acrB, mexB, adeJ, smeE; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2]
+            K18904  nodT, ameC; outer membrane protein, nodulation protein T [COG:COG01538] [TC:1.B.17.3.8]
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+DBLINKS     BSID: 1144966
+REFERENCE   PMID:11404022
+  AUTHORS   Peng WT, Nester EW
+  TITLE     Characterization of a putative RND-type efflux system in Agrobacterium tumefaciens.
+  JOURNAL   Gene 270:245-52 (2001)
+            DOI:10.1016/S0378-1119(01)00468-1
+REFERENCE   PMID:14706082
+  AUTHORS   Poole K
+  TITLE     Efflux-mediated multiresistance in Gram-negative bacteria.
+  JOURNAL   Clin Microbiol Infect 10:12-26 (2004)
+            DOI:10.1111/j.1469-0691.2004.00763.x
+///

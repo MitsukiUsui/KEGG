@@ -1,0 +1,35 @@
+ENTRY       M00767            FuncSet   Module
+NAME        Multidrug resistance, efflux pump OqxAB
+DEFINITION  K05804 K19587 K19586+K19585
+ORTHOLOGY   K05804  rob; AraC family transcriptional regulator, mar-sox-rob regulon activator
+            K19587  oqxR; Rrf2 family transcriptional regulator, repressor of oqxAB
+            K19586  oqxA; membrane fusion protein, multidrug efflux system
+            K19585  oqxB; multidrug efflux pump
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1315065
+REFERENCE   PMID:22644028
+  AUTHORS   Veleba M, Higgins PG, Gonzalez G, Seifert H, Schneiders T
+  TITLE     Characterization of RarA, a novel AraC family multidrug resistance regulator in Klebsiella pneumoniae.
+  JOURNAL   Antimicrob Agents Chemother 56:4450-8 (2012)
+            DOI:10.1128/AAC.00456-12
+REFERENCE   PMID:25193085
+  AUTHORS   Bialek-Davenet S, Lavigne JP, Guyot K, Mayer N, Tournebize R, Brisse S, Leflon-Guibout V, Nicolas-Chanoine MH
+  TITLE     Differential contribution of AcrAB and OqxAB efflux pumps to multidrug resistance and virulence in Klebsiella pneumoniae.
+  JOURNAL   J Antimicrob Chemother 70:81-8 (2015)
+            DOI:10.1093/jac/dku340
+REFERENCE   PMID:19528276
+  AUTHORS   Kim HB, Wang M, Park CH, Kim EC, Jacoby GA, Hooper DC
+  TITLE     oqxAB encoding a multidrug efflux pump in human clinical isolates of Enterobacteriaceae.
+  JOURNAL   Antimicrob Agents Chemother 53:3582-4 (2009)
+            DOI:10.1128/AAC.01574-08
+REFERENCE   PMID:25503276
+  AUTHORS   Zhong X, Xu H, Chen D, Zhou H, Hu X, Cheng G
+  TITLE     First emergence of acrAB and oqxAB mediated tigecycline resistance in clinical isolates of Klebsiella pneumoniae pre-dating the use of tigecycline in a Chinese hospital.
+  JOURNAL   PLoS One 9:e115185 (2014)
+            DOI:10.1371/journal.pone.0115185
+REFERENCE   PMID:23318802
+  AUTHORS   De Majumdar S, Veleba M, Finn S, Fanning S, Schneiders T
+  TITLE     Elucidating the regulon of multidrug resistance regulator RarA in Klebsiella pneumoniae.
+  JOURNAL   Antimicrob Agents Chemother 57:1603-9 (2013)
+            DOI:10.1128/AAC.01998-12
+///

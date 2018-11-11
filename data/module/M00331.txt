@@ -1,0 +1,46 @@
+ENTRY       M00331            Complex   Module
+NAME        Type II general secretion pathway
+DEFINITION  K02453+K02452+K02455+K02456+K02457+K02458+K02459+K02460+K02461+K02462+K02454+(K02464,K02654)-K02450-K02451-K02463-K02465
+ORTHOLOGY   K02453  gspD; general secretion pathway protein D
+            K02452  gspC; general secretion pathway protein C
+            K02455  gspF; general secretion pathway protein F
+            K02456  gspG; general secretion pathway protein G
+            K02457  gspH; general secretion pathway protein H
+            K02458  gspI; general secretion pathway protein I
+            K02459  gspJ; general secretion pathway protein J
+            K02460  gspK; general secretion pathway protein K
+            K02461  gspL; general secretion pathway protein L
+            K02462  gspM; general secretion pathway protein M
+            K02454  gspE; general secretion pathway protein E
+            K02464  gspO; general secretion pathway protein O [EC:3.4.23.43 2.1.1.-]
+            K02654  pilD; leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]
+            K02450  gspA; general secretion pathway protein A
+            K02451  gspB; general secretion pathway protein B
+            K02463  gspN; general secretion pathway protein N
+            K02465  gspS; general secretion pathway protein S
+CLASS       Structural complex; Environmental information processing; Bacterial secretion system
+PATHWAY     map03070  Bacterial secretion system
+BRITE       ko02044  Secretion system
+COMMENT     Substrate: Cholera toxin (Vibrio cholerae) [KO:K10928 K10929], Intracellular toxins, Cell wall-degrading enzymes
+DBLINKS     BSID: 890585
+REFERENCE   PMID:16448494
+  AUTHORS   Johnson TL, Abendroth J, Hol WG, Sandkvist M
+  TITLE     Type II secretion: from structure to function.
+  JOURNAL   FEMS Microbiol Lett 255:175-86 (2006)
+            DOI:10.1111/j.1574-6968.2006.00102.x
+REFERENCE   PMID:15546665
+  AUTHORS   Filloux A
+  TITLE     The underlying mechanisms of type II protein secretion.
+  JOURNAL   Biochim Biophys Acta 1694:163-79 (2004)
+            DOI:10.1016/j.bbamcr.2004.05.003
+REFERENCE   PMID:11349009 (definition)
+  AUTHORS   Sandkvist M.
+  TITLE     Type II secretion and pathogenesis.
+  JOURNAL   Infect Immun 69:3523-35 (2001)
+            DOI:10.1128/IAI.69.6.3523-3535.2001
+REFERENCE   PMID:16216510
+  AUTHORS   Cianciotto NP
+  TITLE     Type II secretion: a protein secretion system for all seasons.
+  JOURNAL   Trends Microbiol 13:581-8 (2005)
+            DOI:10.1016/j.tim.2005.09.005
+///

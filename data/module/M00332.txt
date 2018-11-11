@@ -1,0 +1,55 @@
+ENTRY       M00332            Complex   Module
+NAME        Type III secretion system
+DEFINITION  (K03224,K22506)+(K03226,K22507)+(K03227,K22508)+(K03228,K22509)+(K03229,K22510)+K03230+K03225-K03223-K04054+(K03222,K22505)-K03220+(K03219,K22504)-K03221-K04057-K04056-K04053-K04059-(K04058,K22511)
+ORTHOLOGY   K03224  yscN; ATP synthase in type III secretion protein SctN [EC:3.6.3.14]
+            K03226  yscR; type III secretion protein SctR
+            K03227  yscS; type III secretion protein SctS
+            K03228  yscT; type III secretion protein SctT
+            K03229  yscU; type III secretion protein SctU
+            K03230  yscV; type III secretion protein SctV
+            K03225  yscQ; type III secretion protein SctQ
+            K03223  yscL; type III secretion protein SctL
+            K04054  yscK; type III secretion protein SctK
+            K03222  yscJ; type III secretion protein SctJ
+            K03220  yscD; type III secretion protein SctD
+            K03219  yscC; type III secretion protein SctC
+            K03221  yscF; type III secretion protein SctF
+            K04057  yscP; type III secretion protein SctP
+            K04056  yscO; type III secretion protein SctO
+            K04053  yscI; type III secretion protein SctI
+            K04059  yscX; type III secretion protein SctX
+            K04058  yscW; type III secretion protein SctW
+            K22504  invG; type III secretion system outer membrane ring protein
+            K22505  prgK; type III secretion system inner membrane ring protein
+            K22506  spaL; type III secretion system ATPase [EC:3.6.3.14]
+            K22507  spaP; type III secretion system export apparatus protein
+            K22508  spaQ; type III secretion system export apparatus protein
+            K22509  spaR; type III secretion system export apparatus protein
+            K22510  spaS; type III secretion system export apparatus switch protein
+            K22511  invE; type III secretion system protein
+CLASS       Structural complex; Environmental information processing; Bacterial secretion system
+PATHWAY     map03070  Bacterial secretion system
+BRITE       ko02044  Secretion system
+COMMENT     Substrate: Effector proteins, Needle proteins, Components of the translocon
+DBLINKS     BSID: 890586
+REFERENCE   PMID:19396170
+  AUTHORS   Spreter T, Yip CK, Sanowar S, Andre I, Kimbrough TG, Vuckovic M, Pfuetzner RA, Deng W, Yu AC, Finlay BB, Baker D, Miller SI, Strynadka NC
+  TITLE     A conserved structural motif mediates formation of the periplasmic rings in the type III secretion system.
+  JOURNAL   Nat Struct Mol Biol 16:468-76 (2009)
+            DOI:10.1038/nsmb.1603
+REFERENCE   PMID:15590783
+  AUTHORS   Ghosh P
+  TITLE     Process of protein transport by the type III secretion system.
+  JOURNAL   Microbiol Mol Biol Rev 68:771-95 (2004)
+            DOI:10.1128/MMBR.68.4.771-795.2004
+REFERENCE   PMID:12360191
+  AUTHORS   Cornelis GR
+  TITLE     The Yersinia Ysc-Yop 'type III' weaponry.
+  JOURNAL   Nat Rev Mol Cell Biol 3:742-52 (2002)
+            DOI:10.1038/nrm932
+REFERENCE   PMID:23028376
+  AUTHORS   Abby SS, Rocha EP
+  TITLE     The non-flagellar type III secretion system evolved from the bacterial flagellum and diversified into host-cell adapted systems.
+  JOURNAL   PLoS Genet 8:e1002983 (2012)
+            DOI:10.1371/journal.pgen.1002983
+///

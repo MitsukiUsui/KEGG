@@ -1,0 +1,13 @@
+ENTRY       M00710            Complex   Module
+NAME        Multidrug resistance, efflux pump EbrAB
+DEFINITION  K11814+K11815
+ORTHOLOGY   K11814  ebrA; multidrug resistance protein EbrA
+            K11815  ebrB; multidrug resistance protein EbrB
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144976
+REFERENCE   PMID:10735876
+  AUTHORS   Masaoka Y, Ueno Y, Morita Y, Kuroda T, Mizushima T, Tsuchiya T
+  TITLE     A two-component multidrug efflux pump, EbrAB, in Bacillus subtilis.
+  JOURNAL   J Bacteriol 182:2307-10 (2000)
+            DOI:10.1128/JB.182.8.2307-2310.2000
+///

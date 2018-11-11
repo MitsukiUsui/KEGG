@@ -1,0 +1,14 @@
+ENTRY       M00822            Complex   Module
+NAME        Multidrug resistance, efflux pump MexMN-OprM
+DEFINITION  K21135+K21133+K18139
+ORTHOLOGY   K21135  mexM; membrane fusion protein, multidrug efflux system
+            K21133  mexN; multidrug efflux pump
+            K18139  oprM; outer membrane protein, multidrug efflux system
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1484680
+REFERENCE   PMID:16301811
+  AUTHORS   Mima T, Sekiya H, Mizushima T, Kuroda T, Tsuchiya T
+  TITLE     Gene cloning and properties of the RND-type multidrug efflux pumps MexPQ-OpmE and MexMN-OprM from Pseudomonas aeruginosa.
+  JOURNAL   Microbiol Immunol 49:999-1002 (2005)
+            DOI:10.1111/j.1348-0421.2005.tb03696.x
+///

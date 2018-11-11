@@ -1,0 +1,20 @@
+ENTRY       M00684            FuncSet   Module
+NAME        JAK-STAT signaling
+DEFINITION  (K11217,K04447,K11218,K11219) (K11220,K11221,K04692,K11222,K11223,K11224,K11225) (K04694,K04695,K04696,K04701,K04697,K04698,K04699)
+ORTHOLOGY   K11217,K04447,K11218,K11219  Janus kinase
+            K11220,K11221,K04692,K11222,K11223,K11224,K11225  signal transducer and activator of transcription
+            K04694,K04695,K04696,K04701,K04697,K04698,K04699  suppressor of cytokine signaling
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04630  JAK-STAT signaling pathway
+DBLINKS     BSID: 1108223
+REFERENCE   PMID:24058787
+  AUTHORS   Liongue C, Ward AC
+  TITLE     Evolution of the JAK-STAT pathway.
+  JOURNAL   JAKSTAT 2:e22756 (2013)
+            DOI:10.4161/jkst.22756
+REFERENCE   PMID:22412924
+  AUTHORS   Liongue C, O'Sullivan LA, Trengove MC, Ward AC
+  TITLE     Evolution of JAK-STAT pathway components: mechanisms and role in immune system development.
+  JOURNAL   PLoS One 7:e32777 (2012)
+            DOI:10.1371/journal.pone.0032777
+///

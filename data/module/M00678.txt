@@ -1,0 +1,28 @@
+ENTRY       M00678            FuncSet   Module
+NAME        Hedgehog signaling
+DEFINITION  (K06224,K11989,K11990,K11988) K06225 K06226 K18806+K06229 (K16797,K16798,K06230,K16799)
+ORTHOLOGY   K06224,K11989,K11990,K11988  hedgehog
+            K06225  patched 1
+            K06226  smoothened
+            K18806+K06229  HH signaling complex
+            K16797,K16798,K06230,K16799  zinc finger protein GLI
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04340  Hedgehog signaling pathway
+            map05217  Basal cell carcinoma
+DBLINKS     BSID: 1108217
+REFERENCE   PMID:20530542
+  AUTHORS   Wilson CW, Chuang PT
+  TITLE     Mechanism and evolution of cytosolic Hedgehog signal transduction.
+  JOURNAL   Development 137:2079-94 (2010)
+            DOI:10.1242/dev.045021
+REFERENCE   PMID:28286127
+  AUTHORS   Wu F, Zhang Y, Sun B, McMahon AP, Wang Y
+  TITLE     Hedgehog Signaling: From Basic Biology to Cancer Therapy.
+  JOURNAL   Cell Chem Biol 24:252-280 (2017)
+            DOI:10.1016/j.chembiol.2017.02.010
+REFERENCE   PMID:18068698
+  AUTHORS   Matus DQ, Magie CR, Pang K, Martindale MQ, Thomsen GH
+  TITLE     The Hedgehog gene family of the cnidarian, Nematostella vectensis, and implications for understanding metazoan Hedgehog pathway evolution.
+  JOURNAL   Dev Biol 313:501-18 (2008)
+            DOI:10.1016/j.ydbio.2007.09.032
+///

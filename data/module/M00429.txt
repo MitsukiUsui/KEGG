@@ -1,0 +1,37 @@
+ENTRY       M00429            Complex   Module
+NAME        Competence-related DNA transformation transporter
+DEFINITION  K02237+K02238+K02240+K02242+(K02245,K02246,K02247,K02249)+K02243+K02244+K02236-K02248-K01493-K02239-K02241
+ORTHOLOGY   K02237  comEA; competence protein ComEA
+            K02238  comEC; competence protein ComEC
+            K02240  comFA; competence protein ComFA
+            K02242  comFC; competence protein ComFC
+            K02245  comGC; competence protein ComGC
+            K02246  comGD; competence protein ComGD
+            K02247  comGE; competence protein ComGE
+            K02249  comGG; competence protein ComGG
+            K02243  comGA; competence protein ComGA
+            K02244  comGB; competence protein ComGB
+            K02236  comC1; leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]
+            K02248  comGF; competence protein ComGF
+            K01493  comEB; dCMP deaminase [EC:3.5.4.12]
+            K02239  comER; competence protein ComER
+            K02241  comFB; competence protein ComFB
+CLASS       Structural complex; Environmental information processing; Bacterial secretion system
+BRITE       ko02044  Secretion system
+DBLINKS     BSID: 471013
+REFERENCE   PMID:9224890
+  AUTHORS   Dubnau D
+  TITLE     Binding and transport of transforming DNA by Bacillus subtilis: the role of type-IV pilin-like proteins--a review.
+  JOURNAL   Gene 192:191-8 (1997)
+            DOI:10.1016/S0378-1119(96)00804-9
+REFERENCE   PMID:12706993
+  AUTHORS   Claverys JP, Martin B
+  TITLE     Bacterial "competence" genes: signatures of active transformation, or only remnants?
+  JOURNAL   Trends Microbiol 11:161-5 (2003)
+            DOI:10.1016/S0966-842X(03)00064-7
+REFERENCE   PMID:15168607
+  AUTHORS   Averhoff B
+  TITLE     DNA transport and natural transformation in mesophilic and thermophilic bacteria.
+  JOURNAL   J Bioenerg Biomembr 36:25-33 (2004)
+            DOI:10.1023/B:JOBB.0000019595.66733.fa
+///

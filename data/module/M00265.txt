@@ -1,0 +1,13 @@
+ENTRY       M00265            Complex   Module
+NAME        PTS system, glucose-specific II component
+DEFINITION  K02777+K02778+K02779
+ORTHOLOGY   K02777  PTS-Glc-EIIA; PTS system, glucose-specific IIA component
+            K02778  PTS-Glc-EIIB; PTS system, glucose-specific IIB component
+            K02779  PTS-Glc-EIIC; PTS system, glucose-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 890528
+///

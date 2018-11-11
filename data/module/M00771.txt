@@ -1,0 +1,20 @@
+ENTRY       M00771            FuncSet   Module
+NAME        FitF-FitH (insecticidal toxin regulation) two-component regulatory system
+DEFINITION  K19616 K19617
+ORTHOLOGY   K19616  fitF; two-component system, sensor histidine kinase and response regulator FitF [EC:2.7.13.3]
+            K19617  fitH; two-component system, response regulator FitH
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1310884
+REFERENCE   PMID:18484997
+  AUTHORS   Pechy-Tarr M, Bruck DJ, Maurhofer M, Fischer E, Vogne C, Henkels MD, Donahue KM, Grunder J, Loper JE, Keel C
+  TITLE     Molecular analysis of a novel gene cluster encoding an insect toxin in plant-associated strains of Pseudomonas fluorescens.
+  JOURNAL   Environ Microbiol 10:2368-86 (2008)
+            DOI:10.1111/j.1462-2920.2008.01662.x
+REFERENCE   PMID:24586167
+  AUTHORS   Kupferschmied P, Pechy-Tarr M, Imperiali N, Maurhofer M, Keel C
+  TITLE     Domain shuffling in a sensor protein contributed to the evolution of insect pathogenicity in plant-beneficial Pseudomonas protegens.
+  JOURNAL   PLoS Pathog 10:e1003964 (2014)
+            DOI:10.1371/journal.ppat.1003964
+///

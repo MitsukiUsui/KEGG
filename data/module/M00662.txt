@@ -1,0 +1,15 @@
+ENTRY       M00662            FuncSet   Module
+NAME        Hk1-Rrp1 (glycerol uptake and utilization) two-component regulatory system
+DEFINITION  K02489 K18444
+ORTHOLOGY   K02489  hk1; two-component system, glycerol uptake and utilization sensor kinase [EC:2.7.13.3]
+            K18444  rrp1; two-component system, glycerol uptake and utilization response regulator
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1022072
+REFERENCE   PMID:21606185
+  AUTHORS   Caimano MJ, Kenedy MR, Kairu T, Desrosiers DC, Harman M, Dunham-Ems S, Akins DR, Pal U, Radolf JD
+  TITLE     The hybrid histidine kinase Hk1 is part of a two-component system that is essential for survival of Borrelia burgdorferi in feeding Ixodes scapularis ticks.
+  JOURNAL   Infect Immun 79:3117-30 (2011)
+            DOI:10.1128/IAI.05136-11
+///

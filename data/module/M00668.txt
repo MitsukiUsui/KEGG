@@ -1,0 +1,22 @@
+ENTRY       M00668            FuncSet   Module
+NAME        Tetracycline resistance, TetA transporter
+DEFINITION  K18476 K08151
+ORTHOLOGY   K18476  tetR; TetR/AcrR family transcriptional regulator, tetracycline repressor protein
+            K08151  tetA; MFS transporter, DHA1 family, tetracycline resistance protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1025308
+REFERENCE   PMID:2835235
+  AUTHORS   Meier I, Wray LV, Hillen W
+  TITLE     Differential regulation of the Tn10-encoded tetracycline resistance genes tetA and tetR by the tandem tet operators O1 and O2.
+  JOURNAL   EMBO J 7:567-72 (1988)
+REFERENCE   PMID:2995683
+  AUTHORS   Daniels DW, Bertrand KP
+  TITLE     Promoter mutations affecting divergent transcription in the Tn10 tetracycline resistance determinant.
+  JOURNAL   J Mol Biol 184:599-610 (1985)
+            DOI:10.1016/0022-2836(85)90306-7
+REFERENCE   PMID:18227089
+  AUTHORS   Lau SK, Wong GK, Li MW, Woo PC, Yuen KY
+  TITLE     Distribution and molecular characterization of tetracycline resistance in Laribacter hongkongensis.
+  JOURNAL   J Antimicrob Chemother 61:488-97 (2008)
+            DOI:10.1093/jac/dkm539
+///

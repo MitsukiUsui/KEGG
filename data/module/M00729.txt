@@ -1,0 +1,30 @@
+ENTRY       M00729            FuncSet   Module
+NAME        Fluoroquinolone resistance, gyrase-protecting protein Qnr
+DEFINITION  K03553 K01356 K18555
+ORTHOLOGY   K03553  recA; recombination protein RecA [COG:COG0468]
+            K01356  lexA; repressor LexA [EC:3.4.21.88] [COG:COG1974] [GO:0008992]
+            K18555  qnr, mcbG; fluoroquinolone resistance protein [COG:COG1357]
+CLASS       Functional set; Environmental information processing; Drug resistance
+COMMENT     Resistance mechanism: protection of DNA gyrase
+DBLINKS     BSID: 1208946
+REFERENCE   PMID:19556999
+  AUTHORS   Da Re S, Garnier F, Guerin E, Campoy S, Denis F, Ploy MC
+  TITLE     The SOS response promotes qnrB quinolone-resistance determinant expression.
+  JOURNAL   EMBO Rep 10:929-33 (2009)
+            DOI:10.1038/embor.2009.99
+REFERENCE   PMID:22618862
+  AUTHORS   Poole K
+  TITLE     Bacterial stress responses as determinants of antimicrobial resistance.
+  JOURNAL   J Antimicrob Chemother 67:2069-89 (2012)
+            DOI:10.1093/jac/dks196
+REFERENCE   PMID:19822894
+  AUTHORS   Strahilevitz J, Jacoby GA, Hooper DC, Robicsek A
+  TITLE     Plasmid-mediated quinolone resistance: a multifaceted threat.
+  JOURNAL   Clin Microbiol Rev 22:664-89 (2009)
+            DOI:10.1128/CMR.00016-09
+REFERENCE   PMID:24576155
+  AUTHORS   Aldred KJ, Kerns RJ, Osheroff N
+  TITLE     Mechanism of quinolone action and resistance.
+  JOURNAL   Biochemistry 53:1565-74 (2014)
+            DOI:10.1021/bi5000564
+///

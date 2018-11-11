@@ -1,0 +1,26 @@
+ENTRY       M00733            FuncSet   Module
+NAME        GraS-GraR (cationic antimicrobial peptide transport) two-component regulatory system
+DEFINITION  K19077 K19078
+ORTHOLOGY   K19077  graS; OmpR family, sensor histidine kinase GraS [EC:2.7.13.3]
+            K19078  graR; OmpR family, response regulator protein GraR
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+COMMENT     Signal: CAMP [CPD:C13768 C11612], VraFG [KO:K19079 K19080]
+DBLINKS     BSID: 1167674
+REFERENCE   PMID:22123691
+  AUTHORS   Falord M, Karimova G, Hiron A, Msadek T
+  TITLE     GraXSR proteins interact with the VraFG ABC transporter to form a five-component system required for cationic antimicrobial peptide sensing and resistance in Staphylococcus aureus.
+  JOURNAL   Antimicrob Agents Chemother 56:1047-58 (2012)
+            DOI:10.1128/AAC.05054-11
+REFERENCE   PMID:21986630
+  AUTHORS   Yang SJ, Bayer AS, Mishra NN, Meehl M, Ledala N, Yeaman MR, Xiong YQ, Cheung AL
+  TITLE     The Staphylococcus aureus two-component regulatory system, GraRS, senses and confers resistance to selected cationic antimicrobial peptides.
+  JOURNAL   Infect Immun 80:74-81 (2012)
+            DOI:10.1128/IAI.05669-11
+REFERENCE   PMID:19609257
+  AUTHORS   Otto M
+  TITLE     Staphylococcus epidermidis--the 'accidental' pathogen.
+  JOURNAL   Nat Rev Microbiol 7:555-67 (2009)
+            DOI:10.1038/nrmicro2182
+///

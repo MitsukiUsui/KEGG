@@ -1,0 +1,31 @@
+ENTRY       M00686            FuncSet   Module
+NAME        Toll-like receptor signaling
+DEFINITION  (K10159,K10160,K18809) K04729 (K04730+K04733) K03175 (K04427+K04404-K04403) (K07209-K04467-K07210) K04734 (K02580-K04735)
+ORTHOLOGY   K10159,K10160,K18809  toll-like receptors
+            K04729  myeloid differentiation primary response protein MyD88
+            K04730+K04733  interleukin-1 receptor-associated kinase 1-4 [EC:2.7.11.1] complex
+            K03175  TNF receptor-associated factor 6
+            K04427+K04403+K04404  MAP3K [EC:2.7.11.25] complex
+            K07209-K04467-K07210  inhibitor of nuclear factor kappa-B kinase
+            K04734  NF-kappa-B inhibitor alpha
+            K02580+K04735  nuclear factor NF-kappa-B
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04620  Toll-like receptor signaling pathway
+            map04064  NF-kappa B signaling pathway
+DBLINKS     BSID: 1108225
+REFERENCE   PMID:23236523
+  AUTHORS   Song X, Jin P, Qin S, Chen L, Ma F
+  TITLE     The evolution and origin of animal Toll-like receptor signaling pathway revealed by network-level molecular evolutionary analyses.
+  JOURNAL   PLoS One 7:e51657 (2012)
+            DOI:10.1371/journal.pone.0051657
+REFERENCE   PMID:11862396
+  AUTHORS   Friedman R, Hughes AL
+  TITLE     Molecular evolution of the NF-kappaB signaling system.
+  JOURNAL   Immunogenetics 53:964-74 (2002)
+            DOI:10.1007/s00251-001-0399-3
+REFERENCE   PMID:11283698
+  AUTHORS   Kimbrell DA, Beutler B
+  TITLE     The evolution and genetics of innate immunity.
+  JOURNAL   Nat Rev Genet 2:256-67 (2001)
+            DOI:10.1038/35066006
+///

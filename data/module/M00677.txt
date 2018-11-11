@@ -1,0 +1,28 @@
+ENTRY       M00677            FuncSet   Module
+NAME        Wnt signaling
+DEFINITION  (K00182,K00312,K00408,K00444,K00445,K00572,K00714,K01064,K01357,K01384,K01558,K03209) (K02432,K02235,K02329,K02354,K02375,K02376,K02842,K04690) K02353 K03083 K02105 (K02620,K04490,K04491,K04492)
+ORTHOLOGY   K00182,K00312,K00408,K00444,K00445,K00572,K00714,K01064,K01357,K01384,K01558,K03209  wingless-type MMTV integration site family
+            K02432,K02235,K02329,K02354,K02375,K02376,K02842,K04690  frizzled
+            K02353 K02353  segment polarity protein dishevelled
+            K03083  glycogen synthase kinase 3 beta [EC:2.7.11.26]
+            K02105  catenin beta 1
+            K02620,K04490,K04491,K04492  transcription factor 7
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04310  Wnt signaling pathway
+DBLINKS     BSID: 1108216
+REFERENCE   PMID:12210516
+  AUTHORS   Korswagen HC
+  TITLE     Canonical and non-canonical Wnt signaling pathways in Caenorhabditis elegans: variations on a common signaling theme.
+  JOURNAL   Bioessays 24:801-10 (2002)
+            DOI:10.1002/bies.10145
+REFERENCE   PMID:22751150
+  AUTHORS   Holstein TW
+  TITLE     The evolution of the Wnt pathway.
+  JOURNAL   Cold Spring Harb Perspect Biol 4:a007922 (2012)
+            DOI:10.1101/cshperspect.a007922
+REFERENCE   PMID:18050402
+  AUTHORS   Eisenmann DM
+  TITLE     Wnt signaling.
+  JOURNAL   WormBook 1-17 (2005)
+            DOI:10.1895/wormbook.1.7.1
+///

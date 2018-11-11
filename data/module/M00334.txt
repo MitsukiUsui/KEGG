@@ -1,0 +1,46 @@
+ENTRY       M00334            Complex   Module
+NAME        Type VI secretion system
+DEFINITION  (K11902,K11910,K11911)+K11901+K11900+K11903+(K11897,K11905,K11919)+K11896+K11895+K11907+K11904+K11906+K11893+K11892+K11891
+ORTHOLOGY   K11902  impA; type VI secretion system protein ImpA
+            K11910  vasJ; type VI secretion system protein VasJ
+            K11911  vasL; type VI secretion system protein VasL
+            K11901  impB; type VI secretion system protein ImpB
+            K11900  impC; type VI secretion system protein ImpC
+            K11903  K11903; type VI secretion system secreted protein Hcp
+            K11897  impF; type VI secretion system protein ImpF
+            K11905  K11905; type VI secretion system protein
+            K11919  hsiF3; type VI secretion system lysozyme-related protein
+            K11896  impG; type VI secretion system protein ImpG
+            K11895  impH; type VI secretion system protein ImpH
+            K11907  vasG; type VI secretion system protein VasG
+            K11904  vgrG; type VI secretion system secreted protein VgrG
+            K11906  vasD; type VI secretion system protein VasD
+            K11893  impJ; type VI secretion system protein ImpJ
+            K11892  impK; type VI secretion system protein ImpK
+            K11891  impL; type VI secretion system protein ImpL
+CLASS       Structural complex; Environmental information processing; Bacterial secretion system
+PATHWAY     map03070  Bacterial secretion system
+BRITE       ko02044  Secretion system
+COMMENT     Substrate: Effector proteins
+DBLINKS     BSID: 890588
+REFERENCE   PMID:18524912
+  AUTHORS   Filloux A, Hachani A, Bleves S
+  TITLE     The bacterial type VI secretion machine: yet another player for protein transport across membranes.
+  JOURNAL   Microbiology 154:1570-83 (2008)
+            DOI:10.1099/mic.0.2008/016840-0
+REFERENCE   PMID:19251641
+  AUTHORS   Leiman PG, Basler M, Ramagopal UA, Bonanno JB, Sauder JM, Pukatzki S, Burley SK, Almo SC, Mekalanos JJ
+  TITLE     Type VI secretion apparatus and phage tail-associated protein complexes share a common evolutionary origin.
+  JOURNAL   Proc Natl Acad Sci U S A 106:4154-9 (2009)
+            DOI:10.1073/pnas.0813360106
+REFERENCE   PMID:19162533
+  AUTHORS   Pukatzki S, McAuley SB, Miyata ST
+  TITLE     The type VI secretion system: translocation of effectors and effector-domains.
+  JOURNAL   Curr Opin Microbiol 12:11-7 (2009)
+            DOI:10.1016/j.mib.2008.11.010
+REFERENCE   PMID:23542428 (definition)
+  AUTHORS   Coulthurst SJ
+  TITLE     The Type VI secretion system - a widespread and versatile cell targeting system.
+  JOURNAL   Res Microbiol 164:640-54 (2013)
+            DOI:10.1016/j.resmic.2013.03.017
+///

@@ -170,21 +170,31 @@ class DefinitionParser:
 
 
 def scrape_definition(html):
-    found = False
-    for line in html.split('\n'):
-        if "DEFINITION" in line:
-            found = True
+    def clean(line):
+        text = line
+        text = text.replace("DEFINITION", '')
+        text = text.replace("--", '?') #parser prefer single character
+        text = ' '.join(text.strip().split()) #merge whitespaces
+        for ch in (',', '+', '-'): #characters not allowed to have whitespace before
+            text = text.replace(' '+ch, ch)
+        return text
+
+    lines = html.split('\n')
+    stt, end = -1, -1
+    for idx, line in enumerate(lines):
+        if line[:10] == "DEFINITION":
+            stt = idx
+        elif stt != -1 and line[0]!=' ':
+            end = idx
             break
-    if not(found):
+    if stt == -1 or end == -1:
         print("DEFINITION line not found. Aborting...")
         return None
 
-    text = line
-    text = text.replace("DEFINITION", '')
-    text = text.replace("--", '?') #parser prefer single character
-    text = ' '.join(text.strip().split()) #merge whitespaces
-    for ch in (',', '+', '-'): #characters not allowed to have whitespace before
-        text = text.replace(' '+ch, ch)
-    return text
+    if end - stt == 1:
+        ret = clean(lines[stt])
+    else:
+        ret = ' '.join(["({})".format(clean(line)) for line in lines[stt:end]])
+    return ret
 
 

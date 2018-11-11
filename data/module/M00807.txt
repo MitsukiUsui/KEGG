@@ -1,0 +1,21 @@
+ENTRY       M00807            Complex   Module
+NAME        PTS system, galactose-specific II component
+DEFINITION  K20112+K20113+K20114
+ORTHOLOGY   K20112  PTS-Gal-EIIA; PTS system, galactose-specific IIA component
+            K20113  PTS-Gal-EIIB; PTS system, galactose-specific IIB component
+            K20114  PTS-Gal-EIIC; PTS system, galactose-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 1385979
+REFERENCE   PMID:22660715
+  AUTHORS   Zeng L, Martino NC, Burne RA
+  TITLE     Two gene clusters coordinate galactose and lactose metabolism in Streptococcus gordonii.
+  JOURNAL   Appl Environ Microbiol 78:5597-605 (2012)
+            DOI:10.1128/AEM.01393-12
+REFERENCE   PMID:23421335
+  AUTHORS   Zeng L, Xue P, Stanhope MJ, Burne RA
+  TITLE     A galactose-specific sugar: phosphotransferase permease is prevalent in the non-core genome of Streptococcus mutans.
+  JOURNAL   Mol Oral Microbiol 28:292-301 (2013)
+            DOI:10.1111/omi.12025
+///

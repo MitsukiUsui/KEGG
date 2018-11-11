@@ -1,0 +1,27 @@
+ENTRY       M00791            Complex   Module
+NAME        Manganese/zinc transport system
+DEFINITION  K19971+K19972+K10830
+ORTHOLOGY   K19971  psaA; manganese/zinc transport system substrate-binding protein
+            K19972  psaC; manganese/zinc transport system permease protein
+            K10830  psaB; manganese/zinc transport system ATP-binding protein [EC:3.6.3.35]
+CLASS       Structural complex; Environmental information processing; Metallic cation, iron-siderophore and vitamin B12 transport system
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 1:2:2
+            Substrate: Manganese [CPD:C00034], Zinc [CPD:C00038]
+DBLINKS     BSID: 1359709
+REFERENCE   PMID:9440518
+  AUTHORS   Kolenbrander PE, Andersen RN, Baker RA, Jenkinson HF
+  TITLE     The adhesion-associated sca operon in Streptococcus gordonii encodes an inducible high-affinity ABC transporter for Mn2+ uptake.
+  JOURNAL   J Bacteriol 180:290-5 (1998)
+REFERENCE   PMID:9767595
+  AUTHORS   Novak R, Braun JS, Charpentier E, Tuomanen E
+  TITLE     Penicillin tolerance genes of Streptococcus pneumoniae: the ABC-type manganese permease complex Psa.
+  JOURNAL   Mol Microbiol 29:1285-96 (1998)
+            DOI:10.1046/j.1365-2958.1998.01016.x
+REFERENCE   PMID:15255900
+  AUTHORS   McAllister LJ, Tseng HJ, Ogunniyi AD, Jennings MP, McEwan AG, Paton JC
+  TITLE     Molecular analysis of the psa permease complex of Streptococcus pneumoniae.
+  JOURNAL   Mol Microbiol 53:889-901 (2004)
+            DOI:10.1111/j.1365-2958.2004.04164.x
+///

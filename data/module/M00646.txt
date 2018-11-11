@@ -1,0 +1,32 @@
+ENTRY       M00646            FuncSet   Module
+NAME        Multidrug resistance, efflux pump AcrAD-TolC
+DEFINITION  K07642 K07664 K03585+K18324+K12340
+ORTHOLOGY   K07642  baeS; two-component system, OmpR family, sensor histidine kinase BaeS [EC:2.7.13.3]
+            K07664  baeR; two-component system, OmpR family, response regulator BaeR
+            K03585  acrA; membrane fusion protein
+            K18324  acrD; multidrug efflux pump
+            K12340  tolC; outer membrane channel protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+PATHWAY     map02020  Two-component system
+DBLINKS     BSID: 994730
+REFERENCE   PMID:17933888
+  AUTHORS   Nishino K, Nikaido E, Yamaguchi A
+  TITLE     Regulation of multidrug efflux systems involved in multidrug and metal resistance of Salmonella enterica serovar Typhimurium.
+  JOURNAL   J Bacteriol 189:9066-75 (2007)
+            DOI:10.1128/JB.01045-07
+REFERENCE   PMID:15743938
+  AUTHORS   Aires JR, Nikaido H
+  TITLE     Aminoglycosides are captured from both periplasm and cytoplasm by the AcrD multidrug efflux transporter of Escherichia coli.
+  JOURNAL   J Bacteriol 187:1923-9 (2005)
+            DOI:10.1128/JB.187.6.1923-1929.2005
+REFERENCE   PMID:10692383
+  AUTHORS   Rosenberg EY, Ma D, Nikaido H
+  TITLE     AcrD of Escherichia coli is an aminoglycoside efflux pump.
+  JOURNAL   J Bacteriol 182:1754-6 (2000)
+            DOI:10.1128/JB.182.6.1754-1756.2000
+REFERENCE   PMID:12426336
+  AUTHORS   Elkins CA, Nikaido H
+  TITLE     Substrate specificity of the RND-type multidrug efflux pumps AcrB and AcrD of Escherichia coli is determined predominantly by two large periplasmic loops.
+  JOURNAL   J Bacteriol 184:6490-8 (2002)
+            DOI:10.1128/JB.184.23.6490-6499.2002
+///

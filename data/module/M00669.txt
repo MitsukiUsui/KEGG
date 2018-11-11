@@ -1,0 +1,17 @@
+ENTRY       M00669            Complex   Module
+NAME        gamma-Hexachlorocyclohexane transport system
+DEFINITION  K02067+K02066+K02065+K18480
+ORTHOLOGY   K02067  mlaD, linM; phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein
+            K02066  mlaE, linK; phospholipid/cholesterol/gamma-HCH transport system permease protein
+            K02065  mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein
+            K18480  linN; cholesterol transport system auxiliary component
+CLASS       Structural complex; Environmental information processing; Saccharide, polyol, and lipid transport system
+BRITE       ko02000  Transporters
+COMMENT     Substrate: gamma-Hexachlorocyclohexane [CPD:C07075]
+DBLINKS     BSID: 1025309
+REFERENCE   PMID:17369300
+  AUTHORS   Endo R, Ohtsubo Y, Tsuda M, Nagata Y
+  TITLE     Identification and characterization of genes encoding a putative ABC-type transporter essential for utilization of gamma-hexachlorocyclohexane in Sphingobium japonicum UT26.
+  JOURNAL   J Bacteriol 189:3712-20 (2007)
+            DOI:10.1128/JB.01883-06
+///

@@ -1,0 +1,26 @@
+ENTRY       M00210            Complex   Module
+NAME        Phospholipid transport system
+DEFINITION  K07323+K02067+K02066+K02065+K07122
+ORTHOLOGY   K07323  mlaC; phospholipid transport system substrate-binding protein
+            K02067  mlaD, linM; phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein
+            K02066  mlaE, linK; phospholipid/cholesterol/gamma-HCH transport system permease protein
+            K02065  mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein
+            K07122  mlaB; phospholipid transport system transporter-binding protein
+CLASS       Structural complex; Environmental information processing; Saccharide, polyol, and lipid transport system
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 1:1:2:2:1
+            Substrate: Phospholipid [CPD:C00865]
+            MlaA [KO:K04754] is probably related to the function of this transport system.
+DBLINKS     BSID: 890477
+REFERENCE   PMID:19383799
+  AUTHORS   Malinverni JC, Silhavy TJ
+  TITLE     An ABC transport system that maintains lipid asymmetry in the gram-negative outer membrane.
+  JOURNAL   Proc Natl Acad Sci U S A 106:8009-14 (2009)
+            DOI:10.1073/pnas.0903229106
+REFERENCE   PMID:8145644
+  AUTHORS   Suzuki T, Murai T, Fukuda I, Tobe T, Yoshikawa M, Sasakawa C
+  TITLE     Identification and characterization of a chromosomal virulence gene, vacJ, required for intercellular spreading of Shigella flexneri.
+  JOURNAL   Mol Microbiol 11:31-41 (1994)
+            DOI:10.1111/j.1365-2958.1994.tb00287.x
+///

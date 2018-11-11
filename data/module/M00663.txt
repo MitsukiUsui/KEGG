@@ -1,0 +1,20 @@
+ENTRY       M00663            FuncSet   Module
+NAME        SsrA-SsrB two-component regulatory system
+DEFINITION  K14978 K14979
+ORTHOLOGY   K14978  ssrA; two-component system, LuxR family, secretion system sensor histidine kinase SsrA
+            K14979  ssrB; two-component system, LuxR family, secretion system response regulator SsrB
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1022073
+REFERENCE   PMID:16904940
+  AUTHORS   Lober S, Jackel D, Kaiser N, Hensel M
+  TITLE     Regulation of Salmonella pathogenicity island 2 genes by independent environmental signals.
+  JOURNAL   Int J Med Microbiol 296:435-47 (2006)
+            DOI:10.1016/j.ijmm.2006.05.001
+REFERENCE   PMID:19264535
+  AUTHORS   Fass E, Groisman EA
+  TITLE     Control of Salmonella pathogenicity island-2 gene expression.
+  JOURNAL   Curr Opin Microbiol 12:199-204 (2009)
+            DOI:10.1016/j.mib.2009.01.004
+///

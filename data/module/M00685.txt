@@ -1,0 +1,32 @@
+ENTRY       M00685            FuncSet   Module
+NAME        Apoptotic machinery
+DEFINITION  K02084 (K04399,K04489) (K02187,K04397)
+ORTHOLOGY   K02084  apoptotic protease-activating factor
+            K04399,K04489  caspase 9
+            K02187,K04397  caspase 3/7
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04210 Apoptosis
+            map04214 Apoptosis - fly
+            map04215 Apoptosis - multiple species
+DBLINKS     BSID: 1108224
+REFERENCE   PMID:22244258
+  AUTHORS   Kuranaga E
+  TITLE     Beyond apoptosis: caspase regulatory mechanisms and functions in vivo.
+  JOURNAL   Genes Cells 17:83-97 (2012)
+            DOI:10.1111/j.1365-2443.2011.01579.x
+REFERENCE   PMID:16842034
+  AUTHORS   Hay BA, Guo M
+  TITLE     Caspase-dependent cell death in Drosophila.
+  JOURNAL   Annu Rev Cell Dev Biol 22:623-50 (2006)
+            DOI:10.1146/annurev.cellbio.21.012804.093845
+REFERENCE   PMID:18414491
+  AUTHORS   Degterev A, Yuan J
+  TITLE     Expansion and evolution of cell death programmes.
+  JOURNAL   Nat Rev Mol Cell Biol 9:378-90 (2008)
+            DOI:10.1038/nrm2393
+REFERENCE   PMID:22078876
+  AUTHORS   Fuchs Y, Steller H
+  TITLE     Programmed cell death in animal development and disease.
+  JOURNAL   Cell 147:742-58 (2011)
+            DOI:10.1016/j.cell.2011.10.033
+///

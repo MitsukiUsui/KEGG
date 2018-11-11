@@ -1,0 +1,27 @@
+ENTRY       M00679            FuncSet   Module
+NAME        BMP signaling
+DEFINITION  (K21283,K04662,K04663,K16620,K16621,K16622,K04664,K04665) ((K04671,K04670,K13596,K04672)+(K04673,K13578,K04675)) ((K04676,K16790,K16791)+K04501)
+ORTHOLOGY   K21283,K04662,K04663,K16620,K16621,K16622,K04664,K04665  bone morphogenetic protein
+            (K04671,K04670,K13596,K13597,K04672)+(K04673,K13578,K04675)  bone morphogenetic protein receptor
+            (K04676,K16790,K16791)+K04501  SMAD1, 5, 8 with SMAD4
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04350  TGF-beta signaling pathway
+            map04390  Hippo signaling pathway
+            map04550  Signaling pathways regulating pluripotency of stem cells
+DBLINKS     BSID: 1108218
+REFERENCE   PMID:12485160
+  AUTHORS   Miyazawa K, Shinozaki M, Hara T, Furuya T, Miyazono K
+  TITLE     Two major Smad pathways in TGF-beta superfamily signalling.
+  JOURNAL   Genes Cells 7:1191-204 (2002)
+            DOI:10.1046/j.1365-2443.2002.00599.x
+REFERENCE   PMID:18000526
+  AUTHORS   Schmierer B, Hill CS
+  TITLE     TGFbeta-SMAD signal transduction: molecular specificity and functional flexibility.
+  JOURNAL   Nat Rev Mol Cell Biol 8:970-82 (2007)
+            DOI:10.1038/nrm2297
+REFERENCE   PMID:9759503
+  AUTHORS   Massague J.
+  TITLE     TGF-beta signal transduction.
+  JOURNAL   Annu Rev Biochem 67:753-91 (1998)
+            DOI:10.1146/annurev.biochem.67.1.753
+///

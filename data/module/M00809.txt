@@ -1,0 +1,23 @@
+ENTRY       M00809            Complex   Module
+NAME        PTS system, glucose-specific II component
+DEFINITION  K20116+K20117+K20118
+ORTHOLOGY   K20116  PTS-Glc1-EIIA; PTS system, glucose-specific IIA component
+            K20117  PTS-Glc1-EIIB; PTS system, glucose-specific IIB component
+            K20118  PTS-Glc1-EIIC; PTS system, glucose-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 1387976
+REFERENCE   PMID:1956301
+  AUTHORS   Gonzy-Treboul G, de Waard JH, Zagorec M, Postma PW
+  TITLE     The glucose permease of the phosphotransferase system of Bacillus subtilis: evidence for IIGlc and IIIGlc domains.
+  JOURNAL   Mol Microbiol 5:1241-9 (1991)
+            DOI:10.1111/j.1365-2958.1991.tb01898.x
+REFERENCE   PMID:10537210
+  AUTHORS   Christiansen I, Hengstenberg W
+  TITLE     Staphylococcal phosphoenolpyruvate-dependent phosphotransferase system--two highly similar glucose permeases in Staphylococcus carnosus with different glucoside specificity: protein engineering in vivo?
+  JOURNAL   Microbiology 145 ( Pt 10):2881-9 (1999)
+            DOI:10.1099/00221287-145-10-2881
+///

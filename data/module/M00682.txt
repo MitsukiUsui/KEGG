@@ -1,0 +1,22 @@
+ENTRY       M00682            FuncSet   Module
+NAME        Notch signaling
+DEFINITION  (K06051,K06059,(K06170+(K04505,K04522)+K06171+K06172)) (K02599,K20994,K20995,K20996) K06053
+ORTHOLOGY   K06051  delta
+            K06059  disintegrin and metalloproteinase domain-containing protein 17
+            K06170+(K04505,K04522)+K06171+K06172  gamma-secretase complex
+            K02599,K20994,K20995,K20996  Notch
+            K06053  recombining binding protein suppressor of hairless
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04330  Notch signaling pathway
+DBLINKS     BSID: 1108221
+REFERENCE   PMID:19825158
+  AUTHORS   Gazave E, Lapebie P, Richards GS, Brunet F, Ereskovsky AV, Degnan BM, Borchiellini C, Vervoort M, Renard E
+  TITLE     Origin and evolution of the Notch signalling pathway: an overview from eukaryotic genomes.
+  JOURNAL   BMC Evol Biol 9:249 (2009)
+            DOI:10.1186/1471-2148-9-249
+REFERENCE   PMID:16410732
+  AUTHORS   Shi S, Stanley P
+  TITLE     Evolutionary origins of Notch signaling in early development.
+  JOURNAL   Cell Cycle 5:274-8 (2006)
+            DOI:10.4161/cc.5.3.2396
+///

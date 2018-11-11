@@ -1,0 +1,27 @@
+ENTRY       M00765            FuncSet   Module
+NAME        Multidrug resistance, efflux pump Bmr
+DEFINITION  K19575 K19578
+ORTHOLOGY   K19575  bmrR; MerR family transcriptional regulator, activator of bmr gene
+            K19578  bmr; MFS transporter, DHA1 family, multidrug resistance protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1293713
+REFERENCE   PMID:7961792
+  AUTHORS   Ahmed M, Borsch CM, Taylor SS, Vazquez-Laslop N, Neyfakh AA
+  TITLE     A protein that activates expression of a multidrug efflux transporter upon binding the transporter substrates.
+  JOURNAL   J Biol Chem 269:28506-13 (1994)
+REFERENCE   PMID:8631728
+  AUTHORS   Markham PN, Ahmed M, Neyfakh AA
+  TITLE     The drug-binding activity of the multidrug-responding transcriptional regulator BmrR resides in its C-terminal domain.
+  JOURNAL   J Bacteriol 178:1473-5 (1996)
+            DOI:10.1128/JB.178.5.1473-1475.1996
+REFERENCE   PMID:9345308
+  AUTHORS   Markham PN, LoGuidice J, Neyfakh AA
+  TITLE     Broad ligand specificity of the transcriptional regulator of the Bacillus subtilis multidrug transporter Bmr.
+  JOURNAL   Biochem Biophys Res Commun 239:269-72 (1997)
+            DOI:10.1006/bbrc.1997.7467
+REFERENCE   PMID:10606527
+  AUTHORS   Vazquez-Laslop N, Markham PN, Neyfakh AA
+  TITLE     Mechanism of ligand recognition by BmrR, the multidrug-responding transcriptional regulator: mutational analysis of the ligand-binding site.
+  JOURNAL   Biochemistry 38:16925-31 (1999)
+            DOI:10.1021/bi991988g
+///

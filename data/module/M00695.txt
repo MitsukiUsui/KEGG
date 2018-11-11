@@ -1,0 +1,26 @@
+ENTRY       M00695            FuncSet   Module
+NAME        cAMP signaling
+DEFINITION  (K04632,K04630) (K08041,K08042,K08043,K08044,K08045,K08046,K08047,K08048,K08049,K01768) K04345
+ORTHOLOGY   K04632  guanine nucleotide-binding protein G(s) subunit alpha
+            K04630  guanine nucleotide-binding protein G(i) subunit alpha
+            K08041,K08042,K08043,K08044,K08045,K08046,K08047,K08048,K08049,K01768  adenylate cyclase  [EC:4.6.1.1]
+            K04345  protein kinase A [EC:2.7.11.11]
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04024  cAMP signaling pathway
+DBLINKS     BSID: 1108234
+REFERENCE   PMID:19514907
+  AUTHORS   Shemarova IV
+  TITLE     cAMP-dependent signal pathways in unicellular eukaryotes.
+  JOURNAL   Crit Rev Microbiol 35:23-42 (2009)
+            DOI:10.1080/10408410802645646
+REFERENCE   PMID:23356492
+  AUTHORS   Gancedo JM
+  TITLE     Biological roles of cAMP: variations on a theme in the different kingdoms of life.
+  JOURNAL   Biol Rev Camb Philos Soc 88:645-68 (2013)
+            DOI:10.1111/brv.12020
+REFERENCE   PMID:18323530
+  AUTHORS   Serezani CH, Ballinger MN, Aronoff DM, Peters-Golden M
+  TITLE     Cyclic AMP: master regulator of innate immune cell function.
+  JOURNAL   Am J Respir Cell Mol Biol 39:127-32 (2008)
+            DOI:10.1165/rcmb.2008-0091TR
+///

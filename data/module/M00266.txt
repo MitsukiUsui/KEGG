@@ -1,0 +1,19 @@
+ENTRY       M00266            Complex   Module
+NAME        PTS system, maltose/glucose-specific II component
+DEFINITION  K02777+K02790+K02791
+ORTHOLOGY   K02777  PTS-Glc-EIIA; PTS system, sugar-specific IIA component
+            K02790  PTS-MalGlc-EIIB; PTS system, maltose/glucose-specific IIB component
+            K02791  PTS-MalGlc-EIIC; PTS system, maltose/glucose-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00500  Starch and sucrose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 890529
+REFERENCE   PMID:1856179
+  AUTHORS   Reidl J, Boos W
+  TITLE     The malX malY operon of Escherichia coli encodes a novel enzyme II of the phosphotransferase system recognizing glucose and maltose and an enzyme abolishing the endogenous induction of the maltose system.
+  JOURNAL   J Bacteriol 173:4862-76 (1991)
+            DOI:10.1128/JB.173.15.4862-4876.1991
+///

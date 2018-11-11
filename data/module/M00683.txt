@@ -1,0 +1,22 @@
+ENTRY       M00683            FuncSet   Module
+NAME        Hippo signaling
+DEFINITION  ((K16683,K16821,K16822)+K16684+K16685) (K04412+K16686) (K08791+K06685) ((K16687,K16820)+K09448)
+ORTHOLOGY   (K16683,K16821,K16822)+K16684+K16685  Kibra-Ex-Mer complex
+            K04412+K16686  Hpo-Sav complex
+            K08791+K06685  Wts-Mats kinase complex
+            (K16687,K16820)+K09448  Sd-Yki complex
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04390  Hippo signaling pathway
+            map04391  Hippo signaling pathway - fly
+DBLINKS     BSID: 1108222
+REFERENCE   PMID:20951342
+  AUTHORS   Pan D
+  TITLE     The hippo signaling pathway in development and cancer.
+  JOURNAL   Dev Cell 19:491-505 (2010)
+            DOI:10.1016/j.devcel.2010.09.011
+REFERENCE   PMID:21808241
+  AUTHORS   Zhao B, Tumaneng K, Guan KL
+  TITLE     The Hippo pathway in organ size control, tissue regeneration and stem cell self-renewal.
+  JOURNAL   Nat Cell Biol 13:877-83 (2011)
+            DOI:10.1038/ncb2303
+///

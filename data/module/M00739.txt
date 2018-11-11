@@ -1,0 +1,24 @@
+ENTRY       M00739            Complex   Module
+NAME        Cationic peptide transport system
+DEFINITION  K19226+K19227+K19228+K19229+K19230
+ORTHOLOGY   K19226  sapA; cationic peptide transport system substrate-binding protein
+            K19227  sapB; cationic peptide transport system permease protein
+            K19228  sapC; cationic peptide transport system permease protein
+            K19229  sapD; cationic peptide transport system ATP-binding protein
+            K19230  sapF; cationic peptide transport system ATP-binding protein
+CLASS       Structural complex; Environmental information processing; Peptide and nickel transport system
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Substrate: Protamine sulfate [DR:D02224], Defensin beta-1 [CPD:C16059]
+DBLINKS     BSID: 1208951
+REFERENCE   PMID:17064364
+  AUTHORS   Mason KM, Bruggeman ME, Munson RS, Bakaletz LO
+  TITLE     The non-typeable Haemophilus influenzae Sap transporter provides a mechanism of antimicrobial peptide resistance and SapD-dependent potassium acquisition.
+  JOURNAL   Mol Microbiol 62:1357-72 (2006)
+            DOI:10.1111/j.1365-2958.2006.05460.x
+REFERENCE   PMID:22072973
+  AUTHORS   Shelton CL, Raffel FK, Beatty WL, Johnson SM, Mason KM
+  TITLE     Sap transporter mediated import and subsequent degradation of antimicrobial peptides in Haemophilus.
+  JOURNAL   PLoS Pathog 7:e1002360 (2011)
+            DOI:10.1371/journal.ppat.1002360
+///

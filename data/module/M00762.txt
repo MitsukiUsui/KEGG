@@ -1,0 +1,25 @@
+ENTRY       M00762            Complex   Module
+NAME        Copper-processing system
+DEFINITION  K19341+K19340
+ORTHOLOGY   K19341  nosY; Cu-processing system permease protein
+            K19340  nosF; Cu-processing system ATP-binding protein
+CLASS       Structural complex; Environmental information processing; ABC-2 type and other transport systems
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 1253492
+REFERENCE   PMID:12618453
+  AUTHORS   Honisch U, Zumft WG
+  TITLE     Operon structure and regulation of the nos gene region of Pseudomonas stutzeri, encoding an ABC-Type ATPase for maturation of nitrous oxide reductase.
+  JOURNAL   J Bacteriol 185:1895-902 (2003)
+            DOI:10.1128/JB.185.6.1895-1902.2003
+REFERENCE   PMID:9274035
+  AUTHORS   Chan YK, McCormick WA, Watson RJ
+  TITLE     A new nos gene downstream from nosDFY is essential for dissimilatory reduction of nitrous oxide by Rhizobium (Sinorhizobium) meliloti.
+  JOURNAL   Microbiology 143 ( Pt 8):2817-24 (1997)
+            DOI:10.1099/00221287-143-8-2817
+REFERENCE   PMID:2170125
+  AUTHORS   Zumft WG, Viebrock-Sambale A, Braun C
+  TITLE     Nitrous oxide reductase from denitrifying Pseudomonas stutzeri. Genes for copper-processing and properties of the deduced products, including a new member of the family of ATP/GTP-binding proteins.
+  JOURNAL   Eur J Biochem 192:591-9 (1990)
+            DOI:10.1111/j.1432-1033.1990.tb19265.x
+///

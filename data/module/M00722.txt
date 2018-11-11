@@ -1,0 +1,26 @@
+ENTRY       M00722            FuncSet   Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, ethanolaminephosphotransferase EptA
+DEFINITION  K07771 K07643 K03760
+ORTHOLOGY   K07771  basR; two-component system, OmpR family, response regulator BasR [COG:COG0745] [GO:0000156]
+            K07643  basS; two-component system, OmpR family, sensor histidine kinase BasS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K03760  eptA; phosphoethanolamine transferase [COG:COG2194]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: modification of the lipid A with phosphoethanolamine
+DBLINKS     BSID: 1208941
+REFERENCE   PMID:24914122
+  AUTHORS   Jayol A, Poirel L, Brink A, Villegas MV, Yilmaz M, Nordmann P
+  TITLE     Resistance to colistin associated with a single amino acid change in protein PmrB among Klebsiella pneumoniae isolates of worldwide origin.
+  JOURNAL   Antimicrob Agents Chemother 58:4762-6 (2014)
+            DOI:10.1128/AAC.00084-14
+REFERENCE   PMID:25505462
+  AUTHORS   Olaitan AO, Morand S, Rolain JM
+  TITLE     Mechanisms of polymyxin resistance: acquired and intrinsic resistance in bacteria.
+  JOURNAL   Front Microbiol 5:643 (2014)
+            DOI:10.3389/fmicb.2014.00643
+REFERENCE   PMID:23748343
+  AUTHORS   Needham BD, Trent MS
+  TITLE     Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis.
+  JOURNAL   Nat Rev Microbiol 11:467-81 (2013)
+            DOI:10.1038/nrmicro3047
+///

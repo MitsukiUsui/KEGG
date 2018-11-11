@@ -1,0 +1,28 @@
+ENTRY       M00708            Complex   Module
+NAME        Multidrug resistance, PatAB transporter
+DEFINITION  K18891+K18892
+ORTHOLOGY   K18891  patA; ATP-binding cassette, subfamily B, multidrug efflux pump
+            K18892  patB; ATP-binding cassette, subfamily B, multidrug efflux pump
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144974
+REFERENCE   PMID:16436727
+  AUTHORS   Marrer E, Schad K, Satoh AT, Page MG, Johnson MM, Piddock LJ
+  TITLE     Involvement of the putative ATP-dependent efflux proteins PatA and PatB in fluoroquinolone resistance of a multidrug-resistant mutant of Streptococcus pneumoniae.
+  JOURNAL   Antimicrob Agents Chemother 50:685-93 (2006)
+            DOI:10.1128/AAC.50.2.685-693.2006
+REFERENCE   PMID:16352823
+  AUTHORS   Dalton TL, Collins JT, Barnett TC, Scott JR
+  TITLE     RscA, a member of the MDR1 family of transporters, is repressed by CovR and required for growth of Streptococcus pyogenes under heat stress.
+  JOURNAL   J Bacteriol 188:77-85 (2006)
+            DOI:10.1128/JB.188.1.77-85.2006
+REFERENCE   PMID:16879641
+  AUTHORS   Lubelski J, de Jong A, van Merkerk R, Agustiandari H, Kuipers OP, Kok J, Driessen AJ
+  TITLE     LmrCD is a major multidrug resistance transporter in Lactococcus lactis.
+  JOURNAL   Mol Microbiol 61:771-81 (2006)
+            DOI:10.1111/j.1365-2958.2006.05267.x
+REFERENCE   PMID:21930876
+  AUTHORS   Escudero JA, San Millan A, Gutierrez B, Hidalgo L, La Ragione RM, AbuOun M, Galimand M, Ferrandiz MJ, Dominguez L, de la Campa AG, Gonzalez-Zorn B
+  TITLE     Fluoroquinolone efflux in Streptococcus suis is mediated by SatAB and not by SmrA.
+  JOURNAL   Antimicrob Agents Chemother 55:5850-60 (2011)
+            DOI:10.1128/AAC.00498-11
+///

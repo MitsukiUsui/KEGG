@@ -1,0 +1,30 @@
+ENTRY       M00768            FuncSet   Module
+NAME        Multidrug resistance, efflux pump GesABC
+DEFINITION  K19592 K19595+K19594+K18139
+ORTHOLOGY   K19592  golS; MerR family transcriptional regulator, gold-responsive activator of gol and ges genes
+            K19595  gesA; membrane fusion protein, gold/copper resistance efflux system
+            K19594  gesB; gold/copper resistance efflux pump
+            K18139  oprM; outer membrane protein, multidrug efflux system
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1315066
+REFERENCE   PMID:21153861
+  AUTHORS   Checa SK, Soncini FC
+  TITLE     Bacterial gold sensing and resistance.
+  JOURNAL   Biometals 24:419-27 (2011)
+            DOI:10.1007/s10534-010-9393-2
+REFERENCE   PMID:17919284
+  AUTHORS   Pontel LB, Audero ME, Espariz M, Checa SK, Soncini FC
+  TITLE     GolS controls the response to gold by the hierarchical induction of Salmonella-specific genes that include a CBA efflux-coding operon.
+  JOURNAL   Mol Microbiol 66:814-25 (2007)
+            DOI:10.1111/j.1365-2958.2007.05963.x
+REFERENCE   PMID:17244194
+  AUTHORS   Checa SK, Espariz M, Audero ME, Botta PE, Spinelli SV, Soncini FC
+  TITLE     Bacterial sensing of and resistance to gold salts.
+  JOURNAL   Mol Microbiol 63:1307-18 (2007)
+            DOI:10.1111/j.1365-2958.2007.05590.x
+REFERENCE   PMID:20497225
+  AUTHORS   Conroy O, Kim EH, McEvoy MM, Rensing C
+  TITLE     Differing ability to transport nonmetal substrates by two RND-type metal exporters.
+  JOURNAL   FEMS Microbiol Lett 308:115-22 (2010)
+            DOI:10.1111/j.1574-6968.2010.02006.x
+///

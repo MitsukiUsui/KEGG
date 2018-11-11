@@ -1,0 +1,57 @@
+ENTRY       M00647            FuncSet   Module
+NAME        Multidrug resistance, efflux pump AcrAB-TolC/SmeDEF
+DEFINITION  (K03577,K18992,K13632,K13631,K05804,K18325,K18991) (K03585+K18138+(K18139,K12340))
+ORTHOLOGY   K03577  acrR; TetR/AcrR family transcriptional regulator, acrAB operon repressor
+            K18992  cmeR; TetR/AcrR family transcriptional regulator, cmeABC operon repressor
+            K13632  marA; AraC family transcriptional regulator, mar-sox-rob regulon activator
+            K13631  soxS; AraC family transcriptional regulator, mar-sox-rob regulon activator
+            K05804  rob; AraC family transcriptional regulator, mar-sox-rob regulon activator
+            K18325  ramA; AraC family of transcriptional regulator, multidrug resistance transcriptional activator
+            K18991  mtrA; AraC family transcriptional regulator, activator of mtrCDE
+            K03585  acrA; membrane fusion protein, multidrug efflux system
+            K18138  acrB; multidrug efflux pump
+            K18139  oprM; outer membrane protein, multidrug efflux system
+            K12340  tolC; outer membrane protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1022070
+REFERENCE   PMID:12456787
+  AUTHORS   Grkovic S, Brown MH, Skurray RA
+  TITLE     Regulation of bacterial drug export systems.
+  JOURNAL   Microbiol Mol Biol Rev 66:671-701, table of contents (2002)
+            DOI:10.1128/MMBR.66.4.671-701.2002
+REFERENCE   PMID:16597633
+  AUTHORS   Gould VC, Avison MB
+  TITLE     SmeDEF-mediated antimicrobial drug resistance in Stenotrophomonas maltophilia clinical isolates having defined phylogenetic relationships.
+  JOURNAL   J Antimicrob Chemother 57:1070-6 (2006)
+            DOI:10.1093/jac/dkl106
+REFERENCE   PMID:24043404
+  AUTHORS   Ruiz C, Levy SB
+  TITLE     Regulation of acrAB expression by cellular metabolites in Escherichia coli.
+  JOURNAL   J Antimicrob Chemother 69:390-9 (2014)
+            DOI:10.1093/jac/dkt352
+REFERENCE   PMID:18694955
+  AUTHORS   Bailey AM, Paulsen IT, Piddock LJ
+  TITLE     RamA confers multidrug resistance in Salmonella enterica via increased expression of acrB, which is inhibited by chlorpromazine.
+  JOURNAL   Antimicrob Agents Chemother 52:3604-11 (2008)
+            DOI:10.1128/AAC.00661-08
+REFERENCE   PMID:11302812
+  AUTHORS   Jellen-Ritter AS, Kern WV
+  TITLE     Enhanced expression of the multidrug efflux pumps AcrAB and AcrEF associated with insertion element transposition in Escherichia coli mutants Selected with a fluoroquinolone.
+  JOURNAL   Antimicrob Agents Chemother 45:1467-72 (2001)
+            DOI:10.1128/AAC.45.5.1467-1472.2001
+REFERENCE   PMID:23221802
+  AUTHORS   Zalucki YM, Dhulipala V, Shafer WM
+  TITLE     Dueling regulatory properties of a transcriptional activator (MtrA) and repressor (MtrR) that control efflux pump gene expression in Neisseria gonorrhoeae.
+  JOURNAL   MBio 3:e00446-12 (2012)
+            DOI:10.1128/mBio.00446-12
+REFERENCE   PMID:10417654
+  AUTHORS   Rouquette C, Harmon JB, Shafer WM
+  TITLE     Induction of the mtrCDE-encoded efflux pump system of Neisseria gonorrhoeae requires MtrA, an AraC-like protein.
+  JOURNAL   Mol Microbiol 33:651-8 (1999)
+            DOI:10.1046/j.1365-2958.1999.01517.x
+REFERENCE   PMID:15728904
+  AUTHORS   Lin J, Akiba M, Sahin O, Zhang Q
+  TITLE     CmeR functions as a transcriptional repressor for the multidrug efflux pump CmeABC in Campylobacter jejuni.
+  JOURNAL   Antimicrob Agents Chemother 49:1067-75 (2005)
+            DOI:10.1128/AAC.49.3.1067-1075.2005
+///

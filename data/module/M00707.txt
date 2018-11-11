@@ -1,0 +1,18 @@
+ENTRY       M00707            Complex   Module
+NAME        Multidrug resistance, MdlAB/SmdAB transporter
+DEFINITION  K18889+K18890
+ORTHOLOGY   K18889  mdlA; ATP-binding cassette, subfamily B, multidrug efflux pump
+            K18890  mdlB; ATP-binding cassette, subfamily B, multidrug efflux pump
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144973
+REFERENCE   PMID:18024518
+  AUTHORS   Matsuo T, Chen J, Minato Y, Ogawa W, Mizushima T, Kuroda T, Tsuchiya T
+  TITLE     SmdAB, a heterodimeric ABC-Type multidrug efflux pump, in Serratia marcescens.
+  JOURNAL   J Bacteriol 190:648-54 (2008)
+            DOI:10.1128/JB.01513-07
+REFERENCE   PMID:11544226
+  AUTHORS   Kobayashi N, Nishino K, Yamaguchi A
+  TITLE     Novel macrolide-specific ABC-type efflux transporter in Escherichia coli.
+  JOURNAL   J Bacteriol 183:5639-44 (2001)
+            DOI:10.1128/JB.183.19.5639-5644.2001
+///

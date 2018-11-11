@@ -1,0 +1,19 @@
+ENTRY       M00760            FuncSet   Module
+NAME        Erythromycin resistance, macrolide 2'-phosphotransferase I MphA
+DEFINITION  K19060 K06979
+ORTHOLOGY   K19060  mphR; TetR/AcrR family transcriptional regulator, macrolide resistance operon repressor [COG:COG1309]
+            K06979  mph; macrolide phosphotransferase [COG:COG3173]
+CLASS       Functional set; Environmental information processing; Drug resistance
+COMMENT     Resistance mechanism: inactivates antibiotics by phosphorylation of the 2'-hydroxyl group on the desosamine sugar
+DBLINKS     BSID: 1253490
+REFERENCE   PMID:19265703
+  AUTHORS   Zheng J, Sagar V, Smolinsky A, Bourke C, LaRonde-LeBlanc N, Cropp TA
+  TITLE     Structure and function of the macrolide biosensor protein, MphR(A), with and without erythromycin.
+  JOURNAL   J Mol Biol 387:1250-60 (2009)
+            DOI:10.1016/j.jmb.2009.02.058
+REFERENCE   PMID:10960087
+  AUTHORS   Noguchi N, Takada K, Katayama J, Emura A, Sasatsu M
+  TITLE     Regulation of transcription of the mph(A) gene for macrolide 2'-phosphotransferase I in Escherichia coli: characterization of the regulatory gene mphR(A).
+  JOURNAL   J Bacteriol 182:5052-8 (2000)
+            DOI:10.1128/JB.182.18.5052-5058.2000
+///

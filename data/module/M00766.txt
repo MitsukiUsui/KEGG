@@ -1,0 +1,18 @@
+ENTRY       M00766            FuncSet   Module
+NAME        Streptomycin resistance, deactivating enzyme StrAB
+DEFINITION  K10673 K04343
+ORTHOLOGY   K10673  strA; streptomycin 3"-kinase [EC:2.7.1.87]
+            K04343  strB; streptomycin 6-kinase [EC:2.7.1.72]
+CLASS       Functional set; Environmental information processing; Drug resistance
+DBLINKS     BSID: 1315064
+REFERENCE   PMID:12029529
+  AUTHORS   Sundin GW
+  TITLE     Distinct recent lineages of the strA- strB streptomycin-resistance genes in clinical and environmental bacteria.
+  JOURNAL   Curr Microbiol 45:63-9 (2002)
+            DOI:10.1007/s00284-001-0100-y
+REFERENCE   PMID:7828927
+  AUTHORS   Chiou CS, Jones AL
+  TITLE     Expression and identification of the strA-strB gene pair from streptomycin-resistant Erwinia amylovora.
+  JOURNAL   Gene 152:47-51 (1995)
+            DOI:10.1016/0378-1119(94)00721-4
+///

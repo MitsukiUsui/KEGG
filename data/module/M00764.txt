@@ -1,0 +1,17 @@
+ENTRY       M00764            Complex   Module
+NAME        PTS system, fructoselysine/glucoselysine-specific II component
+DEFINITION  K19506+K19507+K19508+K19509
+ORTHOLOGY   K19506  PTS-Gfr-EIIA; PTS system, fructoselysine/glucoselysine-specific IIA component
+            K19507  PTS-Gfr-EIIB; PTS system, fructoselysine/glucoselysine-specific IIB component
+            K19508  PTS-Gfr-EIIC; PTS system, fructoselysine/glucoselysine-specific IIC component
+            K19509  PTS-Gfr-EIID; PTS system, fructoselysine/glucoselysine-specific IID component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 1293714
+REFERENCE   PMID:26100043
+  AUTHORS   Miller KA, Phillips RS, Kilgore PB, Smith GL, Hoover TR
+  TITLE     A Mannose Family Phosphotransferase System Permease and Associated Enzymes Are Required for Utilization of Fructoselysine and Glucoselysine in Salmonella enterica Serovar Typhimurium.
+  JOURNAL   J Bacteriol 197:2831-9 (2015)
+            DOI:10.1128/JB.00339-15
+///

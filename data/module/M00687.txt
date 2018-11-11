@@ -1,0 +1,32 @@
+ENTRY       M00687            FuncSet   Module
+NAME        MAPK (ERK1/2) signaling
+DEFINITION  (K04366,K08845,K04365,K04367) (K04368,K04369) K04371
+ORTHOLOGY   K04366,K08845,K04365,K04367  MAP kinase kinase kinase
+            K04368,K04369  MAP kinase kinase (MEK1/2)
+            K04371  MAP kinase (ERK1/2)
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04010  MAPK signaling pathway
+            map04013  MAPK signaling pathway - fly
+            map04011  MAPK signaling pathway - yeast
+DBLINKS     BSID: 1108226
+REFERENCE   PMID:25483189
+  AUTHORS   Tian T, Harding A
+  TITLE     How MAP kinase modules function as robust, yet adaptable, circuits.
+  JOURNAL   Cell Cycle 13:2379-90 (2014)
+            DOI:10.4161/cc.29349
+REFERENCE   PMID:15187187
+  AUTHORS   Roux PP, Blenis J
+  TITLE     ERK and p38 MAPK-activated protein kinases: a family of protein kinases with diverse biological functions.
+  JOURNAL   Microbiol Mol Biol Rev 68:320-44 (2004)
+            DOI:10.1128/MMBR.68.2.320-344.2004
+REFERENCE   PMID:10209154
+  AUTHORS   Garrington TP, Johnson GL
+  TITLE     Organization and regulation of mitogen-activated protein kinase signaling pathways.
+  JOURNAL   Curr Opin Cell Biol 11:211-8 (1999)
+            DOI:10.1016/S0955-0674(99)80028-3
+REFERENCE   PMID:12471242
+  AUTHORS   Johnson GL, Lapadat R
+  TITLE     Mitogen-activated protein kinase pathways mediated by ERK, JNK, and p38 protein kinases.
+  JOURNAL   Science 298:1911-2 (2002)
+            DOI:10.1126/science.1072682
+///

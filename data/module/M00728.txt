@@ -1,0 +1,31 @@
+ENTRY       M00728            FuncSet   Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, envelope protein folding and degrading factors DegP and DsbA
+DEFINITION  K07640 K07662 (K04771,K03673)
+ORTHOLOGY   K07640  cpxA; two-component system, OmpR family, sensor histidine kinase CpxA [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07662  cpxR; two-component system, OmpR family, response regulator CpxR [COG:COG0745] [GO:0000156]
+            K04771  degP, htrA; serine protease Do [EC:3.4.21.107] [COG:COG0265]
+            K03673  dsbA; thiol:disulfide interchange protein DsbA [COG:COG0526]
+CLASS       Functional set; Environmental information processing; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: assembly of multidrug transporters which mediate efflux of CAMPs
+DBLINKS     BSID: 1208953
+REFERENCE   PMID:25294881
+  AUTHORS   Weatherspoon-Griffin N, Yang D, Kong W, Hua Z, Shi Y
+  TITLE     The CpxR/CpxA two-component regulatory system up-regulates the multidrug resistance cascade to facilitate Escherichia coli resistance to a model antimicrobial peptide.
+  JOURNAL   J Biol Chem 289:32571-82 (2014)
+            DOI:10.1074/jbc.M114.565762
+REFERENCE   PMID:23267440
+  AUTHORS   Piek S, Kahler CM
+  TITLE     A comparison of the endotoxin biosynthesis and protein oxidation pathways in the biogenesis of the outer membrane of Escherichia coli and Neisseria meningitidis.
+  JOURNAL   Front Cell Infect Microbiol 2:162 (2012)
+            DOI:10.3389/fcimb.2012.00162
+REFERENCE   PMID:22092948
+  AUTHORS   Vogt SL, Raivio TL
+  TITLE     Just scratching the surface: an expanding view of the Cpx envelope stress response.
+  JOURNAL   FEMS Microbiol Lett 326:2-11 (2012)
+            DOI:10.1111/j.1574-6968.2011.02406.x
+REFERENCE
+  AUTHORS   Gross R, Beier D (ed).
+  TITLE     Two-component system in bacteria
+  JOURNAL   Kaiser Academic Press (2012)
+///

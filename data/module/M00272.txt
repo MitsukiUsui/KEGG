@@ -1,0 +1,17 @@
+ENTRY       M00272            Complex   Module
+NAME        PTS system, beta-glucoside (arbutin/salicin/cellobiose)-specific II component
+DEFINITION  K02777+K02752+K02753
+ORTHOLOGY   K02777  PTS-Glc-EIIA; PTS system, sugar-specific IIA component
+            K02752  PTS-Asc-EIIB; PTS system, beta-glucoside (arbutin/salicin/cellobiose)-specific IIB component
+            K02753  PTS-Asc-EIIC; PTS system, beta-glucoside (arbutin/salicin/cellobiose)-specific IIC component
+CLASS       Structural complex; Environmental information processing; Phosphotransferase system (PTS)
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map02060  Phosphotransferase system (PTS)
+BRITE       ko02000  Transporters
+DBLINKS     BSID: 890534
+REFERENCE   PMID:1630307
+  AUTHORS   Hall BG, Xu L
+  TITLE     Nucleotide sequence, function, activation, and evolution of the cryptic asc operon of Escherichia coli K12.
+  JOURNAL   Mol Biol Evol 9:688-706 (1992)
+            DOI:10.1093/oxfordjournals.molbev.a040753
+///

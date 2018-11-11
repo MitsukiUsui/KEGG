@@ -1,0 +1,16 @@
+ENTRY       M00738            FuncSet   Module
+NAME        Bacitracin resistance, BceAB transporter
+DEFINITION  K11629 K11630 K11631+K11632
+ORTHOLOGY   K11629  bceS; two-component system, OmpR family, bacitracin resistance sensor histidine kinase BceS [EC:2.7.13.3]
+            K11630  bceR; two-component system, OmpR family, bacitracin resistance response regulator BceR
+            K11631  bceA; bacitracin transport system ATP-binding protein
+            K11632  bceB; bacitracin transport system permease protein
+CLASS       Functional set; Environmental information processing; Drug efflux transporter/pump
+PATHWAY     map02020  Two-component system
+DBLINKS     BSID: 1208950
+REFERENCE   PMID:12890034
+  AUTHORS   Ohki R, Giyanto, Tateno K, Masuyama W, Moriya S, Kobayashi K, Ogasawara N
+  TITLE     The BceRS two-component regulatory system induces expression of the bacitracin transporter, BceAB, in Bacillus subtilis.
+  JOURNAL   Mol Microbiol 49:1135-44 (2003)
+            DOI:10.1046/j.1365-2958.2003.03653.x
+///

@@ -1,0 +1,23 @@
+ENTRY       M00742            FuncSet   Module
+NAME        Aminoglycoside resistance, protease FtsH
+DEFINITION  (K07638 K07659 K19416),(K04088 K04087) K03798
+ORTHOLOGY   K07638  envZ; two-component system, OmpR family, osmolarity sensor histidine kinase EnvZ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07659  ompR; two-component system, OmpR family, phosphate regulon response regulator OmpR [COG:COG0745] [GO:0000156]
+            K19416   ycca: modulator of FtsH protease YccA [COG:COG0670]
+            K04088  hflK; membrane protease subunit HflK [EC:3.4.-.-] [COG:COG0330]
+            K04087  hflC; membrane protease subunit HflC [EC:3.4.-.-] [COG:COG0330]
+            K03798  ftsH, hflB; cell division protease FtsH [EC:3.4.24.-] [COG:COG0465]
+CLASS       Functional set; Environmental information processing; Drug resistance
+COMMENT     Resistance mechanism: elimination of membrane-disruptive mistranslation products
+DBLINKS     BSID: 1253494
+REFERENCE   PMID:21764915
+  AUTHORS   Hinz A, Lee S, Jacoby K, Manoil C
+  TITLE     Membrane proteases and aminoglycoside antibiotic resistance.
+  JOURNAL   J Bacteriol 193:4790-7 (2011)
+            DOI:10.1128/JB.05133-11
+REFERENCE   PMID:15910274
+  AUTHORS   Ito K, Akiyama Y
+  TITLE     Cellular functions, mechanism of action, and regulation of FtsH protease.
+  JOURNAL   Annu Rev Microbiol 59:211-31 (2005)
+            DOI:10.1146/annurev.micro.59.030804.121316
+///

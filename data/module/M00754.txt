@@ -1,0 +1,26 @@
+ENTRY       M00754            FuncSet   Module
+NAME        Nisin resistance, phage shock protein homolog LiaH
+DEFINITION  K11617 K11618 K11619+K11620
+ORTHOLOGY   K11617  liaS; two-component system, NarL family, sensor histidine kinase LiaS [EC:2.7.13.3] [COG:COG4585] [GO:0000155]
+            K11618  liaR; two-component system, NarL family, response regulator LiaR [COG:COG2197] [GO:0000156]
+            K11619  liaI; lia operon protein LiaI
+            K11620  liaH; lia operon protein LiaH [COG:COG1842]
+CLASS       Functional set; Environmental information processing; Drug resistance
+COMMENT     Resistance mechanism: enhances membrane integrity
+DBLINKS     BSID: 1253489
+REFERENCE   PMID:23980836
+  AUTHORS   Kingston AW, Liao X, Helmann JD
+  TITLE     Contributions of the sigma(W) , sigma(M) and sigma(X) regulons to the lantibiotic resistome of Bacillus subtilis.
+  JOURNAL   Mol Microbiol 90:502-18 (2013)
+            DOI:10.1111/mmi.12380
+REFERENCE   PMID:20639339
+  AUTHORS   Wolf D, Kalamorz F, Wecke T, Juszczak A, Mader U, Homuth G, Jordan S, Kirstein J, Hoppert M, Voigt B, Hecker M, Mascher T
+  TITLE     In-depth profiling of the LiaR response of Bacillus subtilis.
+  JOURNAL   J Bacteriol 192:4680-93 (2010)
+            DOI:10.1128/JB.00543-10
+REFERENCE   PMID:18173394
+  AUTHORS   Jordan S, Hutchings MI, Mascher T
+  TITLE     Cell envelope stress response in Gram-positive bacteria.
+  JOURNAL   FEMS Microbiol Rev 32:107-46 (2008)
+            DOI:10.1111/j.1574-6976.2007.00091.x
+///

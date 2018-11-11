@@ -1,0 +1,20 @@
+ENTRY       M00719            FuncSet   Module
+NAME        Ihk-Irr (virulence regulation) two-component regulatory system
+DEFINITION  K18986 K18987
+ORTHOLOGY   K18986  ihk; two-component system, OmpR family, sensor kinase Ihk [EC:2.7.13.3]
+            K18987  irr; two-component system, OmpR family, response regulator Irr
+CLASS       Functional set; Environmental information processing; Two-component regulatory system
+PATHWAY     map02020  Two-component system
+BRITE       ko02022  Two-component system
+DBLINKS     BSID: 1167680
+REFERENCE   PMID:12574517
+  AUTHORS   Voyich JM, Sturdevant DE, Braughton KR, Kobayashi SD, Lei B, Virtaneva K, Dorward DW, Musser JM, DeLeo FR
+  TITLE     Genome-wide protective response used by group A Streptococcus to evade destruction by human polymorphonuclear leukocytes.
+  JOURNAL   Proc Natl Acad Sci U S A 100:1996-2001 (2003)
+            DOI:10.1073/pnas.0337370100
+REFERENCE   PMID:22504441
+  AUTHORS   Han H, Liu C, Wang Q, Xuan C, Zheng B, Tang J, Yan J, Zhang J, Li M, Cheng H, Lu G, Gao GF
+  TITLE     The two-component system Ihk/Irr contributes to the virulence of Streptococcus suis serotype 2 strain 05ZYH33 through alteration of the bacterial cell metabolism.
+  JOURNAL   Microbiology 158:1852-66 (2012)
+            DOI:10.1099/mic.0.057448-0
+///

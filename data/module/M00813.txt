@@ -1,0 +1,28 @@
+ENTRY       M00813            Complex   Module
+NAME        Lantibiotic transport system
+DEFINITION  K20459+K20460+K20461
+ORTHOLOGY   K20459  nukF; lantibiotic transport system ATP-binding protein
+            K20460  nukE; lantibiotic transport system permease protein
+            K20461  nukG; lantibiotic transport system permease protein
+CLASS       Structural complex; Environmental information processing; ABC-2 type and other transport systems
+PATHWAY     map02010  ABC transporters
+BRITE       ko02000  Transporters
+COMMENT     Stoichiometry: 1:1:1
+            involved in immunity to various lantibiotics.
+DBLINKS     BSID: 1417595
+REFERENCE   PMID:17951378
+  AUTHORS   Okuda K, Aso Y, Nakayama J, Sonomoto K
+  TITLE     Cooperative transport between NukFEG and NukH in immunity against the lantibiotic nukacin ISK-1 produced by Staphylococcus warneri ISK-1.
+  JOURNAL   J Bacteriol 190:356-62 (2008)
+            DOI:10.1128/JB.01300-07
+REFERENCE   PMID:17581139
+  AUTHORS   Papadelli M, Karsioti A, Anastasiou R, Georgalaki M, Tsakalidou E
+  TITLE     Characterization of the gene cluster involved in the biosynthesis of macedocin, the lantibiotic produced by Streptococcus macedonicus.
+  JOURNAL   FEMS Microbiol Lett 272:75-82 (2007)
+            DOI:10.1111/j.1574-6968.2007.00740.x
+REFERENCE   PMID:17194838
+  AUTHORS   Hyink O, Wescombe PA, Upton M, Ragland N, Burton JP, Tagg JR
+  TITLE     Salivaricin A2 and the novel lantibiotic salivaricin B are encoded at adjacent loci on a 190-kilobase transmissible megaplasmid in the oral probiotic strain Streptococcus salivarius K12.
+  JOURNAL   Appl Environ Microbiol 73:1107-13 (2007)
+            DOI:10.1128/AEM.02265-06
+///

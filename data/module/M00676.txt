@@ -1,0 +1,35 @@
+ENTRY       M00676            FuncSet   Module
+NAME        PI3K-Akt signaling
+DEFINITION  K04527 K16172 K00922+K02649 K04456 (K07201,K09408)
+ORTHOLOGY   K04527  insulin receptor [EC:2.7.10.1]
+            K16172  insulin receptor substrate 1
+            K00922+K02649  phosphatidylinositol 3-kinase
+            K04456  RAC serine/threonine-protein kinase [EC:2.7.11.1]
+            K07201,K09408  forkhead box protein O
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04151  PI3K-Akt signaling pathway
+            map04068  FoxO signaling pathway
+            map04910  Insulin signaling pathway
+COMMENT     K07201 and K09408: homolog (PMID:14563554)
+DBLINKS     BSID: 1108215
+REFERENCE   PMID:16847462
+  AUTHORS   Engelman JA, Luo J, Cantley LC
+  TITLE     The evolution of phosphatidylinositol 3-kinases as regulators of growth and metabolism.
+  JOURNAL   Nat Rev Genet 7:606-19 (2006)
+            DOI:10.1038/nrg1879
+REFERENCE   PMID:14563554
+  AUTHORS   Mazet F, Yu JK, Liberles DA, Holland LZ, Shimeld SM
+  TITLE     Phylogenetic relationships of the Fox (Forkhead) gene family in the Bilateria.
+  JOURNAL   Gene 316:79-89 (2003)
+            DOI:10.1016/S0378-1119(03)00741-8
+REFERENCE   PMID:9255069
+  AUTHORS   Vanhaesebroeck B, Leevers SJ, Panayotou G, Waterfield MD
+  TITLE     Phosphoinositide 3-kinases: a conserved family of signal transducers.
+  JOURNAL   Trends Biochem Sci 22:267-72 (1997)
+            DOI:10.1016/S0968-0004(97)01061-X
+REFERENCE   PMID:12893776
+  AUTHORS   Puig O, Marr MT, Ruhf ML, Tjian R
+  TITLE     Control of cell number by Drosophila FOXO: downstream and feedback regulation of the insulin receptor pathway.
+  JOURNAL   Genes Dev 17:2006-20 (2003)
+            DOI:10.1101/gad.1098703
+///

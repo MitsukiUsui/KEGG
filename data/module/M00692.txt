@@ -1,0 +1,43 @@
+ENTRY       M00692            FuncSet   Module
+NAME        Cell cycle - G1/S transition
+DEFINITION  ((((K02089,K02091)+(K04503,K10151,K10152))+(K02206+K06626)) (K06618+(K17454,K09389,K06620))),((K02206+(K18810+K14505+K18811+K18812+K18813)) (K04681+K06620)),(((K04563+K06646)+(K04563+(K06650,K12760))) (K12413+K09249))
+ORTHOLOGY   K02089,K02091  cyclin-dependent kinase 4/6 [EC:2.7.11.22]
+            K04503,K10151,K10152  cyclin D
+            K02206  cyclin-dependent kinase 2 [EC:2.7.11.22]
+            K06626  cyclin E
+            K06618  retinoblastoma-associated protein
+            K17454,K09389,K06620  transcription factor E2F
+            K02206  cyclin-dependent kinase 2 [EC:2.7.11.22]
+            K18810+K14505+K18811+K18812+K18813  cyclin D, plant
+            K06620  transcription factor E2F3
+            K04681  retinoblastoma-like protein 1
+            K04563  cyclin-dependent kinase [EC:2.7.11.22]
+            K06646  G1/S-specific cyclin CLN3
+            K06650,K12760  G1/S-specific cyclin CLN1/2
+            K09249  ARS-binding factor 1
+            K12413  G1-specific transcriptional repressor WHI5
+CLASS       Functional set; Cellular processes; Cell signaling
+PATHWAY     map04110  Cell cycle
+            map04111  Cell cycle - yeast
+DBLINKS     BSID: 1108231
+REFERENCE   PMID:23566594
+  AUTHORS   Harashima H, Dissmeyer N, Schnittger A
+  TITLE     Cell cycle control across the eukaryotic kingdom.
+  JOURNAL   Trends Cell Biol 23:345-56 (2013)
+            DOI:10.1016/j.tcb.2013.03.002
+REFERENCE   PMID:23877564
+  AUTHORS   Bertoli C, Skotheim JM, de Bruin RA
+  TITLE     Control of cell cycle transcription during G1 and S phases.
+  JOURNAL   Nat Rev Mol Cell Biol 14:518-28 (2013)
+            DOI:10.1038/nrm3629
+REFERENCE   PMID:19145493
+  AUTHORS   Doonan JH, Kitsios G
+  TITLE     Functional evolution of cyclin-dependent kinases.
+  JOURNAL   Mol Biotechnol 42:14-29 (2009)
+            DOI:10.1007/s12033-008-9126-8
+REFERENCE   PMID:11139130
+  AUTHORS   Flatt PM, Pietenpol JA
+  TITLE     Mechanisms of cell-cycle checkpoints: at the crossroads of carcinogenesis and drug discovery.
+  JOURNAL   Drug Metab Rev 32:283-305 (2000)
+            DOI:10.1081/DMR-100102335
+///

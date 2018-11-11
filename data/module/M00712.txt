@@ -1,0 +1,13 @@
+ENTRY       M00712            Complex   Module
+NAME        Multidrug resistance, efflux pump YkkCD
+DEFINITION  K18924+K18925
+ORTHOLOGY   K18924  ykkC; paired small multidrug resistance pump
+            K18925  ykkD; paired small multidrug resistance pump
+CLASS       Structural complex; Environmental information processing; Drug efflux transporter/pump
+DBLINKS     BSID: 1144978
+REFERENCE   PMID:10735877
+  AUTHORS   Jack DL, Storms ML, Tchieu JH, Paulsen IT, Saier MH Jr
+  TITLE     A broad-specificity multidrug efflux pump requiring a pair of homologous SMR-type proteins.
+  JOURNAL   J Bacteriol 182:2311-3 (2000)
+            DOI:10.1128/JB.182.8.2311-2313.2000
+///
