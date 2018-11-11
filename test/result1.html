@@ -1,0 +1,1412 @@
+<html>
+<head><title>Reconstruct MODULE</title>
+<meta name="http-equiv" content="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/kegg2.css">
+<style> 
+<!--
+div#list {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.object {
+  display: none;
+}
+li {
+  list-style: none outside none;
+  margin-left: 10px;
+  padding: 1px;
+}
+ul {
+  list-style: none outside none;
+  margin-left: 10px;
+  padding: 0px;
+}
+-->
+</style>
+<script language="JavaScript"> 
+<!---
+function display(id){
+  var no = "object" + id;
+  var status = document.getElementById(no).style.display;
+  if(status == '' || status == 'none'){
+      document.getElementById(no).style.display = 'inline';
+  }else{
+      document.getElementById(no).style.display = 'none';
+  }
+}
+ 
+function display_all(status){
+  var divtag = document.getElementsByTagName('div');
+  var parents = 'object';
+  matchObj= new RegExp(parents);
+  for(i=0; i < divtag.length; i++){
+    if(divtag[i].id.match(matchObj)){
+       divtag[i].style.display = status;
+    }
+  }
+  if(status == 'inline'){
+    document.getElementById('all_status').innerHTML =  "<a href=javascript:display_all('none')>Hide all objects</a>";
+  }else{
+    document.getElementById('all_status').innerHTML = "<a href=javascript:display_all('inline')>Show all objects</a>";
+  }
+}
+ 
+function view_list(mode){
+  document.form1.mode.value = mode;
+  document.form1.submit();
+}
+//--->
+</script>
+</head>
+<body>
+<h3>Module Reconstruction Result</h3>
+<form method="POST" name="form1" action="/kegg-bin/find_module_object_dev">
+<input type="hidden" name="sort"  value="module">
+<input type="hidden" name="mode"  value="complete+ng1+ng2">
+<input type="hidden" name="module_queryfile"  value="/share/www/search_module154192398035155/query_list">
+</form>
+<p />
+<div id="all_status"><a href="javascript:display_all('inline')">Show all objects</a></div>
+<p />
+<div id="list">
+&nbsp;&nbsp;<b>Pathway module</b><br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Energy metabolism</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carbon fixation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00166.args'>M00166</a>&nbsp;Reductive pentose phosphate cycle, ribulose-5P => glyceraldehyde-3P [PATH:<a href="/kegg-bin/show_pathway?map00710+M00166">map00710</a> <a href="/kegg-bin/show_pathway?map01200+M00166">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00166">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00166">map01120</a>]&nbsp;(<a href="javascript:display('M00166')">2</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00166" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00855 target=_bget>K00855</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01601 target=_bget>K01601</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01602 target=_bget>K01602</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00927 target=_bget>K00927</a>&nbsp;DARJ01000156.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05298 target=_bget>K05298</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00150 target=_bget>K00150</a>&nbsp;DARJ01000100.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00134 target=_bget>K00134</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00167.args'>M00167</a>&nbsp;Reductive pentose phosphate cycle, glyceraldehyde-3P => ribulose-5P [PATH:<a href="/kegg-bin/show_pathway?map00710+M00167">map00710</a> <a href="/kegg-bin/show_pathway?map01200+M00167">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00167">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00167">map01120</a>]&nbsp;(<a href="javascript:display('M00167')">6</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00167" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01623 target=_bget>K01623</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01624 target=_bget>K01624</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03841 target=_bget>K03841</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02446 target=_bget>K02446</a>&nbsp;DARJ01000162.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11532 target=_bget>K11532</a>&nbsp;DARJ01000152.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01086 target=_bget>K01086</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04041 target=_bget>K04041</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00615 target=_bget>K00615</a>&nbsp;DARJ01000013.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01623 target=_bget>K01623</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01624 target=_bget>K01624</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01100 target=_bget>K01100</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11532 target=_bget>K11532</a>&nbsp;DARJ01000152.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01086 target=_bget>K01086</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00615 target=_bget>K00615</a>&nbsp;DARJ01000013.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01807 target=_bget>K01807</a>&nbsp;DARJ01000062.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01808 target=_bget>K01808</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00169.args'>M00169</a>&nbsp;CAM (Crassulacean acid metabolism), light [PATH:<a href="/kegg-bin/show_pathway?map00710+M00169">map00710</a> <a href="/kegg-bin/show_pathway?map01200+M00169">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00169">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00169">map01120</a>]&nbsp;(<a href="javascript:display('M00169')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00169" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00029 target=_bget>K00029</a>&nbsp;DARJ01000075.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01006 target=_bget>K01006</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sulfur metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00176.args'>M00176</a>&nbsp;Assimilatory sulfate reduction, sulfate => H2S [PATH:<a href="/kegg-bin/show_pathway?map00920+M00176">map00920</a> <a href="/kegg-bin/show_pathway?map01100+M00176">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00176">map01120</a>]&nbsp;(<a href="javascript:display('M00176')">6</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00176" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13811 target=_bget>K13811</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00958 target=_bget>K00958</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00860 target=_bget>K00860</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00955 target=_bget>K00955</a>&nbsp;DARJ01000095.1_1,DARJ01000153.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00957 target=_bget>K00957</a>&nbsp;DARJ01000095.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00956 target=_bget>K00956</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00957 target=_bget>K00957</a>&nbsp;DARJ01000095.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00860 target=_bget>K00860</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00390 target=_bget>K00390</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00380 target=_bget>K00380</a>&nbsp;DARJ01000030.1_2,DARJ01000011.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00381 target=_bget>K00381</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00392 target=_bget>K00392</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Carbohydrate and lipid metabolism</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Central carbohydrate metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00001.args'>M00001</a>&nbsp;Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate [PATH:<a href="/kegg-bin/show_pathway?map00010+M00001">map00010</a> <a href="/kegg-bin/show_pathway?map01200+M00001">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00001">map01100</a>]&nbsp;(<a href="javascript:display('M00001')">10</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00001" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00844 target=_bget>K00844</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12407 target=_bget>K12407</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00845 target=_bget>K00845</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00886 target=_bget>K00886</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08074 target=_bget>K08074</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00918 target=_bget>K00918</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01810 target=_bget>K01810</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06859 target=_bget>K06859</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13810 target=_bget>K13810</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15916 target=_bget>K15916</a>&nbsp;DARJ01000024.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00850 target=_bget>K00850</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K16370 target=_bget>K16370</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00918 target=_bget>K00918</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01623 target=_bget>K01623</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01624 target=_bget>K01624</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11645 target=_bget>K11645</a>&nbsp;DARJ01000152.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K16305 target=_bget>K16305</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K16306 target=_bget>K16306</a>&nbsp;DARJ01000046.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01803 target=_bget>K01803</a>&nbsp;DARJ01000112.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00134 target=_bget>K00134</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00150 target=_bget>K00150</a>&nbsp;DARJ01000100.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00927 target=_bget>K00927</a>&nbsp;DARJ01000156.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11389 target=_bget>K11389</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01834 target=_bget>K01834</a>&nbsp;DARJ01000025.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15633 target=_bget>K15633</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15634 target=_bget>K15634</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15635 target=_bget>K15635</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01689 target=_bget>K01689</a>&nbsp;DARJ01000133.1_1,DARJ01000134.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00873 target=_bget>K00873</a>&nbsp;DARJ01000097.1_42<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12406 target=_bget>K12406</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00002.args'>M00002</a>&nbsp;Glycolysis, core module involving three-carbon compounds [PATH:<a href="/kegg-bin/show_pathway?map00010+M00002">map00010</a> <a href="/kegg-bin/show_pathway?map01200+M00002">map01200</a> <a href="/kegg-bin/show_pathway?map01230+M00002">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00002">map01100</a>]&nbsp;(<a href="javascript:display('M00002')">7</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00002" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01803 target=_bget>K01803</a>&nbsp;DARJ01000112.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00134 target=_bget>K00134</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00150 target=_bget>K00150</a>&nbsp;DARJ01000100.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00927 target=_bget>K00927</a>&nbsp;DARJ01000156.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11389 target=_bget>K11389</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01834 target=_bget>K01834</a>&nbsp;DARJ01000025.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15633 target=_bget>K15633</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15634 target=_bget>K15634</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15635 target=_bget>K15635</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01689 target=_bget>K01689</a>&nbsp;DARJ01000133.1_1,DARJ01000134.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00873 target=_bget>K00873</a>&nbsp;DARJ01000097.1_42<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12406 target=_bget>K12406</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00003.args'>M00003</a>&nbsp;Gluconeogenesis, oxaloacetate => fructose-6P [PATH:<a href="/kegg-bin/show_pathway?map00010+M00003">map00010</a> <a href="/kegg-bin/show_pathway?map00020+M00003">map00020</a> <a href="/kegg-bin/show_pathway?map01100+M00003">map01100</a>]&nbsp;(<a href="javascript:display('M00003')">10</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00003" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01596 target=_bget>K01596</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01610 target=_bget>K01610</a>&nbsp;DARJ01000093.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01689 target=_bget>K01689</a>&nbsp;DARJ01000133.1_1,DARJ01000134.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01834 target=_bget>K01834</a>&nbsp;DARJ01000025.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15633 target=_bget>K15633</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15634 target=_bget>K15634</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15635 target=_bget>K15635</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00927 target=_bget>K00927</a>&nbsp;DARJ01000156.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00134 target=_bget>K00134</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00150 target=_bget>K00150</a>&nbsp;DARJ01000100.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01803 target=_bget>K01803</a>&nbsp;DARJ01000112.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01623 target=_bget>K01623</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01624 target=_bget>K01624</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11645 target=_bget>K11645</a>&nbsp;DARJ01000152.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03841 target=_bget>K03841</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02446 target=_bget>K02446</a>&nbsp;DARJ01000162.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11532 target=_bget>K11532</a>&nbsp;DARJ01000152.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01086 target=_bget>K01086</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04041 target=_bget>K04041</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01622 target=_bget>K01622</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00307.args'>M00307</a>&nbsp;Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:<a href="/kegg-bin/show_pathway?map00010+M00307">map00010</a> <a href="/kegg-bin/show_pathway?map00020+M00307">map00020</a> <a href="/kegg-bin/show_pathway?map00620+M00307">map00620</a> <a href="/kegg-bin/show_pathway?map01200+M00307">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00307">map01100</a>]&nbsp;(<a href="javascript:display('M00307')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00307" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00163 target=_bget>K00163</a>&nbsp;DARJ01000082.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00161 target=_bget>K00161</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00162 target=_bget>K00162</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00627 target=_bget>K00627</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00382 target=_bget>K00382</a>&nbsp;DARJ01000038.1_5,DARJ01000176.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13997 target=_bget>K13997</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00169 target=_bget>K00169</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00170 target=_bget>K00170</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00171 target=_bget>K00171</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00172 target=_bget>K00172</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03737 target=_bget>K03737</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00010.args'>M00010</a>&nbsp;Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate [PATH:<a href="/kegg-bin/show_pathway?map00020+M00010">map00020</a> <a href="/kegg-bin/show_pathway?map01200+M00010">map01200</a> <a href="/kegg-bin/show_pathway?map01210+M00010">map01210</a> <a href="/kegg-bin/show_pathway?map01230+M00010">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00010">map01100</a>]&nbsp;(<a href="javascript:display('M00010')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00010" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01647 target=_bget>K01647</a>&nbsp;DARJ01000097.1_28<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05942 target=_bget>K05942</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01681 target=_bget>K01681</a>&nbsp;DARJ01000010.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01682 target=_bget>K01682</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00031 target=_bget>K00031</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00030 target=_bget>K00030</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00011.args'>M00011</a>&nbsp;Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate [PATH:<a href="/kegg-bin/show_pathway?map00020+M00011">map00020</a> <a href="/kegg-bin/show_pathway?map01200+M00011">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00011">map01100</a>]&nbsp;(<a href="javascript:display('M00011')">9</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00011" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00164 target=_bget>K00164</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00658 target=_bget>K00658</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00382 target=_bget>K00382</a>&nbsp;DARJ01000038.1_5,DARJ01000176.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00174 target=_bget>K00174</a>&nbsp;DARJ01000007.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00175 target=_bget>K00175</a>&nbsp;DARJ01000007.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00177 target=_bget>K00177</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00176 target=_bget>K00176</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01902 target=_bget>K01902</a>&nbsp;DARJ01000163.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01903 target=_bget>K01903</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01899 target=_bget>K01899</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01900 target=_bget>K01900</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18118 target=_bget>K18118</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00234 target=_bget>K00234</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00235 target=_bget>K00235</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00236 target=_bget>K00236</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00237 target=_bget>K00237</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00239 target=_bget>K00239</a>&nbsp;DARJ01000126.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00240 target=_bget>K00240</a>&nbsp;DARJ01000006.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00241 target=_bget>K00241</a>&nbsp;DARJ01000138.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00242 target=_bget>K00242</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18859 target=_bget>K18859</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18860 target=_bget>K18860</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00244 target=_bget>K00244</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00245 target=_bget>K00245</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00246 target=_bget>K00246</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00247 target=_bget>K00247</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01676 target=_bget>K01676</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01679 target=_bget>K01679</a>&nbsp;DARJ01000149.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01677 target=_bget>K01677</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01678 target=_bget>K01678</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00026 target=_bget>K00026</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00025 target=_bget>K00025</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00024 target=_bget>K00024</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00116 target=_bget>K00116</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00004.args'>M00004</a>&nbsp;Pentose phosphate pathway (Pentose phosphate cycle) [PATH:<a href="/kegg-bin/show_pathway?map00030+M00004">map00030</a> <a href="/kegg-bin/show_pathway?map01200+M00004">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00004">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00004">map01120</a>]&nbsp;(<a href="javascript:display('M00004')">5</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00004" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13937 target=_bget>K13937</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00036 target=_bget>K00036</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K19243 target=_bget>K19243</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01057 target=_bget>K01057</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07404 target=_bget>K07404</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00033 target=_bget>K00033</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01783 target=_bget>K01783</a>&nbsp;DARJ01000050.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01807 target=_bget>K01807</a>&nbsp;DARJ01000062.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01808 target=_bget>K01808</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00615 target=_bget>K00615</a>&nbsp;DARJ01000013.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00616 target=_bget>K00616</a>&nbsp;DARJ01000013.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01810 target=_bget>K01810</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06859 target=_bget>K06859</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13810 target=_bget>K13810</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15916 target=_bget>K15916</a>&nbsp;DARJ01000024.1_12<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00007.args'>M00007</a>&nbsp;Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P [PATH:<a href="/kegg-bin/show_pathway?map00030+M00007">map00030</a> <a href="/kegg-bin/show_pathway?map01200+M00007">map01200</a> <a href="/kegg-bin/show_pathway?map01230+M00007">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00007">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00007">map01120</a>]&nbsp;(<a href="javascript:display('M00007')">4</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00007" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00615 target=_bget>K00615</a>&nbsp;DARJ01000013.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00616 target=_bget>K00616</a>&nbsp;DARJ01000013.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13810 target=_bget>K13810</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01783 target=_bget>K01783</a>&nbsp;DARJ01000050.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01807 target=_bget>K01807</a>&nbsp;DARJ01000062.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01808 target=_bget>K01808</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00580.args'>M00580</a>&nbsp;Pentose phosphate pathway, archaea, fructose 6P => ribose 5P [PATH:<a href="/kegg-bin/show_pathway?map00030+M00580">map00030</a> <a href="/kegg-bin/show_pathway?map01200+M00580">map01200</a> <a href="/kegg-bin/show_pathway?map01230+M00580">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00580">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00580">map01120</a>]&nbsp;(<a href="javascript:display('M00580')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00580" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08094 target=_bget>K08094</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08093 target=_bget>K08093</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13812 target=_bget>K13812</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13831 target=_bget>K13831</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01807 target=_bget>K01807</a>&nbsp;DARJ01000062.1_16<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00005.args'>M00005</a>&nbsp;PRPP biosynthesis, ribose 5P => PRPP [PATH:<a href="/kegg-bin/show_pathway?map00030+M00005">map00030</a> <a href="/kegg-bin/show_pathway?map00230+M00005">map00230</a> <a href="/kegg-bin/show_pathway?map01200+M00005">map01200</a> <a href="/kegg-bin/show_pathway?map01230+M00005">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00005">map01100</a>]&nbsp;(<a href="javascript:display('M00005')">1</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00005" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00948 target=_bget>K00948</a>&nbsp;DARJ01000048.1_5<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00309.args'>M00309</a>&nbsp;Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate [PATH:<a href="/kegg-bin/show_pathway?map00030+M00309">map00030</a> <a href="/kegg-bin/show_pathway?map00052+M00309">map00052</a> <a href="/kegg-bin/show_pathway?map01200+M00309">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00309">map01100</a> <a href="/kegg-bin/show_pathway?map01120+M00309">map01120</a>]&nbsp;(<a href="javascript:display('M00309')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00309" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05308 target=_bget>K05308</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11395 target=_bget>K11395</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18127 target=_bget>K18127</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18020 target=_bget>K18020</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18021 target=_bget>K18021</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18022 target=_bget>K18022</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18128 target=_bget>K18128</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03738 target=_bget>K03738</a>&nbsp;DARJ01000025.1_13<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other carbohydrate metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00741.args'>M00741</a>&nbsp;Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:<a href="/kegg-bin/show_pathway?map00280+M00741">map00280</a> <a href="/kegg-bin/show_pathway?map00630+M00741">map00630</a> <a href="/kegg-bin/show_pathway?map00640+M00741">map00640</a> <a href="/kegg-bin/show_pathway?map01200+M00741">map01200</a> <a href="/kegg-bin/show_pathway?map01100+M00741">map01100</a>]&nbsp;(<a href="javascript:display('M00741')">8</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00741" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01965 target=_bget>K01965</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01966 target=_bget>K01966</a>&nbsp;DARJ01000173.1_6,DARJ01000033.1_1,DARJ01000072.1_5,DARJ01000045.1_25<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11263 target=_bget>K11263</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18472 target=_bget>K18472</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K19312 target=_bget>K19312</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22568 target=_bget>K22568</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01964 target=_bget>K01964</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15036 target=_bget>K15036</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15037 target=_bget>K15037</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05606 target=_bget>K05606</a>&nbsp;DARJ01000174.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01847 target=_bget>K01847</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01848 target=_bget>K01848</a>&nbsp;DARJ01000172.1_24,DARJ01000174.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01849 target=_bget>K01849</a>&nbsp;DARJ01000045.1_24<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00855.args'>M00855</a>&nbsp;Glycogen degradation, glycogen => glucose-6P [PATH:<a href="/kegg-bin/show_pathway?map00500+M00855">map00500</a>]&nbsp;(<a href="javascript:display('M00855')">2</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00855" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00688 target=_bget>K00688</a>&nbsp;DARJ01000147.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K16153 target=_bget>K16153</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01196 target=_bget>K01196</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00705 target=_bget>K00705</a>&nbsp;DARJ01000147.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22451 target=_bget>K22451</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02438 target=_bget>K02438</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01200 target=_bget>K01200</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15779 target=_bget>K15779</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01835 target=_bget>K01835</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15778 target=_bget>K15778</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fatty acid metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00082.args'>M00082</a>&nbsp;Fatty acid biosynthesis, initiation [PATH:<a href="/kegg-bin/show_pathway?map00061+M00082">map00061</a> <a href="/kegg-bin/show_pathway?map01212+M00082">map01212</a> <a href="/kegg-bin/show_pathway?map01100+M00082">map01100</a>]&nbsp;(<a href="javascript:display('M00082')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00082" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11262 target=_bget>K11262</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02160 target=_bget>K02160</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01961 target=_bget>K01961</a>&nbsp;DARJ01000030.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11263 target=_bget>K11263</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01962 target=_bget>K01962</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01963 target=_bget>K01963</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18472 target=_bget>K18472</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00665 target=_bget>K00665</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00667 target=_bget>K00667</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00668 target=_bget>K00668</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11533 target=_bget>K11533</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00645 target=_bget>K00645</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00648 target=_bget>K00648</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18473 target=_bget>K18473</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00083.args'>M00083</a>&nbsp;Fatty acid biosynthesis, elongation [PATH:<a href="/kegg-bin/show_pathway?map00061+M00083">map00061</a> <a href="/kegg-bin/show_pathway?map01212+M00083">map01212</a> <a href="/kegg-bin/show_pathway?map01100+M00083">map01100</a>]&nbsp;(<a href="javascript:display('M00083')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00083" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00665 target=_bget>K00665</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00667 target=_bget>K00667</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00668 target=_bget>K00668</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11533 target=_bget>K11533</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00647 target=_bget>K00647</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09458 target=_bget>K09458</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00648 target=_bget>K00648</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00059 target=_bget>K00059</a>&nbsp;DARJ01000128.1_4,DARJ01000131.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02372 target=_bget>K02372</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01716 target=_bget>K01716</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K16363 target=_bget>K16363</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00208 target=_bget>K00208</a>&nbsp;DARJ01000151.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02371 target=_bget>K02371</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10780 target=_bget>K10780</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00209 target=_bget>K00209</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00086.args'>M00086</a>&nbsp;beta-Oxidation, acyl-CoA synthesis [PATH:<a href="/kegg-bin/show_pathway?map00071+M00086">map00071</a> <a href="/kegg-bin/show_pathway?map01212+M00086">map01212</a> <a href="/kegg-bin/show_pathway?map01100+M00086">map01100</a>]&nbsp;(<a href="javascript:display('M00086')">1</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00086" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01897 target=_bget>K01897</a>&nbsp;DARJ01000136.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15013 target=_bget>K15013</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00087.args'>M00087</a>&nbsp;beta-Oxidation [PATH:<a href="/kegg-bin/show_pathway?map00071+M00087">map00071</a> <a href="/kegg-bin/show_pathway?map01212+M00087">map01212</a> <a href="/kegg-bin/show_pathway?map01100+M00087">map01100</a>]&nbsp;(<a href="javascript:display('M00087')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00087" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00232 target=_bget>K00232</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00249 target=_bget>K00249</a>&nbsp;DARJ01000078.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00255 target=_bget>K00255</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06445 target=_bget>K06445</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09479 target=_bget>K09479</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01692 target=_bget>K01692</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07511 target=_bget>K07511</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13767 target=_bget>K13767</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00022 target=_bget>K00022</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07516 target=_bget>K07516</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01825 target=_bget>K01825</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01782 target=_bget>K01782</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07514 target=_bget>K07514</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07515 target=_bget>K07515</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10527 target=_bget>K10527</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00632 target=_bget>K00632</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07508 target=_bget>K07508</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07509 target=_bget>K07509</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07513 target=_bget>K07513</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lipid metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00093.args'>M00093</a>&nbsp;Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE [PATH:<a href="/kegg-bin/show_pathway?map00564+M00093">map00564</a> <a href="/kegg-bin/show_pathway?map01100+M00093">map01100</a>]&nbsp;(<a href="javascript:display('M00093')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00093" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00981 target=_bget>K00981</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00998 target=_bget>K00998</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17103 target=_bget>K17103</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01613 target=_bget>K01613</a>&nbsp;DARJ01000146.1_6<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glycan metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00072.args'>M00072</a>&nbsp;N-glycosylation by oligosaccharyltransferase [PATH:<a href="/kegg-bin/show_pathway?map00510+M00072">map00510</a> <a href="/kegg-bin/show_pathway?map01100+M00072">map01100</a>]&nbsp;(<a href="javascript:display('M00072')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00072" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07151 target=_bget>K07151</a>&nbsp;DARJ01000098.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12666 target=_bget>K12666</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12667 target=_bget>K12667</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12668 target=_bget>K12668</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12669 target=_bget>K12669</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12670 target=_bget>K12670</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00730 target=_bget>K00730</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12691 target=_bget>K12691</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terpenoid backbone biosynthesis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00849.args'>M00849</a>&nbsp;C5 isoprenoid biosynthesis, mevalonate pathway, archaea [PATH:<a href="/kegg-bin/show_pathway?map00900+M00849">map00900</a> <a href="/kegg-bin/show_pathway?map01110+M00849">map01110</a> <a href="/kegg-bin/show_pathway?map01130+M00849">map01130</a>]&nbsp;(<a href="javascript:display('M00849')">7</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00849" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00626 target=_bget>K00626</a>&nbsp;DARJ01000063.1_1,DARJ01000103.1_14,DARJ01000154.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01641 target=_bget>K01641</a>&nbsp;DARJ01000024.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00021 target=_bget>K00021</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00054 target=_bget>K00054</a>&nbsp;DARJ01000073.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00869 target=_bget>K00869</a>&nbsp;DARJ01000153.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17942 target=_bget>K17942</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18689 target=_bget>K18689</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18690 target=_bget>K18690</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22813 target=_bget>K22813</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06981 target=_bget>K06981</a>&nbsp;DARJ01000154.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01823 target=_bget>K01823</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00364.args'>M00364</a>&nbsp;C10-C20 isoprenoid biosynthesis, bacteria [PATH:<a href="/kegg-bin/show_pathway?map00900+M00364">map00900</a> <a href="/kegg-bin/show_pathway?map01100+M00364">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00364">map01110</a> <a href="/kegg-bin/show_pathway?map01130+M00364">map01130</a>]&nbsp;(<a href="javascript:display('M00364')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00364" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01823 target=_bget>K01823</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00795 target=_bget>K00795</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13789 target=_bget>K13789</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13787 target=_bget>K13787</a>&nbsp;DARJ01000154.1_1<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00365.args'>M00365</a>&nbsp;C10-C20 isoprenoid biosynthesis, archaea [PATH:<a href="/kegg-bin/show_pathway?map00900+M00365">map00900</a> <a href="/kegg-bin/show_pathway?map01100+M00365">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00365">map01110</a>]&nbsp;(<a href="javascript:display('M00365')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00365" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01823 target=_bget>K01823</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13787 target=_bget>K13787</a>&nbsp;DARJ01000154.1_1<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Nucleotide and amino acid metabolism</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Purine metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00048.args'>M00048</a>&nbsp;Inosine monophosphate biosynthesis, PRPP + glutamine => IMP [PATH:<a href="/kegg-bin/show_pathway?map00230+M00048">map00230</a> <a href="/kegg-bin/show_pathway?map01100+M00048">map01100</a>]&nbsp;(<a href="javascript:display('M00048')">11</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00048" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00764 target=_bget>K00764</a>&nbsp;DARJ01000089.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01945 target=_bget>K01945</a>&nbsp;DARJ01000098.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11787 target=_bget>K11787</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11788 target=_bget>K11788</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13713 target=_bget>K13713</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00601 target=_bget>K00601</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11175 target=_bget>K11175</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08289 target=_bget>K08289</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11787 target=_bget>K11787</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01492 target=_bget>K01492</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01952 target=_bget>K01952</a>&nbsp;DARJ01000020.1_1,DARJ01000141.1_1,DARJ01000141.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01933 target=_bget>K01933</a>&nbsp;DARJ01000132.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11787 target=_bget>K11787</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11788 target=_bget>K11788</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01587 target=_bget>K01587</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11808 target=_bget>K11808</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01589 target=_bget>K01589</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01588 target=_bget>K01588</a>&nbsp;DARJ01000094.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01923 target=_bget>K01923</a>&nbsp;DARJ01000143.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01587 target=_bget>K01587</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13713 target=_bget>K13713</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01756 target=_bget>K01756</a>&nbsp;DARJ01000085.1_17<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00602 target=_bget>K00602</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01492 target=_bget>K01492</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06863 target=_bget>K06863</a>&nbsp;DARJ01000107.1_18,DARJ01000046.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11176 target=_bget>K11176</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00049.args'>M00049</a>&nbsp;Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:<a href="/kegg-bin/show_pathway?map00230+M00049">map00230</a> <a href="/kegg-bin/show_pathway?map01100+M00049">map01100</a>]&nbsp;(<a href="javascript:display('M00049')">6</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00049" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01939 target=_bget>K01939</a>&nbsp;DARJ01000015.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01756 target=_bget>K01756</a>&nbsp;DARJ01000085.1_17<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00939 target=_bget>K00939</a>&nbsp;DARJ01000100.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18532 target=_bget>K18532</a>&nbsp;DARJ01000008.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18533 target=_bget>K18533</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00944 target=_bget>K00944</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00940 target=_bget>K00940</a>&nbsp;DARJ01000036.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00873 target=_bget>K00873</a>&nbsp;DARJ01000097.1_42<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12406 target=_bget>K12406</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00050.args'>M00050</a>&nbsp;Guanine ribonucleotide biosynthesis IMP => GDP,GTP [PATH:<a href="/kegg-bin/show_pathway?map00230+M00050">map00230</a> <a href="/kegg-bin/show_pathway?map01100+M00050">map01100</a>]&nbsp;(<a href="javascript:display('M00050')">4</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00050" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00088 target=_bget>K00088</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01951 target=_bget>K01951</a>&nbsp;DARJ01000094.1_7,DARJ01000121.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00942 target=_bget>K00942</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00940 target=_bget>K00940</a>&nbsp;DARJ01000036.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00873 target=_bget>K00873</a>&nbsp;DARJ01000097.1_42<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12406 target=_bget>K12406</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pyrimidine metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00051.args'>M00051</a>&nbsp;Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP [PATH:<a href="/kegg-bin/show_pathway?map00240+M00051">map00240</a> <a href="/kegg-bin/show_pathway?map01100+M00051">map01100</a>]&nbsp;(<a href="javascript:display('M00051')">5</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00051" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11540 target=_bget>K11540</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11541 target=_bget>K11541</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01465 target=_bget>K01465</a>&nbsp;DARJ01000103.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01954 target=_bget>K01954</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01955 target=_bget>K01955</a>&nbsp;DARJ01000165.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01956 target=_bget>K01956</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00609 target=_bget>K00609</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00610 target=_bget>K00610</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00608 target=_bget>K00608</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01465 target=_bget>K01465</a>&nbsp;DARJ01000103.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00226 target=_bget>K00226</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00254 target=_bget>K00254</a>&nbsp;DARJ01000014.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17828 target=_bget>K17828</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13421 target=_bget>K13421</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00762 target=_bget>K00762</a>&nbsp;DARJ01000165.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01591 target=_bget>K01591</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00052.args'>M00052</a>&nbsp;Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:<a href="/kegg-bin/show_pathway?map00240+M00052">map00240</a> <a href="/kegg-bin/show_pathway?map01100+M00052">map01100</a>]&nbsp;(<a href="javascript:display('M00052')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00052" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13800 target=_bget>K13800</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13809 target=_bget>K13809</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00945 target=_bget>K00945</a>&nbsp;DARJ01000081.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13799 target=_bget>K13799</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00940 target=_bget>K00940</a>&nbsp;DARJ01000036.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K18533 target=_bget>K18533</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01937 target=_bget>K01937</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serine and threonine metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00020.args'>M00020</a>&nbsp;Serine biosynthesis, glycerate-3P => serine [PATH:<a href="/kegg-bin/show_pathway?map00260+M00020">map00260</a> <a href="/kegg-bin/show_pathway?map01200+M00020">map01200</a> <a href="/kegg-bin/show_pathway?map01230+M00020">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00020">map01100</a>]&nbsp;(<a href="javascript:display('M00020')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00020" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00058 target=_bget>K00058</a>&nbsp;DARJ01000042.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00831 target=_bget>K00831</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01079 target=_bget>K01079</a>&nbsp;DARJ01000003.1_1<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cysteine and methionine metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00035.args'>M00035</a>&nbsp;Methionine degradation [PATH:<a href="/kegg-bin/show_pathway?map00270+M00035">map00270</a> <a href="/kegg-bin/show_pathway?map01100+M00035">map01100</a>]&nbsp;(<a href="javascript:display('M00035')">2</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00035" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00789 target=_bget>K00789</a>&nbsp;DARJ01000131.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00558 target=_bget>K00558</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17398 target=_bget>K17398</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17399 target=_bget>K17399</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01251 target=_bget>K01251</a>&nbsp;DARJ01000110.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01697 target=_bget>K01697</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10150 target=_bget>K10150</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00368.args'>M00368</a>&nbsp;Ethylene biosynthesis, methionine => ethylene [PATH:<a href="/kegg-bin/show_pathway?map00270+M00368">map00270</a> <a href="/kegg-bin/show_pathway?map01110+M00368">map01110</a>]&nbsp;(<a href="javascript:display('M00368')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00368" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00789 target=_bget>K00789</a>&nbsp;DARJ01000131.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01762 target=_bget>K01762</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20772 target=_bget>K20772</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05933 target=_bget>K05933</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branched-chain amino acid metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00535.args'>M00535</a>&nbsp;Isoleucine biosynthesis, pyruvate => 2-oxobutanoate [PATH:<a href="/kegg-bin/show_pathway?map00290+M00535">map00290</a> <a href="/kegg-bin/show_pathway?map01210+M00535">map01210</a> <a href="/kegg-bin/show_pathway?map01230+M00535">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00535">map01100</a>]&nbsp;(<a href="javascript:display('M00535')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00535" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09011 target=_bget>K09011</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01703 target=_bget>K01703</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01704 target=_bget>K01704</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00052 target=_bget>K00052</a>&nbsp;DARJ01000040.1_11<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00432.args'>M00432</a>&nbsp;Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate [PATH:<a href="/kegg-bin/show_pathway?map00290+M00432">map00290</a> <a href="/kegg-bin/show_pathway?map01210+M00432">map01210</a> <a href="/kegg-bin/show_pathway?map01230+M00432">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00432">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00432">map01110</a>]&nbsp;(<a href="javascript:display('M00432')">4</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00432" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01649 target=_bget>K01649</a>&nbsp;DARJ01000026.1_6,DARJ01000139.1_1,DARJ01000054.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01702 target=_bget>K01702</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01703 target=_bget>K01703</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01704 target=_bget>K01704</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00052 target=_bget>K00052</a>&nbsp;DARJ01000040.1_11<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arginine and proline metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00844.args'>M00844</a>&nbsp;Arginine biosynthesis, ornithine => arginine [PATH:<a href="/kegg-bin/show_pathway?map00220+M00844">map00220</a> <a href="/kegg-bin/show_pathway?map01230+M00844">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00844">map01100</a>]&nbsp;(<a href="javascript:display('M00844')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00844" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00611 target=_bget>K00611</a>&nbsp;DARJ01000079.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01940 target=_bget>K01940</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01755 target=_bget>K01755</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14681 target=_bget>K14681</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Histidine metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00045.args'>M00045</a>&nbsp;Histidine degradation, histidine => N-formiminoglutamate => glutamate [PATH:<a href="/kegg-bin/show_pathway?map00340+M00045">map00340</a> <a href="/kegg-bin/show_pathway?map01100+M00045">map01100</a>]&nbsp;(<a href="javascript:display('M00045')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00045" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01745 target=_bget>K01745</a>&nbsp;DARJ01000172.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01712 target=_bget>K01712</a>&nbsp;DARJ01000172.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01468 target=_bget>K01468</a>&nbsp;DARJ01000172.1_20<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01479 target=_bget>K01479</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aromatic amino acid metabolism<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00022.args'>M00022</a>&nbsp;Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate [PATH:<a href="/kegg-bin/show_pathway?map00400+M00022">map00400</a> <a href="/kegg-bin/show_pathway?map01230+M00022">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00022">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00022">map01110</a> <a href="/kegg-bin/show_pathway?map01130+M00022">map01130</a>]&nbsp;(<a href="javascript:display('M00022')">3</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00022" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01626 target=_bget>K01626</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03856 target=_bget>K03856</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13853 target=_bget>K13853</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01735 target=_bget>K01735</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13829 target=_bget>K13829</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03785 target=_bget>K03785</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03786 target=_bget>K03786</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00014 target=_bget>K00014</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13832 target=_bget>K13832</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13830 target=_bget>K13830</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00891 target=_bget>K00891</a>&nbsp;DARJ01000046.1_21<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13829 target=_bget>K13829</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00800 target=_bget>K00800</a>&nbsp;DARJ01000067.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13830 target=_bget>K13830</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01736 target=_bget>K01736</a>&nbsp;DARJ01000046.1_22<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00024.args'>M00024</a>&nbsp;Phenylalanine biosynthesis, chorismate => phenylalanine [PATH:<a href="/kegg-bin/show_pathway?map00400+M00024">map00400</a> <a href="/kegg-bin/show_pathway?map01230+M00024">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00024">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00024">map01110</a>]&nbsp;(<a href="javascript:display('M00024')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00024" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01850 target=_bget>K01850</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04092 target=_bget>K04092</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14187 target=_bget>K14187</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04093 target=_bget>K04093</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04516 target=_bget>K04516</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06208 target=_bget>K06208</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06209 target=_bget>K06209</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13853 target=_bget>K13853</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01713 target=_bget>K01713</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04518 target=_bget>K04518</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K05359 target=_bget>K05359</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14170 target=_bget>K14170</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00832 target=_bget>K00832</a>&nbsp;DARJ01000097.1_37<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00838 target=_bget>K00838</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00025.args'>M00025</a>&nbsp;Tyrosine biosynthesis, chorismate => tyrosine [PATH:<a href="/kegg-bin/show_pathway?map00400+M00025">map00400</a> <a href="/kegg-bin/show_pathway?map01230+M00025">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00025">map01100</a>]&nbsp;(<a href="javascript:display('M00025')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00025" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01850 target=_bget>K01850</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04092 target=_bget>K04092</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14170 target=_bget>K14170</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04093 target=_bget>K04093</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04516 target=_bget>K04516</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06208 target=_bget>K06208</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06209 target=_bget>K06209</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13853 target=_bget>K13853</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00210 target=_bget>K00210</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04517 target=_bget>K04517</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14187 target=_bget>K14187</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00815 target=_bget>K00815</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00832 target=_bget>K00832</a>&nbsp;DARJ01000097.1_37<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00838 target=_bget>K00838</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00040.args'>M00040</a>&nbsp;Tyrosine biosynthesis, prephanate => pretyrosine => tyrosine [PATH:<a href="/kegg-bin/show_pathway?map00400+M00040">map00400</a> <a href="/kegg-bin/show_pathway?map01230+M00040">map01230</a> <a href="/kegg-bin/show_pathway?map01100+M00040">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00040">map01110</a>]&nbsp;(<a href="javascript:display('M00040')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00040" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00832 target=_bget>K00832</a>&nbsp;DARJ01000097.1_37<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15849 target=_bget>K15849</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00220 target=_bget>K00220</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15226 target=_bget>K15226</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15227 target=_bget>K15227</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cofactor and vitamin biosynthesis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00125.args'>M00125</a>&nbsp;Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD [PATH:<a href="/kegg-bin/show_pathway?map00740+M00125">map00740</a> <a href="/kegg-bin/show_pathway?map01100+M00125">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00125">map01110</a>]&nbsp;(<a href="javascript:display('M00125')">6</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00125" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01497 target=_bget>K01497</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14652 target=_bget>K14652</a>&nbsp;DARJ01000079.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01498 target=_bget>K01498</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00082 target=_bget>K00082</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11752 target=_bget>K11752</a>&nbsp;DARJ01000114.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22912 target=_bget>K22912</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20860 target=_bget>K20860</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20861 target=_bget>K20861</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20862 target=_bget>K20862</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K21063 target=_bget>K21063</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K21064 target=_bget>K21064</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02858 target=_bget>K02858</a>&nbsp;DARJ01000110.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14652 target=_bget>K14652</a>&nbsp;DARJ01000079.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00794 target=_bget>K00794</a>&nbsp;DARJ01000110.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00793 target=_bget>K00793</a>&nbsp;DARJ01000110.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00861 target=_bget>K00861</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20884 target=_bget>K20884</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00953 target=_bget>K00953</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22949 target=_bget>K22949</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11753 target=_bget>K11753</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00115.args'>M00115</a>&nbsp;NAD biosynthesis, aspartate => NAD [PATH:<a href="/kegg-bin/show_pathway?map00760+M00115">map00760</a> <a href="/kegg-bin/show_pathway?map01100+M00115">map01100</a>]&nbsp;(<a href="javascript:display('M00115')">4</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00115" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00278 target=_bget>K00278</a>&nbsp;DARJ01000073.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03517 target=_bget>K03517</a>&nbsp;DARJ01000080.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00767 target=_bget>K00767</a>&nbsp;DARJ01000040.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00969 target=_bget>K00969</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06210 target=_bget>K06210</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01916 target=_bget>K01916</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01950 target=_bget>K01950</a>&nbsp;DARJ01000060.1_2<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00119.args'>M00119</a>&nbsp;Pantothenate biosynthesis, valine/L-aspartate => pantothenate [PATH:<a href="/kegg-bin/show_pathway?map00770+M00119">map00770</a> <a href="/kegg-bin/show_pathway?map01100+M00119">map01100</a> <a href="/kegg-bin/show_pathway?map01110+M00119">map01110</a>]&nbsp;(<a href="javascript:display('M00119')">3</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00119" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00826 target=_bget>K00826</a>&nbsp;DARJ01000087.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00606 target=_bget>K00606</a>&nbsp;DARJ01000131.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00077 target=_bget>K00077</a>&nbsp;DARJ01000073.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01579 target=_bget>K01579</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01918 target=_bget>K01918</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13799 target=_bget>K13799</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00120.args'>M00120</a>&nbsp;Coenzyme A biosynthesis, pantothenate => CoA [PATH:<a href="/kegg-bin/show_pathway?map00770+M00120">map00770</a> <a href="/kegg-bin/show_pathway?map01100+M00120">map01100</a>]&nbsp;(<a href="javascript:display('M00120')">1</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00120" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00867 target=_bget>K00867</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03525 target=_bget>K03525</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09680 target=_bget>K09680</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01947 target=_bget>K01947</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01922 target=_bget>K01922</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K21977 target=_bget>K21977</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01598 target=_bget>K01598</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13038 target=_bget>K13038</a>&nbsp;DARJ01000123.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02318 target=_bget>K02318</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00954 target=_bget>K00954</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02201 target=_bget>K02201</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00859 target=_bget>K00859</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00126.args'>M00126</a>&nbsp;Tetrahydrofolate biosynthesis, GTP => THF [PATH:<a href="/kegg-bin/show_pathway?map00790+M00126">map00790</a> <a href="/kegg-bin/show_pathway?map00670+M00126">map00670</a> <a href="/kegg-bin/show_pathway?map01100+M00126">map01100</a>]&nbsp;(<a href="javascript:display('M00126')">3</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00126" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01495 target=_bget>K01495</a>&nbsp;DARJ01000120.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09007 target=_bget>K09007</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22391 target=_bget>K22391</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01077 target=_bget>K01077</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01113 target=_bget>K01113</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08310 target=_bget>K08310</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K19965 target=_bget>K19965</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13939 target=_bget>K13939</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13940 target=_bget>K13940</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01633 target=_bget>K01633</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00950 target=_bget>K00950</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00796 target=_bget>K00796</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01633 target=_bget>K01633</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13941 target=_bget>K13941</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11754 target=_bget>K11754</a>&nbsp;DARJ01000179.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K20457 target=_bget>K20457</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00287 target=_bget>K00287</a>&nbsp;DARJ01000125.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13998 target=_bget>K13998</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00842.args'>M00842</a>&nbsp;Tetrahydrobiopterin biosynthesis, GTP => BH4 [PATH:<a href="/kegg-bin/show_pathway?map00790+M00842">map00790</a> <a href="/kegg-bin/show_pathway?map01100+M00842">map01100</a>]&nbsp;(<a href="javascript:display('M00842')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00842" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01495 target=_bget>K01495</a>&nbsp;DARJ01000120.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01737 target=_bget>K01737</a>&nbsp;DARJ01000120.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00072 target=_bget>K00072</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00843.args'>M00843</a>&nbsp;L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4 [PATH:<a href="/kegg-bin/show_pathway?map00790+M00843">map00790</a> <a href="/kegg-bin/show_pathway?map01100+M00843">map01100</a>]&nbsp;(<a href="javascript:display('M00843')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00843" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01495 target=_bget>K01495</a>&nbsp;DARJ01000120.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01737 target=_bget>K01737</a>&nbsp;DARJ01000120.1_15<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17745 target=_bget>K17745</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00118.args'>M00118</a>&nbsp;Glutathione biosynthesis, glutamate => glutathione [PATH:<a href="/kegg-bin/show_pathway?map00480+M00118">map00480</a> <a href="/kegg-bin/show_pathway?map01100+M00118">map01100</a>]&nbsp;(<a href="javascript:display('M00118')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00118" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11204 target=_bget>K11204</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11205 target=_bget>K11205</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01919 target=_bget>K01919</a>&nbsp;DARJ01000045.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K21456 target=_bget>K21456</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01920 target=_bget>K01920</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00140.args'>M00140</a>&nbsp;C1-unit interconversion, prokaryotes [PATH:<a href="/kegg-bin/show_pathway?map00670+M00140">map00670</a> <a href="/kegg-bin/show_pathway?map01100+M00140">map01100</a>]&nbsp;(<a href="javascript:display('M00140')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00140" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00600 target=_bget>K00600</a>&nbsp;DARJ01000014.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01491 target=_bget>K01491</a>&nbsp;DARJ01000097.1_35<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01938 target=_bget>K01938</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00141.args'>M00141</a>&nbsp;C1-unit interconversion, eukaryotes [PATH:<a href="/kegg-bin/show_pathway?map00670+M00141">map00670</a> <a href="/kegg-bin/show_pathway?map01100+M00141">map01100</a>]&nbsp;(<a href="javascript:display('M00141')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00141" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00600 target=_bget>K00600</a>&nbsp;DARJ01000014.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00288 target=_bget>K00288</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13403 target=_bget>K13403</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13402 target=_bget>K13402</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polyamine biosynthesis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00133.args'>M00133</a>&nbsp;Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine [PATH:<a href="/kegg-bin/show_pathway?map00330+M00133">map00330</a> <a href="/kegg-bin/show_pathway?map01100+M00133">map01100</a>]&nbsp;(<a href="javascript:display('M00133')">2</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00133" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01583 target=_bget>K01583</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01584 target=_bget>K01584</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01585 target=_bget>K01585</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02626 target=_bget>K02626</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01480 target=_bget>K01480</a>&nbsp;DARJ01000109.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01611 target=_bget>K01611</a>&nbsp;DARJ01000109.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00797 target=_bget>K00797</a>&nbsp;<br />
+</div>
+<br/>&nbsp;&nbsp;<b>Structural complex</b><br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Energy metabolism</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ATP synthesis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00144.args'>M00144</a>&nbsp;NADH:quinone oxidoreductase, prokaryotes [PATH:<a href="/kegg-bin/show_pathway?map00190+M00144">map00190</a>]&nbsp;(<a href="javascript:display('M00144')">15</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00144" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00330 target=_bget>K00330</a>&nbsp;DARJ01000070.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00331 target=_bget>K00331</a>&nbsp;DARJ01000070.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00332 target=_bget>K00332</a>&nbsp;DARJ01000070.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00333 target=_bget>K00333</a>&nbsp;DARJ01000070.1_11,DARJ01000116.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00331 target=_bget>K00331</a>&nbsp;DARJ01000070.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13378 target=_bget>K13378</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13380 target=_bget>K13380</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00334 target=_bget>K00334</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00335 target=_bget>K00335</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00336 target=_bget>K00336</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00337 target=_bget>K00337</a>&nbsp;DARJ01000070.1_10,DARJ01000116.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00338 target=_bget>K00338</a>&nbsp;DARJ01000116.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00339 target=_bget>K00339</a>&nbsp;DARJ01000070.1_8,DARJ01000116.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00340 target=_bget>K00340</a>&nbsp;DARJ01000070.1_6,DARJ01000116.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00341 target=_bget>K00341</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00342 target=_bget>K00342</a>&nbsp;DARJ01000070.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15863 target=_bget>K15863</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00343 target=_bget>K00343</a>&nbsp;DARJ01000070.1_3<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00149.args'>M00149</a>&nbsp;Succinate dehydrogenase, prokaryotes [PATH:<a href="/kegg-bin/show_pathway?map00190+M00149">map00190</a>]&nbsp;(<a href="javascript:display('M00149')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00149" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00241 target=_bget>K00241</a>&nbsp;DARJ01000138.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00242 target=_bget>K00242</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00239 target=_bget>K00239</a>&nbsp;DARJ01000126.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00240 target=_bget>K00240</a>&nbsp;DARJ01000006.1_5<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00154.args'>M00154</a>&nbsp;Cytochrome c oxidase [PATH:<a href="/kegg-bin/show_pathway?map00190+M00154">map00190</a>]&nbsp;(<a href="javascript:display('M00154')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00154" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02257 target=_bget>K02257</a>&nbsp;DARJ01000046.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02262 target=_bget>K02262</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02256 target=_bget>K02256</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02261 target=_bget>K02261</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02263 target=_bget>K02263</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02264 target=_bget>K02264</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02265 target=_bget>K02265</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02266 target=_bget>K02266</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02267 target=_bget>K02267</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02268 target=_bget>K02268</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02269 target=_bget>K02269</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02270 target=_bget>K02270</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02271 target=_bget>K02271</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02272 target=_bget>K02272</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02273 target=_bget>K02273</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02258 target=_bget>K02258</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02259 target=_bget>K02259</a>&nbsp;DARJ01000046.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02260 target=_bget>K02260</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00155.args'>M00155</a>&nbsp;Cytochrome c oxidase, prokaryotes [PATH:<a href="/kegg-bin/show_pathway?map00190+M00155">map00190</a>]&nbsp;(<a href="javascript:display('M00155')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00155" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02275 target=_bget>K02275</a>&nbsp;DARJ01000058.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02274 target=_bget>K02274</a>&nbsp;DARJ01000058.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02276 target=_bget>K02276</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15408 target=_bget>K15408</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02277 target=_bget>K02277</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00153.args'>M00153</a>&nbsp;Cytochrome bd ubiquinol oxidase [PATH:<a href="/kegg-bin/show_pathway?map00190+M00153">map00190</a>]&nbsp;(<a href="javascript:display('M00153')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00153" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00425 target=_bget>K00425</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00426 target=_bget>K00426</a>&nbsp;DARJ01000099.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00424 target=_bget>K00424</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22501 target=_bget>K22501</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00159.args'>M00159</a>&nbsp;V-type ATPase, prokaryotes [PATH:<a href="/kegg-bin/show_pathway?map00190+M00159">map00190</a>]&nbsp;(<a href="javascript:display('M00159')">5</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00159" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02117 target=_bget>K02117</a>&nbsp;DARJ01000069.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02118 target=_bget>K02118</a>&nbsp;DARJ01000069.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02119 target=_bget>K02119</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02120 target=_bget>K02120</a>&nbsp;DARJ01000069.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02121 target=_bget>K02121</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02122 target=_bget>K02122</a>&nbsp;DARJ01000069.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02107 target=_bget>K02107</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02123 target=_bget>K02123</a>&nbsp;DARJ01000069.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02124 target=_bget>K02124</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Genetic information processing</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DNA polymerase<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00260.args'>M00260</a>&nbsp;DNA polymerase III complex, bacteria [PATH:<a href="/kegg-bin/show_pathway?map03030+M00260">map03030</a> <a href="/kegg-bin/show_pathway?map03430+M00260">map03430</a> <a href="/kegg-bin/show_pathway?map03440+M00260">map03440</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03032&query=M00260&option=-n">ko03032</a> <a href="/kegg-bin/get_htext?htext=ko03400&query=M00260&option=-n">ko03400</a>]&nbsp;(<a href="javascript:display('M00260')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00260" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02337 target=_bget>K02337</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03763 target=_bget>K03763</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02342 target=_bget>K02342</a>&nbsp;DARJ01000160.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14159 target=_bget>K14159</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02345 target=_bget>K02345</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02338 target=_bget>K02338</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02340 target=_bget>K02340</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02341 target=_bget>K02341</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02343 target=_bget>K02343</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02339 target=_bget>K02339</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02344 target=_bget>K02344</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repair system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00290.args'>M00290</a>&nbsp;Holo-TFIIH complex [PATH:<a href="/kegg-bin/show_pathway?map03420+M00290">map03420</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03021&query=M00290&option=-n">ko03021</a> <a href="/kegg-bin/get_htext?htext=ko03400&query=M00290&option=-n">ko03400</a>]&nbsp;(<a href="javascript:display('M00290')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00290" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03141 target=_bget>K03141</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03142 target=_bget>K03142</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03143 target=_bget>K03143</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03144 target=_bget>K03144</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10843 target=_bget>K10843</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10844 target=_bget>K10844</a>&nbsp;DARJ01000044.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10845 target=_bget>K10845</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02202 target=_bget>K02202</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K06634 target=_bget>K06634</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10842 target=_bget>K10842</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00295.args'>M00295</a>&nbsp;BRCA1-associated genome surveillance complex (BASC) [PATH:<a href="/kegg-bin/show_pathway?map03430+M00295">map03430</a> <a href="/kegg-bin/show_pathway?map03440+M00295">map03440</a> <a href="/kegg-bin/show_pathway?map03460+M00295">map03460</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03400&query=M00295&option=-n">ko03400</a>]&nbsp;(<a href="javascript:display('M00295')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00295" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10605 target=_bget>K10605</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08735 target=_bget>K08735</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08737 target=_bget>K08737</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08734 target=_bget>K08734</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10858 target=_bget>K10858</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10754 target=_bget>K10754</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10755 target=_bget>K10755</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10756 target=_bget>K10756</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04802 target=_bget>K04802</a>&nbsp;DARJ01000150.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10865 target=_bget>K10865</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10866 target=_bget>K10866</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10867 target=_bget>K10867</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10901 target=_bget>K10901</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K04728 target=_bget>K04728</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00413.args'>M00413</a>&nbsp;FA core complex [PATH:<a href="/kegg-bin/show_pathway?map03460+M00413">map03460</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03400&query=M00413&option=-n">ko03400</a>]&nbsp;(<a href="javascript:display('M00413')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00413" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10888 target=_bget>K10888</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10889 target=_bget>K10889</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10890 target=_bget>K10890</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10892 target=_bget>K10892</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10893 target=_bget>K10893</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10894 target=_bget>K10894</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10606 target=_bget>K10606</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10896 target=_bget>K10896</a>&nbsp;DARJ01000138.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10898 target=_bget>K10898</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10993 target=_bget>K10993</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RNA polymerase<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00184.args'>M00184</a>&nbsp;RNA polymerase, archaea [PATH:<a href="/kegg-bin/show_pathway?map03020+M00184">map03020</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03021&query=M00184&option=-n">ko03021</a>]&nbsp;(<a href="javascript:display('M00184')">9</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00184" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03042 target=_bget>K03042</a>&nbsp;DARJ01000002.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03041 target=_bget>K03041</a>&nbsp;DARJ01000002.1_7,DARJ01000045.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03044 target=_bget>K03044</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03045 target=_bget>K03045</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13798 target=_bget>K13798</a>&nbsp;DARJ01000045.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03053 target=_bget>K03053</a>&nbsp;DARJ01000045.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03055 target=_bget>K03055</a>&nbsp;DARJ01000046.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03058 target=_bget>K03058</a>&nbsp;DARJ01000124.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03047 target=_bget>K03047</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03049 target=_bget>K03049</a>&nbsp;DARJ01000143.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03050 target=_bget>K03050</a>&nbsp;DARJ01000143.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03056 target=_bget>K03056</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03059 target=_bget>K03059</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03051 target=_bget>K03051</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03052 target=_bget>K03052</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03054 target=_bget>K03054</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RNA processing<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00425.args'>M00425</a>&nbsp;H/ACA ribonucleoprotein complex [PATH:<a href="/kegg-bin/show_pathway?map03008+M00425">map03008</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03032&query=M00425&option=-n">ko03032</a> <a href="/kegg-bin/get_htext?htext=ko03009&query=M00425&option=-n">ko03009</a>]&nbsp;(<a href="javascript:display('M00425')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00425" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11128 target=_bget>K11128</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11129 target=_bget>K11129</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11130 target=_bget>K11130</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11131 target=_bget>K11131</a>&nbsp;DARJ01000081.1_12<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00390.args'>M00390</a>&nbsp;Exosome, archaea [PATH:<a href="/kegg-bin/show_pathway?map03018+M00390">map03018</a>]&nbsp;(<a href="javascript:display('M00390')">3</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00390" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07573 target=_bget>K07573</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03679 target=_bget>K03679</a>&nbsp;DARJ01000115.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11600 target=_bget>K11600</a>&nbsp;DARJ01000115.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12589 target=_bget>K12589</a>&nbsp;DARJ01000115.1_5<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00391.args'>M00391</a>&nbsp;Exosome, eukaryotes [PATH:<a href="/kegg-bin/show_pathway?map03018+M00391">map03018</a>]&nbsp;(<a href="javascript:display('M00391')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00391" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07573 target=_bget>K07573</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12587 target=_bget>K12587</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03679 target=_bget>K03679</a>&nbsp;DARJ01000115.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03681 target=_bget>K03681</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11600 target=_bget>K11600</a>&nbsp;DARJ01000115.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12589 target=_bget>K12589</a>&nbsp;DARJ01000115.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12586 target=_bget>K12586</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12585 target=_bget>K12585</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03678 target=_bget>K03678</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12590 target=_bget>K12590</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00394.args'>M00394</a>&nbsp;RNA degradosome [PATH:<a href="/kegg-bin/show_pathway?map03018+M00394">map03018</a>]&nbsp;(<a href="javascript:display('M00394')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00394" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08300 target=_bget>K08300</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03732 target=_bget>K03732</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01689 target=_bget>K01689</a>&nbsp;DARJ01000133.1_1,DARJ01000134.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00962 target=_bget>K00962</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ribosome<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00178.args'>M00178</a>&nbsp;Ribosome, bacteria [PATH:<a href="/kegg-bin/show_pathway?map03010+M00178">map03010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03011&query=M00178&option=-n">ko03011</a>]&nbsp;(<a href="javascript:display('M00178')">25</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00178" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02946 target=_bget>K02946</a>&nbsp;DARJ01000087.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02906 target=_bget>K02906</a>&nbsp;DARJ01000138.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02926 target=_bget>K02926</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02892 target=_bget>K02892</a>&nbsp;DARJ01000138.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02886 target=_bget>K02886</a>&nbsp;DARJ01000138.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02965 target=_bget>K02965</a>&nbsp;DARJ01000138.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02890 target=_bget>K02890</a>&nbsp;DARJ01000138.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02982 target=_bget>K02982</a>&nbsp;DARJ01000138.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02878 target=_bget>K02878</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02904 target=_bget>K02904</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02961 target=_bget>K02961</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02874 target=_bget>K02874</a>&nbsp;DARJ01000118.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02895 target=_bget>K02895</a>&nbsp;DARJ01000118.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02931 target=_bget>K02931</a>&nbsp;DARJ01000118.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02954 target=_bget>K02954</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02994 target=_bget>K02994</a>&nbsp;DARJ01000118.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02933 target=_bget>K02933</a>&nbsp;DARJ01000118.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02881 target=_bget>K02881</a>&nbsp;DARJ01000019.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02988 target=_bget>K02988</a>&nbsp;DARJ01000019.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02907 target=_bget>K02907</a>&nbsp;DARJ01000019.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02876 target=_bget>K02876</a>&nbsp;DARJ01000019.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02919 target=_bget>K02919</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02952 target=_bget>K02952</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02948 target=_bget>K02948</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02986 target=_bget>K02986</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02879 target=_bget>K02879</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02871 target=_bget>K02871</a>&nbsp;DARJ01000124.1_12,DARJ01000168.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02996 target=_bget>K02996</a>&nbsp;DARJ01000124.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02992 target=_bget>K02992</a>&nbsp;DARJ01000115.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02950 target=_bget>K02950</a>&nbsp;DARJ01000115.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07590 target=_bget>K07590</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02935 target=_bget>K02935</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02864 target=_bget>K02864</a>&nbsp;DARJ01000167.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02863 target=_bget>K02863</a>&nbsp;DARJ01000167.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02867 target=_bget>K02867</a>&nbsp;DARJ01000167.1_17<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02967 target=_bget>K02967</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02956 target=_bget>K02956</a>&nbsp;DARJ01000100.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02916 target=_bget>K02916</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02887 target=_bget>K02887</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02914 target=_bget>K02914</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02939 target=_bget>K02939</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02963 target=_bget>K02963</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02990 target=_bget>K02990</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02888 target=_bget>K02888</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02899 target=_bget>K02899</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02902 target=_bget>K02902</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02913 target=_bget>K02913</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02911 target=_bget>K02911</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02909 target=_bget>K02909</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02897 target=_bget>K02897</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02959 target=_bget>K02959</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02884 target=_bget>K02884</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02968 target=_bget>K02968</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02945 target=_bget>K02945</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02970 target=_bget>K02970</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00179.args'>M00179</a>&nbsp;Ribosome, archaea [PATH:<a href="/kegg-bin/show_pathway?map03010+M00179">map03010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03011&query=M00179&option=-n">ko03011</a>]&nbsp;(<a href="javascript:display('M00179')">50</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00179" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02946 target=_bget>K02946</a>&nbsp;DARJ01000087.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02906 target=_bget>K02906</a>&nbsp;DARJ01000138.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02930 target=_bget>K02930</a>&nbsp;DARJ01000138.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02892 target=_bget>K02892</a>&nbsp;DARJ01000138.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02886 target=_bget>K02886</a>&nbsp;DARJ01000138.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02965 target=_bget>K02965</a>&nbsp;DARJ01000138.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02890 target=_bget>K02890</a>&nbsp;DARJ01000138.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02982 target=_bget>K02982</a>&nbsp;DARJ01000138.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02904 target=_bget>K02904</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02961 target=_bget>K02961</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02874 target=_bget>K02874</a>&nbsp;DARJ01000118.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02895 target=_bget>K02895</a>&nbsp;DARJ01000118.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02987 target=_bget>K02987</a>&nbsp;DARJ01000118.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02931 target=_bget>K02931</a>&nbsp;DARJ01000118.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02954 target=_bget>K02954</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02994 target=_bget>K02994</a>&nbsp;DARJ01000118.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02933 target=_bget>K02933</a>&nbsp;DARJ01000118.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02912 target=_bget>K02912</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02885 target=_bget>K02885</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02881 target=_bget>K02881</a>&nbsp;DARJ01000019.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02988 target=_bget>K02988</a>&nbsp;DARJ01000019.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02907 target=_bget>K02907</a>&nbsp;DARJ01000019.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02876 target=_bget>K02876</a>&nbsp;DARJ01000019.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02952 target=_bget>K02952</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02948 target=_bget>K02948</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02986 target=_bget>K02986</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02883 target=_bget>K02883</a>&nbsp;DARJ01000124.1_13,DARJ01000168.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02871 target=_bget>K02871</a>&nbsp;DARJ01000124.1_12,DARJ01000168.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02996 target=_bget>K02996</a>&nbsp;DARJ01000124.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02992 target=_bget>K02992</a>&nbsp;DARJ01000115.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02950 target=_bget>K02950</a>&nbsp;DARJ01000115.1_13<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02936 target=_bget>K02936</a>&nbsp;DARJ01000036.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02979 target=_bget>K02979</a>&nbsp;DARJ01000036.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02896 target=_bget>K02896</a>&nbsp;DARJ01000036.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02869 target=_bget>K02869</a>&nbsp;DARJ01000167.1_20<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02864 target=_bget>K02864</a>&nbsp;DARJ01000167.1_19<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02863 target=_bget>K02863</a>&nbsp;DARJ01000167.1_18<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02867 target=_bget>K02867</a>&nbsp;DARJ01000167.1_17<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02967 target=_bget>K02967</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02956 target=_bget>K02956</a>&nbsp;DARJ01000100.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02978 target=_bget>K02978</a>&nbsp;DARJ01000089.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02929 target=_bget>K02929</a>&nbsp;DARJ01000089.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02877 target=_bget>K02877</a>&nbsp;DARJ01000034.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02984 target=_bget>K02984</a>&nbsp;DARJ01000107.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02991 target=_bget>K02991</a>&nbsp;DARJ01000073.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02974 target=_bget>K02974</a>&nbsp;DARJ01000143.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02977 target=_bget>K02977</a>&nbsp;DARJ01000143.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02962 target=_bget>K02962</a>&nbsp;DARJ01000120.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02910 target=_bget>K02910</a>&nbsp;DARJ01000120.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02924 target=_bget>K02924</a>&nbsp;DARJ01000120.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02866 target=_bget>K02866</a>&nbsp;DARJ01000067.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02889 target=_bget>K02889</a>&nbsp;DARJ01000167.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02922 target=_bget>K02922</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02921 target=_bget>K02921</a>&nbsp;DARJ01000115.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02995 target=_bget>K02995</a>&nbsp;DARJ01000077.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02966 target=_bget>K02966</a>&nbsp;DARJ01000120.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02927 target=_bget>K02927</a>&nbsp;DARJ01000015.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02944 target=_bget>K02944</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02976 target=_bget>K02976</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02975 target=_bget>K02975</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02983 target=_bget>K02983</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02873 target=_bget>K02873</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02917 target=_bget>K02917</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02928 target=_bget>K02928</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02915 target=_bget>K02915</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02875 target=_bget>K02875</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02908 target=_bget>K02908</a>&nbsp;DARJ01000002.1_5<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00177.args'>M00177</a>&nbsp;Ribosome, eukaryotes [PATH:<a href="/kegg-bin/show_pathway?map03010+M00177">map03010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03011&query=M00177&option=-n">ko03011</a>]&nbsp;(<a href="javascript:display('M00177')">24</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00177" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02981 target=_bget>K02981</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02985 target=_bget>K02985</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02984 target=_bget>K02984</a>&nbsp;DARJ01000107.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02987 target=_bget>K02987</a>&nbsp;DARJ01000118.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02989 target=_bget>K02989</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02991 target=_bget>K02991</a>&nbsp;DARJ01000073.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02993 target=_bget>K02993</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02995 target=_bget>K02995</a>&nbsp;DARJ01000077.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02997 target=_bget>K02997</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02947 target=_bget>K02947</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02949 target=_bget>K02949</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02951 target=_bget>K02951</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02953 target=_bget>K02953</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02955 target=_bget>K02955</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02958 target=_bget>K02958</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02957 target=_bget>K02957</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02960 target=_bget>K02960</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02962 target=_bget>K02962</a>&nbsp;DARJ01000120.1_12<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02964 target=_bget>K02964</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02966 target=_bget>K02966</a>&nbsp;DARJ01000120.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02969 target=_bget>K02969</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02971 target=_bget>K02971</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02973 target=_bget>K02973</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02974 target=_bget>K02974</a>&nbsp;DARJ01000143.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02975 target=_bget>K02975</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02976 target=_bget>K02976</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02978 target=_bget>K02978</a>&nbsp;DARJ01000089.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02977 target=_bget>K02977</a>&nbsp;DARJ01000143.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02979 target=_bget>K02979</a>&nbsp;DARJ01000036.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02980 target=_bget>K02980</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02983 target=_bget>K02983</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02998 target=_bget>K02998</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02925 target=_bget>K02925</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02930 target=_bget>K02930</a>&nbsp;DARJ01000138.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02932 target=_bget>K02932</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02934 target=_bget>K02934</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02937 target=_bget>K02937</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02936 target=_bget>K02936</a>&nbsp;DARJ01000036.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02938 target=_bget>K02938</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02940 target=_bget>K02940</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02866 target=_bget>K02866</a>&nbsp;DARJ01000067.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02865 target=_bget>K02865</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02868 target=_bget>K02868</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02870 target=_bget>K02870</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02873 target=_bget>K02873</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02872 target=_bget>K02872</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02875 target=_bget>K02875</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02877 target=_bget>K02877</a>&nbsp;DARJ01000034.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02880 target=_bget>K02880</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02883 target=_bget>K02883</a>&nbsp;DARJ01000124.1_13,DARJ01000168.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02882 target=_bget>K02882</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02885 target=_bget>K02885</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02889 target=_bget>K02889</a>&nbsp;DARJ01000167.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02891 target=_bget>K02891</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02894 target=_bget>K02894</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02893 target=_bget>K02893</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02896 target=_bget>K02896</a>&nbsp;DARJ01000036.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02898 target=_bget>K02898</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02901 target=_bget>K02901</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02900 target=_bget>K02900</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02903 target=_bget>K02903</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02905 target=_bget>K02905</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02908 target=_bget>K02908</a>&nbsp;DARJ01000002.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02910 target=_bget>K02910</a>&nbsp;DARJ01000120.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02912 target=_bget>K02912</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02915 target=_bget>K02915</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02918 target=_bget>K02918</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02917 target=_bget>K02917</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02920 target=_bget>K02920</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02922 target=_bget>K02922</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02921 target=_bget>K02921</a>&nbsp;DARJ01000115.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02923 target=_bget>K02923</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02924 target=_bget>K02924</a>&nbsp;DARJ01000120.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02927 target=_bget>K02927</a>&nbsp;DARJ01000015.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02928 target=_bget>K02928</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02929 target=_bget>K02929</a>&nbsp;DARJ01000089.1_9<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02941 target=_bget>K02941</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02942 target=_bget>K02942</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02943 target=_bget>K02943</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proteasome<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00342.args'>M00342</a>&nbsp;Bacterial proteasome [PATH:<a href="/kegg-bin/show_pathway?map03050+M00342">map03050</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03051&query=M00342&option=-n">ko03051</a>]&nbsp;(<a href="javascript:display('M00342')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00342" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03432 target=_bget>K03432</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03433 target=_bget>K03433</a>&nbsp;DARJ01000125.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13527 target=_bget>K13527</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13571 target=_bget>K13571</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00343.args'>M00343</a>&nbsp;Archaeal proteasome [PATH:<a href="/kegg-bin/show_pathway?map03050+M00343">map03050</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko03051&query=M00343&option=-n">ko03051</a>]&nbsp;(<a href="javascript:display('M00343')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00343" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03432 target=_bget>K03432</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03433 target=_bget>K03433</a>&nbsp;DARJ01000125.1_8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03420 target=_bget>K03420</a>&nbsp;DARJ01000172.1_8<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protein processing<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00400.args'>M00400</a>&nbsp;p97-Ufd1-Npl4 complex [PATH:<a href="/kegg-bin/show_pathway?map04141+M00400">map04141</a>]&nbsp;(<a href="javascript:display('M00400')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00400" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13525 target=_bget>K13525</a>&nbsp;DARJ01000059.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14016 target=_bget>K14016</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14015 target=_bget>K14015</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00401.args'>M00401</a>&nbsp;Sec61 complex [PATH:<a href="/kegg-bin/show_pathway?map03060+M00401">map03060</a> <a href="/kegg-bin/show_pathway?map04141+M00401">map04141</a> <a href="/kegg-bin/show_pathway?map04145+M00401">map04145</a> <a href="/kegg-bin/show_pathway?map05110+M00401">map05110</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02044&query=M00401&option=-n">ko02044</a>]&nbsp;(<a href="javascript:display('M00401')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00401" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10956 target=_bget>K10956</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09481 target=_bget>K09481</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K07342 target=_bget>K07342</a>&nbsp;DARJ01000167.1_15<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00403.args'>M00403</a>&nbsp;HRD1/SEL1 ERAD complex [PATH:<a href="/kegg-bin/show_pathway?map04141+M00403">map04141</a>]&nbsp;(<a href="javascript:display('M00403')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00403" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10601 target=_bget>K10601</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14026 target=_bget>K14026</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10088 target=_bget>K10088</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14008 target=_bget>K14008</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14027 target=_bget>K14027</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K11519 target=_bget>K11519</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13989 target=_bget>K13989</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14025 target=_bget>K14025</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13525 target=_bget>K13525</a>&nbsp;DARJ01000059.1_6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14015 target=_bget>K14015</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K14016 target=_bget>K14016</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Environmental information processing</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saccharide, polyol, and lipid transport system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00194.args'>M00194</a>&nbsp;Maltose/maltodextrin transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00194">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00194&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00194')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00194" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10108 target=_bget>K10108</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10109 target=_bget>K10109</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10110 target=_bget>K10110</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10111 target=_bget>K10111</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00196.args'>M00196</a>&nbsp;Multiple sugar transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00196">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00196&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00196')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00196" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10117 target=_bget>K10117</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10118 target=_bget>K10118</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10119 target=_bget>K10119</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00201.args'>M00201</a>&nbsp;alpha-Glucoside transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00201">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00201&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00201')">1</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00201" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10232 target=_bget>K10232</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10233 target=_bget>K10233</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10234 target=_bget>K10234</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10235 target=_bget>K10235</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00605.args'>M00605</a>&nbsp;Glucose/mannose transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00605">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00605&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00605')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00605" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17315 target=_bget>K17315</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17316 target=_bget>K17316</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17317 target=_bget>K17317</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00206.args'>M00206</a>&nbsp;Cellobiose transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00206">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00206&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00206')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00206" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10240 target=_bget>K10240</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10241 target=_bget>K10241</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10242 target=_bget>K10242</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00606.args'>M00606</a>&nbsp;N,N'-Diacetylchitobiose transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00606">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00606&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00606')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00606" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17329 target=_bget>K17329</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17330 target=_bget>K17330</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17331 target=_bget>K17331</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00197.args'>M00197</a>&nbsp;Putative fructooligosaccharide transport system [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00197&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00197')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00197" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10120 target=_bget>K10120</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10121 target=_bget>K10121</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10122 target=_bget>K10122</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00200.args'>M00200</a>&nbsp;Putative sorbitol/mannitol transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00200">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00200&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00200')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00200" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10227 target=_bget>K10227</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10228 target=_bget>K10228</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10229 target=_bget>K10229</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10111 target=_bget>K10111</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00602.args'>M00602</a>&nbsp;Arabinosaccharide transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00602">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00602&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00602')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00602" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17234 target=_bget>K17234</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17235 target=_bget>K17235</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K17236 target=_bget>K17236</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00491.args'>M00491</a>&nbsp;arabinogalactan oligomer/maltooligosaccharide transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00491">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00491&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00491')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00491" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15770 target=_bget>K15770</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15771 target=_bget>K15771</a>&nbsp;DARJ01000035.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K15772 target=_bget>K15772</a>&nbsp;DARJ01000147.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10111 target=_bget>K10111</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00207.args'>M00207</a>&nbsp;Putative multiple sugar transport system [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00207&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00207')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00207" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02027 target=_bget>K02027</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02025 target=_bget>K02025</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02026 target=_bget>K02026</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10111 target=_bget>K10111</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K10112 target=_bget>K10112</a>&nbsp;DARJ01000147.1_10<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phosphate and amino acid transport system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00222.args'>M00222</a>&nbsp;Phosphate transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00222">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00222&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00222')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00222" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02040 target=_bget>K02040</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02037 target=_bget>K02037</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02038 target=_bget>K02038</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02036 target=_bget>K02036</a>&nbsp;DARJ01000098.1_1<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00223.args'>M00223</a>&nbsp;Phosphonate transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00223">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00223&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00223')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00223" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02044 target=_bget>K02044</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02042 target=_bget>K02042</a>&nbsp;DARJ01000110.1_10<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02041 target=_bget>K02041</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peptide and nickel transport system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00239.args'>M00239</a>&nbsp;Peptides/nickel transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00239">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00239&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00239')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00239" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02035 target=_bget>K02035</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02033 target=_bget>K02033</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02034 target=_bget>K02034</a>&nbsp;DARJ01000142.1_2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02031 target=_bget>K02031</a>&nbsp;DARJ01000142.1_1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02032 target=_bget>K02032</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallic cation, iron-siderophore and vitamin B12 transport system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00242.args'>M00242</a>&nbsp;Zinc transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00242">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00242&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00242')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00242" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09815 target=_bget>K09815</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09816 target=_bget>K09816</a>&nbsp;DARJ01000052.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09817 target=_bget>K09817</a>&nbsp;DARJ01000052.1_5<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABC-2 type and other transport systems<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00253.args'>M00253</a>&nbsp;Sodium transport system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00253">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00253&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00253')">2</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00253" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09696 target=_bget>K09696</a>&nbsp;DARJ01000174.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K09697 target=_bget>K09697</a>&nbsp;DARJ01000174.1_4<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00762.args'>M00762</a>&nbsp;Copper-processing system [PATH:<a href="/kegg-bin/show_pathway?map02010+M00762">map02010</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00762&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00762')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00762" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K19341 target=_bget>K19341</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K19340 target=_bget>K19340</a>&nbsp;DARJ01000110.1_6<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00258.args'>M00258</a>&nbsp;Putative ABC transport system [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00258&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00258')">6</a>)&nbsp;&nbsp;(complete)<br>
+<div id="objectM00258" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02004 target=_bget>K02004</a>&nbsp;DARJ01000086.1_7,DARJ01000046.1_16<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02003 target=_bget>K02003</a>&nbsp;DARJ01000140.1_1,DARJ01000140.1_5,DARJ01000086.1_6,DARJ01000046.1_17<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00254.args'>M00254</a>&nbsp;ABC-2 type transport system [BR:<a href="/kegg-bin/get_htext?htext=ko02000&query=M00254&option=-n">ko02000</a>]&nbsp;(<a href="javascript:display('M00254')">3</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00254" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01992 target=_bget>K01992</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01990 target=_bget>K01990</a>&nbsp;DARJ01000097.1_13,DARJ01000097.1_15,DARJ01000122.1_4<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bacterial secretion system<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00335.args'>M00335</a>&nbsp;Sec (secretion) system [PATH:<a href="/kegg-bin/show_pathway?map03070+M00335">map03070</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02044&query=M00335&option=-n">ko02044</a>]&nbsp;(<a href="javascript:display('M00335')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00335" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03072 target=_bget>K03072</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03074 target=_bget>K03074</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K12257 target=_bget>K12257</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03073 target=_bget>K03073</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03075 target=_bget>K03075</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K22228 target=_bget>K22228</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K13301 target=_bget>K13301</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03076 target=_bget>K03076</a>&nbsp;DARJ01000019.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03210 target=_bget>K03210</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03217 target=_bget>K03217</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03070 target=_bget>K03070</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03110 target=_bget>K03110</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03071 target=_bget>K03071</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03106 target=_bget>K03106</a>&nbsp;DARJ01000013.1_3<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00336.args'>M00336</a>&nbsp;Twin-arginine translocation (Tat) system [PATH:<a href="/kegg-bin/show_pathway?map03070+M00336">map03070</a>] [BR:<a href="/kegg-bin/get_htext?htext=ko02044&query=M00336&option=-n">ko02044</a>]&nbsp;(<a href="javascript:display('M00336')">2</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00336" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03116 target=_bget>K03116</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03117 target=_bget>K03117</a>&nbsp;DARJ01000086.1_4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03118 target=_bget>K03118</a>&nbsp;DARJ01000097.1_32<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K03425 target=_bget>K03425</a>&nbsp;<br />
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00429.args'>M00429</a>&nbsp;Competence-related DNA transformation transporter [BR:<a href="/kegg-bin/get_htext?htext=ko02044&query=M00429&option=-n">ko02044</a>]&nbsp;(<a href="javascript:display('M00429')">1</a>)&nbsp;&nbsp;(1 block missing)<br>
+<div id="objectM00429" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02237 target=_bget>K02237</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02238 target=_bget>K02238</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02240 target=_bget>K02240</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02242 target=_bget>K02242</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02245 target=_bget>K02245</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02246 target=_bget>K02246</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02247 target=_bget>K02247</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02249 target=_bget>K02249</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02243 target=_bget>K02243</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02244 target=_bget>K02244</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02236 target=_bget>K02236</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02248 target=_bget>K02248</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01493 target=_bget>K01493</a>&nbsp;DARJ01000179.1_5<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02239 target=_bget>K02239</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K02241 target=_bget>K02241</a>&nbsp;<br />
+</div>
+<br/>&nbsp;&nbsp;<b>Functional set</b><br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Metabolism</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nucleotide sugar<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/kegg-bin/show_module?154192398035155/M00361.args'>M00361</a>&nbsp;Nucleotide sugar biosynthesis, eukaryotes [PATH:<a href="/kegg-bin/show_pathway?map00520+M00361">map00520</a>]&nbsp;(<a href="javascript:display('M00361')">4</a>)&nbsp;&nbsp;(2 blocks missing)<br>
+<div id="objectM00361" class="object"><p/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00963 target=_bget>K00963</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K01784 target=_bget>K01784</a>&nbsp;DARJ01000062.1_11<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00972 target=_bget>K00972</a>&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00012 target=_bget>K00012</a>&nbsp;DARJ01000040.1_7<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K08678 target=_bget>K08678</a>&nbsp;DARJ01000171.1_14<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00966 target=_bget>K00966</a>&nbsp;DARJ01000112.1_3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=/dbget-bin/www_bget?K00971 target=_bget>K00971</a>&nbsp;<br />
+</div>
+
+</div>
+</body>
+</html>
+

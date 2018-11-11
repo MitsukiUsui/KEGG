@@ -13,7 +13,9 @@ old/
 !*.py
 
 # add all the filename I'm interested in.
-!fetch/data/filepath.csv
 !data/*.tsv
 !data/module/*.txt
+!test/input*.txt
+!test/result*.csv
+!test/result*.html
 data/.definition.tsv
