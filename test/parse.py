@@ -23,7 +23,7 @@ def result2loss(result):
         return int(m.group(1))
 
 html_fp = sys.argv[1]
-out_fp = sys.argv[2]
+out_fp = html_fp.replace(".html", ".csv")
 
 html = open(html_fp, "r").read()
 dct_lst = []
