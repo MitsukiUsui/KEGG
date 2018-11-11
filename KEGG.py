@@ -1,4 +1,15 @@
+import os
+import sys
 import logging
+import pandas as pd
+
+PACKAGE_DIREC = os.path.dirname(os.path.abspath(__file__))
+mod_fp = "{}/data/module.tsv".format(PACKAGE_DIREC)
+def_fp = "{}/data/definition.tsv".format(PACKAGE_DIREC)
+
+mod_df = pd.read_csv(mod_fp, sep='\t')
+def_df = pd.read_csv(def_fp, sep='\t')
+assert mod_df["module_name"].equals(def_df["module_name"])
 
 
 class Mapper:
@@ -7,12 +18,28 @@ class Mapper:
     nb: the number of blocks
     """
 
-    def __init__(self, text):
-        self.text = text + '$' #append non-digit sentinal to force stop k-number extension search
+    def __init__(self, ignore_orphan=False):
+        self.ignore_orphan = ignore_orphan
 
-    def evaluate(self, kos):
-        self.cur = 0 # reset cursor position
+    def map(self, kos):
+        dct_lst = []
+        for _, row in def_df.iterrows():
+            dct = {"module_name": row["module_name"]}
+            try:
+                dct["na"], dct["nb"] = self.evaluate(kos, row["definition"])
+                dct_lst.append(dct)
+            except SyntaxError:
+                logging.error("malformed definition found for {}".format(row["module_name"]))
+                sys.exit(1)
+        map_df = pd.DataFrame(dct_lst)
+        ret_df = pd.merge(mod_df, map_df, on="module_name")
+        ret_df = ret_df[["module_name", "na", "nb", "desc"]]
+        return ret_df
+
+    def evaluate(self, kos, text):
         self.kos = kos
+        self.text = text + '$' #append non-digit sentinal to force stop k-number extension search
+        self.cur = 0 # reset cursor position
         return self._expression()
 
     def _get(self):
@@ -25,7 +52,10 @@ class Mapper:
         ontology = self._get()
         self.cur += 1
         if ontology == '?': #orphan gene
-            na, nb = 0, 1
+            if self.ignore_orphan:
+                na, nb = 1, 1
+            else:
+                na, nb = 0, 1
         elif ontology in ('K', 'M'): #k-number or m-number
             while self._get().isdigit():
                 ontology += self._get()
