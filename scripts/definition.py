@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
+import os
+import sys
 import pandas as pd
+sys.path.append("{}/../".format(os.path.dirname(os.path.abspath(__file__))))
 from KEGG import scrape_definition
 
 mod_fp = "./data/module.tsv"

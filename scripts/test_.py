@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import logging
 import pandas as pd
+sys.path.append("{}/../".format(os.path.dirname(os.path.abspath(__file__))))
 from KEGG import Mapper
 #logging.basicConfig(level=logging.DEBUG)
 
