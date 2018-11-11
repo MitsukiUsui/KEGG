@@ -16,4 +16,4 @@ old/
 !fetch/data/filepath.csv
 !data/*.tsv
 !data/module/*.txt
-
+data/.definition.tsv
