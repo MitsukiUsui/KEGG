@@ -12,7 +12,7 @@ def_df = pd.read_csv(def_fp, sep='\t')
 assert mod_df["module_name"].equals(def_df["module_name"])
 
 
-class Mapper:
+class ModuleMapper:
     """
     na: the number of achievement of blocks
     nb: the number of blocks

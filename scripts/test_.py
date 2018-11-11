@@ -5,7 +5,7 @@ import sys
 import logging
 import pandas as pd
 sys.path.append("{}/../".format(os.path.dirname(os.path.abspath(__file__))))
-from KEGG import Mapper
+from KEGG import ModuleMapper
 #logging.basicConfig(level=logging.DEBUG)
 
 
@@ -26,7 +26,7 @@ print("loaded {} & {}".format(input_fp, result_fp))
 kos = load_kos(input_fp)
 result_df = pd.read_csv(result_fp)
 
-mapper = Mapper()
+mapper = ModuleMapper()
 map_df = mapper.map(kos)
 map_df["myloss"] = map_df["nb"] - map_df["na"]
 
