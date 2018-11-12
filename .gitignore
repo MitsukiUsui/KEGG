@@ -12,6 +12,7 @@ build/
 # Add all the file types I'm interested in.
 !.gitignore
 !*.py
+!MANIFEST.in
 
 # add all the filename I'm interested in.
 !data/*.tsv

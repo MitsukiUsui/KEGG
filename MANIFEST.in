@@ -1,0 +1,2 @@
+include package/data/module.tsv
+include package/data/definition.tsv
