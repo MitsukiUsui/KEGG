@@ -2,7 +2,8 @@ from setuptools import setup,find_packages
 
 setup(
     name="KEGG",
-    version="0.0.3",
+    version="0.1.0",
+    description="inhouse KEGG Module Mapper",
     author="MitsukiUsui",
     package_dir={"KEGG":"package"},
     packages=["KEGG"],
