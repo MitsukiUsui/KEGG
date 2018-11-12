@@ -7,6 +7,7 @@
 # ignore certain directory
 old/
 .ipynb_checkpoints/
+build/
 
 # Add all the file types I'm interested in.
 !.gitignore

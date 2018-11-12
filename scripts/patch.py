@@ -5,16 +5,17 @@ import logging
 import pandas as pd
 logging.basicConfig(level=logging.DEBUG)
 
-def_fp = "./data/definition.tsv"
-patch_fp = "./data/patch.tsv"
-back_fp = "./data/.definition.tsv"
+data_dir = "./package/data"
+def_fp = "{}/definition.tsv".format(data_dir)
+patch_fp = "{}/patch.tsv".format(data_dir)
+backup_fp = "{}/.definition.tsv".format(data_dir)
 
-def_df = pd.read_csv("./data/definition.tsv", sep='\t')
+def_df = pd.read_csv(def_fp, sep='\t')
 print("found {} definitions".format(len(def_df)))
-patch_df = pd.read_csv("./data/patch.tsv", sep='\t')
+patch_df = pd.read_csv(patch_fp, sep='\t')
 print("found {} patches".format(len(patch_df)))
-os.rename(def_fp, back_fp)
-print("backuped {}".format(def_fp, back_fp))
+os.rename(def_fp, backup_fp)
+print("backuped {}".format(def_fp, backup_fp))
 
 m2d = dict([(module_name, definition) for module_name, definition in zip(def_df["module_name"], def_df["definition"])])
 for _, row in patch_df.iterrows():

@@ -4,7 +4,7 @@ import os
 import sys
 import logging
 import pandas as pd
-sys.path.append("{}/../".format(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, "{}/../package".format(os.path.dirname(os.path.abspath(__file__))))
 from KEGG import ModuleMapper
 #logging.basicConfig(level=logging.DEBUG)
 
@@ -19,8 +19,8 @@ def load_kos(input_fp):
 
 
 test_name = sys.argv[1]
-input_fp = "./test/input{}.txt".format(test_name)
-result_fp = "./test/result{}.csv".format(test_name)
+input_fp = "./tests/input{}.txt".format(test_name)
+result_fp = "./tests/result{}.csv".format(test_name)
 print("loaded {} & {}".format(input_fp, result_fp))
 
 kos = load_kos(input_fp)

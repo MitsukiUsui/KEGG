@@ -3,12 +3,13 @@
 import os
 import sys
 import pandas as pd
-sys.path.append("{}/../".format(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, "{}/../package".format(os.path.dirname(os.path.abspath(__file__))))
 from KEGG import scrape_definition
 
-mod_fp = "./data/module.tsv"
-def_fp = "./data/definition.tsv"
-mod_dir = "./data/module"
+data_dir = "./package/data"
+mod_fp = "{}/module.tsv".format(data_dir)
+def_fp = "{}/definition.tsv".format(data_dir)
+mod_dir = "{}/module".format(data_dir)
 
 mod_df = pd.read_csv(mod_fp, sep='\t')
 print("found {} modules".format(len(mod_df)))
