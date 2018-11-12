@@ -15,9 +15,9 @@ build/
 !MANIFEST.in
 
 # add all the filename I'm interested in.
-!data/*.tsv
-!data/module/*.txt
-!test/input*.txt
-!test/result*.csv
-!test/result*.html
-data/.definition.tsv
+!package/data/*.tsv
+!package/data/module/*.txt
+!tests/input*.txt
+!tests/result*.csv
+!tests/result*.html
+package/data/.definition.tsv
