@@ -1,8 +1,9 @@
 import os
 import sys
-import logging
+from logging import getLogger
 import pandas as pd
 
+logger = getLogger(__name__)
 PACKAGE_DIREC = os.path.dirname(os.path.abspath(__file__))
 mod_fp = "{}/data/module.tsv".format(PACKAGE_DIREC)
 def_fp = "{}/data/definition.tsv".format(PACKAGE_DIREC)
@@ -29,7 +30,7 @@ class ModuleMapper:
                 dct["na"], dct["nb"] = self.evaluate(kos, row["definition"])
                 dct_lst.append(dct)
             except SyntaxError:
-                logging.error("malformed definition found for {}".format(row["module_name"]))
+                logger.error("malformed definition found for {}".format(row["module_name"]))
                 sys.exit(1)
         map_df = pd.DataFrame(dct_lst)
         ret_df = pd.merge(mod_df, map_df, on="module_name")
@@ -47,7 +48,7 @@ class ModuleMapper:
 
     def _number(self):
         cur_start = self.cur
-        logging.debug("num@{}:".format(cur_start))
+        logger.debug("num@{}:".format(cur_start))
 
         ontology = self._get()
         self.cur += 1
@@ -62,15 +63,15 @@ class ModuleMapper:
                 self.cur += 1
             na, nb = int(ontology in self.kos), 1
         else:
-            logging.error("undefined number start with {}".format(ontology))
+            logger.error("undefined number start with {}".format(ontology))
             assert False
 
-        logging.debug("num@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
+        logger.debug("num@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
     def _factor(self):
         cur_start = self.cur
-        logging.debug("fac@{}:".format(cur_start))
+        logger.debug("fac@{}:".format(cur_start))
         if self._get() == '(':
             self.cur += 1
             na, nb = self._expression()
@@ -78,12 +79,12 @@ class ModuleMapper:
             self.cur += 1
         else:
             na, nb = self._number()
-        logging.debug("fac@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
+        logger.debug("fac@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
     def _term(self):
         cur_start = self.cur
-        logging.debug("ter@{}:".format(cur_start))
+        logger.debug("ter@{}:".format(cur_start))
 
         na, nb = self._factor()
         while self._get() in ('+', '-'):
@@ -97,12 +98,12 @@ class ModuleMapper:
             elif op == '-': # ignore non-essential component
                 pass
 
-        logging.debug("ter@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
+        logger.debug("ter@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
     def _expression(self):
         cur_start = self.cur
-        logging.debug("exp@{}:".format(cur_start))
+        logger.debug("exp@{}:".format(cur_start))
 
         na, nb = self._term()
         ops = set()
@@ -120,10 +121,10 @@ class ModuleMapper:
                     na, nb = na_, nb_
 
         if len(ops) == 2:
-            logging.error("AND & OR co-exists in {}".format(self.text[cur_start:self.cur]))
+            logger.error("AND & OR co-exists in {}".format(self.text[cur_start:self.cur]))
             raise SyntaxError
 
-        logging.debug("exp@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
+        logger.debug("exp@{0}:{1}=({2},{3})".format(cur_start, self.text[cur_start:self.cur], na, nb))
         return na, nb
 
 
@@ -146,7 +147,7 @@ def scrape_definition(html):
             end = idx
             break
     if stt == -1 or end == -1:
-        print("DEFINITION line not found. Aborting...")
+        logger.error("DEFINITION line not found. Aborting...")
         return None
 
     if end - stt == 1:
